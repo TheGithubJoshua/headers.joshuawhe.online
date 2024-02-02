@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MediaPlaybackCore.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/PrivateFrameworks/MediaPlaybackCore.framework/
+164 classes
+
+<a href="..">..</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCContentItemIdentifierCollection.h">MPCContentItemIdentifierCollection.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCExplicitContentAuthorizationManager.h">MPCExplicitContentAuthorizationManager.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCFuture.h">MPCFuture.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCFutureInvalidationToken.h">MPCFutureInvalidationToken.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCJinglePlayActivityReportingController.h">MPCJinglePlayActivityReportingController.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCLyricsReportingController.h">MPCLyricsReportingController.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaLibraryPlaybackAssetCacheProvider.h">MPCMediaLibraryPlaybackAssetCacheProvider.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyAVController.h">MPCMediaPlayerLegacyAVController.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyItem.h">MPCMediaPlayerLegacyItem.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyItemContainer.h">MPCMediaPlayerLegacyItemContainer.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyNowPlayingObserver.h">MPCMediaPlayerLegacyNowPlayingObserver.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyPlayer.h">MPCMediaPlayerLegacyPlayer.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyPlayerQueueLazySectionedCollectionDataSource.h">MPCMediaPlayerLegacyPlayerQueueLazySectionedCollectionDataSource.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyPlayerQueueResponse.h">MPCMediaPlayerLegacyPlayerQueueResponse.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyPlaylistManager.h">MPCMediaPlayerLegacyPlaylistManager.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyQueueRequestOperation.h">MPCMediaPlayerLegacyQueueRequestOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyReportingController.h">MPCMediaPlayerLegacyReportingController.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaRemoteArtworkRemoteDataSource.h">MPCMediaRemoteArtworkRemoteDataSource.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaRemoteCommandOperation.h">MPCMediaRemoteCommandOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaRemoteController.h">MPCMediaRemoteController.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaRemoteEntityTranslator.h">MPCMediaRemoteEntityTranslator.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaRemoteMiddleware.h">MPCMediaRemoteMiddleware.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaRemoteMiddlewareCommandsOperation.h">MPCMediaRemoteMiddlewareCommandsOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaRemoteMiddlewareControllerOperation.h">MPCMediaRemoteMiddlewareControllerOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaRemoteMiddlewareMetadataOperation.h">MPCMediaRemoteMiddlewareMetadataOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaRemoteMiddlewarePlaybackStateOperation.h">MPCMediaRemoteMiddlewarePlaybackStateOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaRemoteMuxer.h">MPCMediaRemoteMuxer.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelGenericAVItem.h">MPCModelGenericAVItem.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelGenericAVItemAssetLoadProperties.h">MPCModelGenericAVItemAssetLoadProperties.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelGenericAVItemAssetLoadResult.h">MPCModelGenericAVItemAssetLoadResult.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelGenericAVItemHomeSharingLoadOperation.h">MPCModelGenericAVItemHomeSharingLoadOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelGenericAVItemLocalFileLoadOperation.h">MPCModelGenericAVItemLocalFileLoadOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelGenericAVItemMediaRedownloadOperation.h">MPCModelGenericAVItemMediaRedownloadOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelGenericAVItemSubscriptionAssetLoadOperation.h">MPCModelGenericAVItemSubscriptionAssetLoadOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelGenericAVItemTimedMetadataRequest.h">MPCModelGenericAVItemTimedMetadataRequest.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelGenericAVItemTimedMetadataResponse.h">MPCModelGenericAVItemTimedMetadataResponse.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelGenericAVItemTimedMetadataStreamFields.h">MPCModelGenericAVItemTimedMetadataStreamFields.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelMediaClipAVItem.h">MPCModelMediaClipAVItem.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelPlaybackContext.h">MPCModelPlaybackContext.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelPlaybackIntentDataSource.h">MPCModelPlaybackIntentDataSource.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelPlaybackIntentTracklistToken.h">MPCModelPlaybackIntentTracklistToken.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelQueueFeeder.h">MPCModelQueueFeeder.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioContentReference.h">MPCModelRadioContentReference.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioGetTracksEstablishAccountStep.h">MPCModelRadioGetTracksEstablishAccountStep.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioGetTracksOperation.h">MPCModelRadioGetTracksOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioGetTracksPrepareIdentityStep.h">MPCModelRadioGetTracksPrepareIdentityStep.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioGetTracksPreparePlayActivityStep.h">MPCModelRadioGetTracksPreparePlayActivityStep.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioGetTracksRequestStep.h">MPCModelRadioGetTracksRequestStep.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioGetTracksResponse.h">MPCModelRadioGetTracksResponse.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioGetTracksRetryDialogStep.h">MPCModelRadioGetTracksRetryDialogStep.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioGetTracksStep.h">MPCModelRadioGetTracksStep.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioPersonalizationRequest.h">MPCModelRadioPersonalizationRequest.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioPersonalizationResponse.h">MPCModelRadioPersonalizationResponse.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioPlaybackContext.h">MPCModelRadioPlaybackContext.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioPlaybackQueue.h">MPCModelRadioPlaybackQueue.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioQueueFeeder.h">MPCModelRadioQueueFeeder.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioStationBuilder.h">MPCModelRadioStationBuilder.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelRadioStationTrackGenericObjectBuilder.h">MPCModelRadioStationTrackGenericObjectBuilder.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelStorePlaybackItemsRequest.h">MPCModelStorePlaybackItemsRequest.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelStorePlaybackItemsRequestAccumulator.h">MPCModelStorePlaybackItemsRequestAccumulator.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelStorePlaybackItemsRequestOperation.h">MPCModelStorePlaybackItemsRequestOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelStorePlaybackItemsResponse.h">MPCModelStorePlaybackItemsResponse.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMutableContentItemIdentifierCollection.h">MPCMutableContentItemIdentifierCollection.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMutablePlaybackDelegationProperties.h">MPCMutablePlaybackDelegationProperties.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMutablePlaybackRequestEnvironment.h">MPCMutablePlaybackRequestEnvironment.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMutableRadioStationPlaybackMetadata.h">MPCMutableRadioStationPlaybackMetadata.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlaybackDelegationProperties.h">MPCPlaybackDelegationProperties.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlaybackEngine.h">MPCPlaybackEngine.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlaybackEngineMiddleware.h">MPCPlaybackEngineMiddleware.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlaybackEngineMiddlewareOperation.h">MPCPlaybackEngineMiddlewareOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlaybackHistoryController.h">MPCPlaybackHistoryController.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlaybackHistoryRecordChangeRequest.h">MPCPlaybackHistoryRecordChangeRequest.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlaybackHistoryRecordChangeRequestOperation.h">MPCPlaybackHistoryRecordChangeRequestOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlaybackIntent.h">MPCPlaybackIntent.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlaybackRequestEnvironment.h">MPCPlaybackRequestEnvironment.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayer.h">MPCPlayer.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerChangeRequest.h">MPCPlayerChangeRequest.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerCommandRequest.h">MPCPlayerCommandRequest.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerEntity.h">MPCPlayerEntity.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerItem.h">MPCPlayerItem.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerItemContainer.h">MPCPlayerItemContainer.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerLanguageOptionGroup.h">MPCPlayerLanguageOptionGroup.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerPath.h">MPCPlayerPath.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerPathCache.h">MPCPlayerPathCache.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerQueueRequest.h">MPCPlayerQueueRequest.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerQueueResponse.h">MPCPlayerQueueResponse.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerRequest.h">MPCPlayerRequest.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerResponse.h">MPCPlayerResponse.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerResponseItem.h">MPCPlayerResponseItem.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerResponseSection.h">MPCPlayerResponseSection.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerResponseTracklist.h">MPCPlayerResponseTracklist.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPrivateListeningStateSource.h">MPCPrivateListeningStateSource.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCQueueDescriptorPlaybackIntentDataSource.h">MPCQueueDescriptorPlaybackIntentDataSource.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioArtworkDataSource.h">MPCRadioArtworkDataSource.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioPlaybackIntentDataSource.h">MPCRadioPlaybackIntentDataSource.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioPlaybackIntentTracklistToken.h">MPCRadioPlaybackIntentTracklistToken.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioStationPlaybackMetadata.h">MPCRadioStationPlaybackMetadata.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRemotePlaybackEngine.h">MPCRemotePlaybackEngine.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRemotePlayerArtworkDataSource.h">MPCRemotePlayerArtworkDataSource.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingController.h">MPCReportingController.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingDeviceIdentityPropertiesLoader.h">MPCReportingDeviceIdentityPropertiesLoader.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingIdentityProperties.h">MPCReportingIdentityProperties.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingLyricsViewEvent.h">MPCReportingLyricsViewEvent.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingMescalSetupCompletionEvent.h">MPCReportingMescalSetupCompletionEvent.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingPlaybackActivityEvent.h">MPCReportingPlaybackActivityEvent.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingPlaybackEnvironmentPropertiesLoader.h">MPCReportingPlaybackEnvironmentPropertiesLoader.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingPlaybackEventSource.h">MPCReportingPlaybackEventSource.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingPlaybackObserver.h">MPCReportingPlaybackObserver.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCStoreContentMetadataOperation.h">MPCStoreContentMetadataOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCStoreContentMetadataResponse.h">MPCStoreContentMetadataResponse.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCStoreFrontLocalEquivalencyMiddleware.h">MPCStoreFrontLocalEquivalencyMiddleware.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCStoreFrontLocalEquivalencyMiddlewareOperation.h">MPCStoreFrontLocalEquivalencyMiddlewareOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCStoreLibraryPersonalizationMiddleware.h">MPCStoreLibraryPersonalizationMiddleware.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCStoreLibraryPersonalizationMiddlewareOperation.h">MPCStoreLibraryPersonalizationMiddlewareOperation.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCSuzeLeaseSession.h">MPCSuzeLeaseSession.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCSuzeLeaseSessionController.h">MPCSuzeLeaseSessionController.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCUserIdentityPropertiesProactiveCache.h">MPCUserIdentityPropertiesProactiveCache.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPNowPlayingContentItemArtworkToken.h">MPNowPlayingContentItemArtworkToken.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPNowPlayingContentItemRemoteArtworkToken.h">MPNowPlayingContentItemRemoteArtworkToken.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCAVController.h">_MPCAVController.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCAVItemSourceContext.h">_MPCAVItemSourceContext.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCAVPlaylistIteration.h">_MPCAVPlaylistIteration.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCLeaseManager.h">_MPCLeaseManager.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCMediaRemoteEntityPropertyTranslator.h">_MPCMediaRemoteEntityPropertyTranslator.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCMediaRemoteEntityRelationshipTranslator.h">_MPCMediaRemoteEntityRelationshipTranslator.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCMediaRemoteNullController.h">_MPCMediaRemoteNullController.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCMediaRemotePublisher.h">_MPCMediaRemotePublisher.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCModelRadioPlaybackQueueAVItemSection.h">_MPCModelRadioPlaybackQueueAVItemSection.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCModelRadioPlaybackQueueExternalFeederSection.h">_MPCModelRadioPlaybackQueueExternalFeederSection.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCModelRadioPlaybackQueueStationTracksSection.h">_MPCModelRadioPlaybackQueueStationTracksSection.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPlayerChangeItemCommand.h">_MPCPlayerChangeItemCommand.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPlayerCommand.h">_MPCPlayerCommand.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPlayerDisableModificationsCommand.h">_MPCPlayerDisableModificationsCommand.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPlayerFeedbackCommand.h">_MPCPlayerFeedbackCommand.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPlayerInsertItemsCommand.h">_MPCPlayerInsertItemsCommand.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPlayerItemCommand.h">_MPCPlayerItemCommand.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPlayerPlaybackRateCommand.h">_MPCPlayerPlaybackRateCommand.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPlayerRateCommand.h">_MPCPlayerRateCommand.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPlayerReorderItemsCommand.h">_MPCPlayerReorderItemsCommand.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPlayerRepeatCommand.h">_MPCPlayerRepeatCommand.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPlayerResetTracklistCommand.h">_MPCPlayerResetTracklistCommand.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPlayerResponseTracklistDataSource.h">_MPCPlayerResponseTracklistDataSource.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPlayerSeekCommand.h">_MPCPlayerSeekCommand.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPlayerShuffleCommand.h">_MPCPlayerShuffleCommand.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPrivateListeningStateLocalDeviceSource.h">_MPCPrivateListeningStateLocalDeviceSource.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCPrivateListeningStateStaticSource.h">_MPCPrivateListeningStateStaticSource.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCProtoContainer.h">_MPCProtoContainer.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCProtoContainerIdentifierSet.h">_MPCProtoContainerIdentifierSet.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCProtoDelegateInfo.h">_MPCProtoDelegateInfo.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCProtoItem.h">_MPCProtoItem.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCProtoItemIdentifierSet.h">_MPCProtoItemIdentifierSet.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCProtoRadioContentReference.h">_MPCProtoRadioContentReference.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCProtoRadioContentReferenceLibraryAlbumContentReference.h">_MPCProtoRadioContentReferenceLibraryAlbumContentReference.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCProtoRadioContentReferenceLibraryArtistContentReference.h">_MPCProtoRadioContentReferenceLibraryArtistContentReference.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCProtoRadioContentReferenceLibraryItemContentReference.h">_MPCProtoRadioContentReferenceLibraryItemContentReference.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCProtoRadioContentReferenceStoreContentReference.h">_MPCProtoRadioContentReferenceStoreContentReference.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCProtoRadioCreationProperties.h">_MPCProtoRadioCreationProperties.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCProtoTracklist.h">_MPCProtoTracklist.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCProtoTracklistIndexPath.h">_MPCProtoTracklistIndexPath.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCReportingController.h">_MPCReportingController.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCSuzeLeaseSessionInfo.h">_MPCSuzeLeaseSessionInfo.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCURLAssetDownloadCompletionObserver.h">_MPCURLAssetDownloadCompletionObserver.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPModelMediaRemoteItemArtist.h">_MPModelMediaRemoteItemArtist.h</a>
+<a href="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPModelMediaRemotePodcastEpisodeAuthor.h">_MPModelMediaRemotePodcastEpisodeAuthor.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

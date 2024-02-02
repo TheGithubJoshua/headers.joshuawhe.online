@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Celestial.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/PrivateFrameworks/Celestial.framework/
+349 classes
+
+<a href="..">..</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVArrayQueueFeeder.h">AVArrayQueueFeeder.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVCallbackHandler.h">AVCallbackHandler.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVController.h">AVController.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVControllerFig.h">AVControllerFig.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVControllerRemoteFig.h">AVControllerRemoteFig.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVControllerRemoteFigStream.h">AVControllerRemoteFigStream.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVFileProcessor.h">AVFileProcessor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVFileValidator.h">AVFileValidator.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVFromMainThreadPostNotificationNameDict.h">AVFromMainThreadPostNotificationNameDict.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVFromNotifySafeThreadPostNotificationNameDict.h">AVFromNotifySafeThreadPostNotificationNameDict.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVItem.h">AVItem.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVItemAccessLog.h">AVItemAccessLog.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVItemAccessLogEvent.h">AVItemAccessLogEvent.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVItemAccessLogEventInternal.h">AVItemAccessLogEventInternal.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVItemAccessLogInternal.h">AVItemAccessLogInternal.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVItemErrorLog.h">AVItemErrorLog.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVItemErrorLogEvent.h">AVItemErrorLogEvent.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVItemErrorLogEventInternal.h">AVItemErrorLogEventInternal.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVItemErrorLogInternal.h">AVItemErrorLogInternal.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVObjectRegistry.h">AVObjectRegistry.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVPlaybackItem.h">AVPlaybackItem.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVPlaybackQueue.h">AVPlaybackQueue.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVQueue.h">AVQueue.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVQueueFeeder.h">AVQueueFeeder.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVSafePerformOnMainThreadTargetDict.h">AVSafePerformOnMainThreadTargetDict.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVSafePostDelayedNotificationFromMainThreadTargetDict.h">AVSafePostDelayedNotificationFromMainThreadTargetDict.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVSystemController.h">AVSystemController.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVTimeMarkerObservation.h">AVTimeMarkerObservation.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/AVValue.h">AVValue.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWAggdDataReporter.h">BWAggdDataReporter.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWAttachedMediaSplitNode.h">BWAttachedMediaSplitNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWAudioConverterNode.h">BWAudioConverterNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWAudioFileSinkNode.h">BWAudioFileSinkNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWAudioFormat.h">BWAudioFormat.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWAudioSourceNode.h">BWAudioSourceNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWAutoFocusPositionSensorMonitor.h">BWAutoFocusPositionSensorMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWBracketSettings.h">BWBracketSettings.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWBravoPortraitSceneMonitor.h">BWBravoPortraitSceneMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWBravoStreamSelector.h">BWBravoStreamSelector.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWBreadthFirstEnumerator.h">BWBreadthFirstEnumerator.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWCameraInfoMetadataNode.h">BWCameraInfoMetadataNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWCameraParameters.h">BWCameraParameters.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWCaptureDevice.h">BWCaptureDevice.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWColorLookupCache.h">BWColorLookupCache.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWColorLookupCacheEntry.h">BWColorLookupCacheEntry.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWCoreAnalyticsReporter.h">BWCoreAnalyticsReporter.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWCoreImageFilterRenderer.h">BWCoreImageFilterRenderer.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWCoreImageFilterRendererParameters.h">BWCoreImageFilterRendererParameters.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWCoreMotionMetadataSourceNode.h">BWCoreMotionMetadataSourceNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWCrossoverNode.h">BWCrossoverNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWDeferredMetadataCache.h">BWDeferredMetadataCache.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWDepthConverterNode.h">BWDepthConverterNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWDepthFirstEnumerator.h">BWDepthFirstEnumerator.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWDepthSynchronizerNode.h">BWDepthSynchronizerNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWDetectedFacesRingBuffer.h">BWDetectedFacesRingBuffer.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWDeviceMotionActivityDetector.h">BWDeviceMotionActivityDetector.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWDroppedSample.h">BWDroppedSample.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWEspressoInferenceAdapter.h">BWEspressoInferenceAdapter.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWEspressoInferenceContext.h">BWEspressoInferenceContext.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWEspressoInferenceProvider.h">BWEspressoInferenceProvider.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWEspressoInferenceStorage.h">BWEspressoInferenceStorage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWExternalCameraSourceNode.h">BWExternalCameraSourceNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFaceDetectionNode.h">BWFaceDetectionNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFaceTrackingNode.h">BWFaceTrackingNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFanOutNode.h">BWFanOutNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFigCaptureDeviceClient.h">BWFigCaptureDeviceClient.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFigCaptureDeviceSourceNode.h">BWFigCaptureDeviceSourceNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFigCaptureDeviceVendor.h">BWFigCaptureDeviceVendor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFigCaptureSession.h">BWFigCaptureSession.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFigCaptureSessionExternal.h">BWFigCaptureSessionExternal.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFigExternalVideoCaptureDevice.h">BWFigExternalVideoCaptureDevice.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFigVideoCaptureDevice.h">BWFigVideoCaptureDevice.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFigVideoCaptureStream.h">BWFigVideoCaptureStream.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFileCoordinatorNode.h">BWFileCoordinatorNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFileSinkNode.h">BWFileSinkNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFocusPixelPortraitSceneMonitor.h">BWFocusPixelPortraitSceneMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFormat.h">BWFormat.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFormatRequirements.h">BWFormatRequirements.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFrameRateGovernorNode.h">BWFrameRateGovernorNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWFunnelNode.h">BWFunnelNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWGNRNode.h">BWGNRNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWGraph.h">BWGraph.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWHDRNode.h">BWHDRNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWIOSurfaceCompressionStatisticsAnalyticsPayload.h">BWIOSurfaceCompressionStatisticsAnalyticsPayload.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWImageQueueSinkNode.h">BWImageQueueSinkNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceCloneVideoRequirement.h">BWInferenceCloneVideoRequirement.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceConfiguration.h">BWInferenceConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceDataDependency.h">BWInferenceDataDependency.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceDataRequirement.h">BWInferenceDataRequirement.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceDependencyProvider.h">BWInferenceDependencyProvider.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceDepthScalingProvider.h">BWInferenceDepthScalingProvider.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceEngine.h">BWInferenceEngine.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceLazyVideoRequirement.h">BWInferenceLazyVideoRequirement.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceMediaRequirement.h">BWInferenceMediaRequirement.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceMetadataRequirement.h">BWInferenceMetadataRequirement.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceNode.h">BWInferenceNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceProviderStorage.h">BWInferenceProviderStorage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceRequirement.h">BWInferenceRequirement.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceResult.h">BWInferenceResult.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceScalingRequirement.h">BWInferenceScalingRequirement.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceScheduler.h">BWInferenceScheduler.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceSchedulerConnection.h">BWInferenceSchedulerConnection.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceSchedulerFramebuffer.h">BWInferenceSchedulerFramebuffer.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceSchedulerFramebufferBuilder.h">BWInferenceSchedulerFramebufferBuilder.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceSchedulerGraph.h">BWInferenceSchedulerGraph.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceSchedulerGraphInputNode.h">BWInferenceSchedulerGraphInputNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceSchedulerInference.h">BWInferenceSchedulerInference.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceSchedulerJobList.h">BWInferenceSchedulerJobList.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceSchedulerResourceCoordinator.h">BWInferenceSchedulerResourceCoordinator.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceSchedulerScaler.h">BWInferenceSchedulerScaler.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceSimpleStorage.h">BWInferenceSimpleStorage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceSingleBufferPoolProvider.h">BWInferenceSingleBufferPoolProvider.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceSynchronizerNode.h">BWInferenceSynchronizerNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceVideoFormat.h">BWInferenceVideoFormat.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceVideoFormatRequirements.h">BWInferenceVideoFormatRequirements.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceVideoRequirement.h">BWInferenceVideoRequirement.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWInferenceVideoScalingProvider.h">BWInferenceVideoScalingProvider.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWIrisDiscontinuity.h">BWIrisDiscontinuity.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWIrisMovieGenerator.h">BWIrisMovieGenerator.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWIrisMovieInfo.h">BWIrisMovieInfo.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWIrisMovieInfoAndCallback.h">BWIrisMovieInfoAndCallback.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWIrisSequenceAdjuster.h">BWIrisSequenceAdjuster.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWIrisStagingNode.h">BWIrisStagingNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWLandmarksInferenceConfiguration.h">BWLandmarksInferenceConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWLimitedGMErrorLogger.h">BWLimitedGMErrorLogger.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMRCNode.h">BWMRCNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMattingInferenceConfiguration.h">BWMattingInferenceConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMattingInferenceProvider.h">BWMattingInferenceProvider.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMattingInferenceStorage.h">BWMattingInferenceStorage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMemoryPool.h">BWMemoryPool.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMetadataFormat.h">BWMetadataFormat.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMetadataObjectFormat.h">BWMetadataObjectFormat.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMetadataSourceNode.h">BWMetadataSourceNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMetalColorCubeRenderer.h">BWMetalColorCubeRenderer.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMetalColorCubeRendererParameters.h">BWMetalColorCubeRendererParameters.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMeteorHeadroomNode.h">BWMeteorHeadroomNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMockVideoSDOFNode.h">BWMockVideoSDOFNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMonochromeEffectNode.h">BWMonochromeEffectNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMotionAttachmentsNode.h">BWMotionAttachmentsNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMotionDataPreserver.h">BWMotionDataPreserver.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMotionSampleRingBuffer.h">BWMotionSampleRingBuffer.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMultiFilterThumbnailNode.h">BWMultiFilterThumbnailNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWMultiStreamCameraSourceNode.h">BWMultiStreamCameraSourceNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNode.h">BWNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeConfigurationLiveMessage.h">BWNodeConfigurationLiveMessage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeConnection.h">BWNodeConnection.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeDroppedSampleMessage.h">BWNodeDroppedSampleMessage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeEndOfDataMessage.h">BWNodeEndOfDataMessage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeEnumerator.h">BWNodeEnumerator.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeError.h">BWNodeError.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeErrorMessage.h">BWNodeErrorMessage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeInput.h">BWNodeInput.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeInputMediaConfiguration.h">BWNodeInputMediaConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeInputMediaProperties.h">BWNodeInputMediaProperties.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeIrisReferenceMovieRequestMessage.h">BWNodeIrisReferenceMovieRequestMessage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeMessage.h">BWNodeMessage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeOutput.h">BWNodeOutput.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeOutputMediaConfiguration.h">BWNodeOutputMediaConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeOutputMediaProperties.h">BWNodeOutputMediaProperties.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeSampleBufferMessage.h">BWNodeSampleBufferMessage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeStillImagePrewarmMessage.h">BWNodeStillImagePrewarmMessage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNodeStillImageReferenceFrameBracketedCaptureSequenceNumberMessage.h">BWNodeStillImageReferenceFrameBracketedCaptureSequenceNumberMessage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWNoiseReducerNode.h">BWNoiseReducerNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWParallelJoinerNode.h">BWParallelJoinerNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWParallelSplitterNode.h">BWParallelSplitterNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWPearlCalibrationCoordinator.h">BWPearlCalibrationCoordinator.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWPearlPortraitSceneMonitor.h">BWPearlPortraitSceneMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWPersonSegmentationConfiguration.h">BWPersonSegmentationConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWPhotoDecompressorNode.h">BWPhotoDecompressorNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWPhotoEncoderNode.h">BWPhotoEncoderNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWPipelineStage.h">BWPipelineStage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWPixelBufferPool.h">BWPixelBufferPool.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWPixelTransferNode.h">BWPixelTransferNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWPortraitHDRStagingNode.h">BWPortraitHDRStagingNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWPreviewTimeMachineSinkNode.h">BWPreviewTimeMachineSinkNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWQuickTimeMovieFileSinkNode.h">BWQuickTimeMovieFileSinkNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWRGBPersonSegmentationInferenceConfiguration.h">BWRGBPersonSegmentationInferenceConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWRamp.h">BWRamp.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWRedEyeReducerNode.h">BWRedEyeReducerNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWRemoteQueueSinkNode.h">BWRemoteQueueSinkNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWRenderList.h">BWRenderList.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWRenderListAnimator.h">BWRenderListAnimator.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWRenderListParameters.h">BWRenderListParameters.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWRenderListProcessor.h">BWRenderListProcessor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWReverseBreadthFirstEnumerator.h">BWReverseBreadthFirstEnumerator.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWReverseDepthFirstEnumerator.h">BWReverseDepthFirstEnumerator.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWRingBuffer.h">BWRingBuffer.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWSISNode.h">BWSISNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWSceneClassifierFrameGateNode.h">BWSceneClassifierFrameGateNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWSceneClassifierSinkNode.h">BWSceneClassifierSinkNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWSensorConfiguration.h">BWSensorConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWSinkNode.h">BWSinkNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWSourceNode.h">BWSourceNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWSphereModeSelector.h">BWSphereModeSelector.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWSpringSimulation.h">BWSpringSimulation.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStats.h">BWStats.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStereoFusionNode.h">BWStereoFusionNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageBravoDisparityNode.h">BWStillImageBravoDisparityNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageBufferRouterNode.h">BWStillImageBufferRouterNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageCaptureAnalyticsPayload.h">BWStillImageCaptureAnalyticsPayload.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageCaptureMetadata.h">BWStillImageCaptureMetadata.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageCaptureSettings.h">BWStillImageCaptureSettings.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageCaptureStreamFrameCounters.h">BWStillImageCaptureStreamFrameCounters.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageCaptureStreamFrameCounts.h">BWStillImageCaptureStreamFrameCounts.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageCaptureStreamSettings.h">BWStillImageCaptureStreamSettings.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageConditionalRouterConfiguration.h">BWStillImageConditionalRouterConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageConditionalRouterLandmarksConfiguration.h">BWStillImageConditionalRouterLandmarksConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageConditionalRouterNode.h">BWStillImageConditionalRouterNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageConditionalRouterPersonSegmentationAndMattingConfiguration.h">BWStillImageConditionalRouterPersonSegmentationAndMattingConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageCoordinatorNode.h">BWStillImageCoordinatorNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageDisparitySplitterNode.h">BWStillImageDisparitySplitterNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageDualPhotoFacePropagatorNode.h">BWStillImageDualPhotoFacePropagatorNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageFilterNode.h">BWStillImageFilterNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageFocusPixelDisparityNode.h">BWStillImageFocusPixelDisparityNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageFrameCoordinatorNode.h">BWStillImageFrameCoordinatorNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageMetalBlurMapRenderer.h">BWStillImageMetalBlurMapRenderer.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageMetalSDOFRenderer.h">BWStillImageMetalSDOFRenderer.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageMultiCameraDoserNode.h">BWStillImageMultiCameraDoserNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImagePortraitMetadataNode.h">BWStillImagePortraitMetadataNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageSampleBufferSinkNode.h">BWStillImageSampleBufferSinkNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageScalerNode.h">BWStillImageScalerNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageTimeMachine.h">BWStillImageTimeMachine.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageTimeMachineFrameCoordinatorNode.h">BWStillImageTimeMachineFrameCoordinatorNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStillImageTurnstileNode.h">BWStillImageTurnstileNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStreamingCVAFilterRenderer.h">BWStreamingCVAFilterRenderer.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStreamingCVAFilterRendererAnimator.h">BWStreamingCVAFilterRendererAnimator.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStreamingCVAFilterRendererParameters.h">BWStreamingCVAFilterRendererParameters.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStreamingFilterNode.h">BWStreamingFilterNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWStreamingSessionAnalyticsPayload.h">BWStreamingSessionAnalyticsPayload.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWSynchronizerNode.h">BWSynchronizerNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWTrackedFace.h">BWTrackedFace.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWUBCaptureParameters.h">BWUBCaptureParameters.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWUBNode.h">BWUBNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWVISNode.h">BWVISNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWVideoCompressorNode.h">BWVideoCompressorNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWVideoFormat.h">BWVideoFormat.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWVideoFormatRequirements.h">BWVideoFormatRequirements.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWVideoOrientationMetadataNode.h">BWVideoOrientationMetadataNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWVideoSDOFSplitNode.h">BWVideoSDOFSplitNode.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWVisionInferenceAdapter.h">BWVisionInferenceAdapter.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWVisionInferenceContext.h">BWVisionInferenceContext.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWVisionInferenceProvider.h">BWVisionInferenceProvider.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWVisionInferenceStorage.h">BWVisionInferenceStorage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWVisionLandmarkDetector.h">BWVisionLandmarkDetector.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWZoomCommandHandler.h">BWZoomCommandHandler.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/BWZoomDelayBuffer.h">BWZoomDelayBuffer.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/CMMTLCommandBuffer.h">CMMTLCommandBuffer.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/CMMTLCommandQueue.h">CMMTLCommandQueue.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/CMMTLComputeCommandEncoder.h">CMMTLComputeCommandEncoder.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/CMMTLComputePipelineState.h">CMMTLComputePipelineState.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/CMMTLDevice.h">CMMTLDevice.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/CMMTLRenderCommandEncoder.h">CMMTLRenderCommandEncoder.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/CMMTLRenderPipelineState.h">CMMTLRenderPipelineState.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigAudioCaptureConnectionConfiguration.h">FigAudioCaptureConnectionConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigBWNodeRenderObserver.h">FigBWNodeRenderObserver.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCameraUsageListener.h">FigCameraUsageListener.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCameraViewfinder.h">FigCameraViewfinder.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCameraViewfinderLocal.h">FigCameraViewfinderLocal.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCameraViewfinderRemote.h">FigCameraViewfinderRemote.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCameraViewfinderServer.h">FigCameraViewfinderServer.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCameraViewfinderSession.h">FigCameraViewfinderSession.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCameraViewfinderSessionLocal.h">FigCameraViewfinderSessionLocal.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCameraViewfinderSessionRemote.h">FigCameraViewfinderSessionRemote.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCameraViewfinderStream.h">FigCameraViewfinderStream.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureAPSSphereInteractionCalibrationContext.h">FigCaptureAPSSphereInteractionCalibrationContext.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureAudioDataSinkConfiguration.h">FigCaptureAudioDataSinkConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureAudioDataSinkPipeline.h">FigCaptureAudioDataSinkPipeline.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureAudioFileRecordingSettings.h">FigCaptureAudioFileRecordingSettings.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureAudioFileSinkConfiguration.h">FigCaptureAudioFileSinkConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureAudioFileSinkPipeline.h">FigCaptureAudioFileSinkPipeline.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureAudioPreviewSinkConfiguration.h">FigCaptureAudioPreviewSinkConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureAutoFocusCalibrationContext.h">FigCaptureAutoFocusCalibrationContext.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureAutoFocusPositionSensorCalibrationContext.h">FigCaptureAutoFocusPositionSensorCalibrationContext.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureAutoFocusPositionSensorCalibrationIStopZEstimateDeltaHistory.h">FigCaptureAutoFocusPositionSensorCalibrationIStopZEstimateDeltaHistory.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureCalibrationContext.h">FigCaptureCalibrationContext.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureCalibrationMonitor.h">FigCaptureCalibrationMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureCameraSourcePipeline.h">FigCaptureCameraSourcePipeline.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureCameraSourcePipelineConfiguration.h">FigCaptureCameraSourcePipelineConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureClientSessionMonitor.h">FigCaptureClientSessionMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureConnectionConfiguration.h">FigCaptureConnectionConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureDepthDataSinkConfiguration.h">FigCaptureDepthDataSinkConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureDisplayLayoutMonitor.h">FigCaptureDisplayLayoutMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureExternalEAControlPipe.h">FigCaptureExternalEAControlPipe.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureImageMotionDetector.h">FigCaptureImageMotionDetector.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureIrisPreparedSettings.h">FigCaptureIrisPreparedSettings.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureIrisSinkConfiguration.h">FigCaptureIrisSinkConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureIrisStillImageSettings.h">FigCaptureIrisStillImageSettings.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureLockScreenPrewarmingMonitor.h">FigCaptureLockScreenPrewarmingMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureMetadataItemGroupSinkConfiguration.h">FigCaptureMetadataItemGroupSinkConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureMetadataObjectSinkConfiguration.h">FigCaptureMetadataObjectSinkConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureMetadataSourcePipeline.h">FigCaptureMetadataSourcePipeline.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureMicSourcePipeline.h">FigCaptureMicSourcePipeline.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureMicSourcePipelineConfiguration.h">FigCaptureMicSourcePipelineConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureMovieFileRecordingSettings.h">FigCaptureMovieFileRecordingSettings.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureMovieFileSinkConfiguration.h">FigCaptureMovieFileSinkConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCapturePipeline.h">FigCapturePipeline.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCapturePixelConverter.h">FigCapturePixelConverter.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCapturePowerMonitor.h">FigCapturePowerMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureRecordingSettings.h">FigCaptureRecordingSettings.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureSessionConfiguration.h">FigCaptureSessionConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureSessionObservatory.h">FigCaptureSessionObservatory.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureSessionProxy.h">FigCaptureSessionProxy.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureSinkConfiguration.h">FigCaptureSinkConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureSourceCompanionFormat.h">FigCaptureSourceCompanionFormat.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureSourceConfiguration.h">FigCaptureSourceConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureSourceDepthDataFormat.h">FigCaptureSourceDepthDataFormat.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureSourceExternalObserver.h">FigCaptureSourceExternalObserver.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureSourceFormat.h">FigCaptureSourceFormat.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureSourceVideoFormat.h">FigCaptureSourceVideoFormat.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureSphereCalibrationContext.h">FigCaptureSphereCalibrationContext.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureSphereEndStopCalibrationContext.h">FigCaptureSphereEndStopCalibrationContext.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureStillImageSettings.h">FigCaptureStillImageSettings.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureStillImageSinkConfiguration.h">FigCaptureStillImageSinkConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureStillImageSinkPipeline.h">FigCaptureStillImageSinkPipeline.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureStillImageSinkPipelineConfiguration.h">FigCaptureStillImageSinkPipelineConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureStillImageUnifiedBracketingSinkPipeline.h">FigCaptureStillImageUnifiedBracketingSinkPipeline.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureSystemPressureMonitor.h">FigCaptureSystemPressureMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureThermalMonitor.h">FigCaptureThermalMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureVideoDataSinkConfiguration.h">FigCaptureVideoDataSinkConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureVideoDataSinkPipeline.h">FigCaptureVideoDataSinkPipeline.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureVideoDataSinkPipelineConfiguration.h">FigCaptureVideoDataSinkPipelineConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureVideoPreviewSinkConfiguration.h">FigCaptureVideoPreviewSinkConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureVideoThumbnailSinkConfiguration.h">FigCaptureVideoThumbnailSinkConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureVideoThumbnailSinkPipeline.h">FigCaptureVideoThumbnailSinkPipeline.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCaptureVisionDataSinkConfiguration.h">FigCaptureVisionDataSinkConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCheckpointSupport.h">FigCheckpointSupport.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigCoreMotionDelegate.h">FigCoreMotionDelegate.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigDelegateStorage.h">FigDelegateStorage.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigDepthDataCaptureConnectionConfiguration.h">FigDepthDataCaptureConnectionConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigFrameScoreInputs.h">FigFrameScoreInputs.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigIOSurfaceData.h">FigIOSurfaceData.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigIrisAutoTrimmer.h">FigIrisAutoTrimmer.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigIrisAutoTrimmerMotionSample.h">FigIrisAutoTrimmerMotionSample.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigM2MController.h">FigM2MController.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigMetadataItemCaptureConnectionConfiguration.h">FigMetadataItemCaptureConnectionConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigMetadataObjectCaptureConnectionConfiguration.h">FigMetadataObjectCaptureConnectionConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigMetalContext.h">FigMetalContext.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigNSXPCConnection.h">FigNSXPCConnection.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigPAMFrameScore.h">FigPAMFrameScore.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigSmartcam.h">FigSmartcam.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigSmartcamAsync.h">FigSmartcamAsync.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigSmartcamClassifierEspresso.h">FigSmartcamClassifierEspresso.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigSmartcamDiagnostics.h">FigSmartcamDiagnostics.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigStateMachine.h">FigStateMachine.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigUtlFaceDetection.h">FigUtlFaceDetection.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigUtlROIProcessor.h">FigUtlROIProcessor.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigVideoCaptureConnectionConfiguration.h">FigVideoCaptureConnectionConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigVisionDataCaptureConnectionConfiguration.h">FigVisionDataCaptureConnectionConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Celestial.framework/FigWeakReference.h">FigWeakReference.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

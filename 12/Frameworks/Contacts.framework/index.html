@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contacts.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/Frameworks/Contacts.framework/
+279 classes
+
+<a href="..">..</a>
+<a href="/tree/Frameworks/Contacts.framework/CN.h">CN.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNAbstractActivityAlertDescription.h">CNAbstractActivityAlertDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNAccount.h">CNAccount.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNActivityAlert.h">CNActivityAlert.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNAddressFormats.h">CNAddressFormats.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNAggregateContactStore.h">CNAggregateContactStore.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNAggregateKeyDescriptor.h">CNAggregateKeyDescriptor.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNAuthorization.h">CNAuthorization.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNBirthdayDescription.h">CNBirthdayDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNCDAllContainersPredicate.h">CNCDAllContainersPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNCFPhoneNumber.h">CNCFPhoneNumber.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNCalculatesContactDiff.h">CNCalculatesContactDiff.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNCalculatesMultiValueDiff.h">CNCalculatesMultiValueDiff.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNCalendarURIsDescription.h">CNCalendarURIsDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNCallAlertDescription.h">CNCallAlertDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNChangeHistoryAnchor.h">CNChangeHistoryAnchor.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNChangeHistoryContactChange.h">CNChangeHistoryContactChange.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNChangeHistoryFetchRequest.h">CNChangeHistoryFetchRequest.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNChangeHistoryGroupChange.h">CNChangeHistoryGroupChange.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNChangeHistoryResult.h">CNChangeHistoryResult.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNChangeNotifierDarwinWrapper.h">CNChangeNotifierDarwinWrapper.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNChangeNotifierDistributedCenterWrapper.h">CNChangeNotifierDistributedCenterWrapper.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNChangesNotifier.h">CNChangesNotifier.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNChangesNotifierProxy.h">CNChangesNotifierProxy.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNCompoundMultiValuePropertyDescription.h">CNCompoundMultiValuePropertyDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContact.h">CNContact.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactBufferDecoder.h">CNContactBufferDecoder.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactBufferDecoderFactory.h">CNContactBufferDecoderFactory.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactChangeRequest.h">CNContactChangeRequest.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactChangesFetcher.h">CNContactChangesFetcher.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactChangesNotifier.h">CNContactChangesNotifier.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactChangesObserverProxy.h">CNContactChangesObserverProxy.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactDiff.h">CNContactDiff.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactFetchRequest.h">CNContactFetchRequest.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactFormatter.h">CNContactFormatter.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactFormatterSmartFetcher.h">CNContactFormatterSmartFetcher.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactKeyValueUpdate.h">CNContactKeyValueUpdate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactKeyVector.h">CNContactKeyVector.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactLocationVCardSummary.h">CNContactLocationVCardSummary.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactMatchInfo.h">CNContactMatchInfo.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactMatchSummarizer.h">CNContactMatchSummarizer.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactMultiValueDiffUpdate.h">CNContactMultiValueDiffUpdate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactNameOrderImpl.h">CNContactNameOrderImpl.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactNameSorting.h">CNContactNameSorting.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactProperty.h">CNContactProperty.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactRelation.h">CNContactRelation.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactRelationsDescription.h">CNContactRelationsDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactSearchIndexFormatter.h">CNContactSearchIndexFormatter.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactStore.h">CNContactStore.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactSuggestionMatch.h">CNContactSuggestionMatch.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactTypeDescription.h">CNContactTypeDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactUpdate.h">CNContactUpdate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactVCardParsedResultBuilder.h">CNContactVCardParsedResultBuilder.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactVCardParsedResultBuilderFactory.h">CNContactVCardParsedResultBuilderFactory.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactVCardSerialization.h">CNContactVCardSerialization.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactVCardSummary.h">CNContactVCardSummary.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactVCardWritingAdapter.h">CNContactVCardWritingAdapter.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactWithNamePredicate.h">CNContactWithNamePredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactsEnvironment.h">CNContactsEnvironment.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactsLoggerProvider.h">CNContactsLoggerProvider.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactsLogging.h">CNContactsLogging.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactsUserDefaults.h">CNContactsUserDefaults.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactsUserDefaultsX.h">CNContactsUserDefaultsX.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContactsWithIdentifiersPredicate.h">CNContactsWithIdentifiersPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContainer.h">CNContainer.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContainerEnabledDescription.h">CNContainerEnabledDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContainerIOSLegacyIdentifierDescription.h">CNContainerIOSLegacyIdentifierDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContainerIdentifierDescription.h">CNContainerIdentifierDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContainerIdentifiersPredicate.h">CNContainerIdentifiersPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContainerNameDescription.h">CNContainerNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContainerPermissions.h">CNContainerPermissions.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContainerPropertyDescription.h">CNContainerPropertyDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNContainerTypeDescription.h">CNContainerTypeDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNCoreSpotlightSearch.h">CNCoreSpotlightSearch.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNCountryInformation.h">CNCountryInformation.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNCreationDateDescription.h">CNCreationDateDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNCropRectDescription.h">CNCropRectDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNDataMapperContactStore.h">CNDataMapperContactStore.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNDate.h">CNDate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNDateComponentsEquivalence.h">CNDateComponentsEquivalence.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNDatesDescription.h">CNDatesDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNDepartmentDescription.h">CNDepartmentDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNDictionaryPolicy.h">CNDictionaryPolicy.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNDonatedContactSanitizer.h">CNDonatedContactSanitizer.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNDonationMapper.h">CNDonationMapper.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNDraggingContact.h">CNDraggingContact.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNEmailAddressContactPredicate.h">CNEmailAddressContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNEmailAddressesDescription.h">CNEmailAddressesDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNErrorFactory.h">CNErrorFactory.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNFamilyNameDescription.h">CNFamilyNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNFamilyNameFirstNameOrder.h">CNFamilyNameFirstNameOrder.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNFavorites.h">CNFavorites.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNFavoritesEntry.h">CNFavoritesEntry.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNFavoritesLookupChangeRecord.h">CNFavoritesLookupChangeRecord.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNFullTextSearchContactPredicate.h">CNFullTextSearchContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNFullscreenImageDataDescription.h">CNFullscreenImageDataDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNGeminiChannel.h">CNGeminiChannel.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNGeminiHandle.h">CNGeminiHandle.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNGeminiInteraction.h">CNGeminiInteraction.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNGeminiManager.h">CNGeminiManager.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNGeminiResult.h">CNGeminiResult.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNGivenNameDescription.h">CNGivenNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNGivenNameFirstNameOrder.h">CNGivenNameFirstNameOrder.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNGroup.h">CNGroup.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNIOSLegacyIdentifierDescription.h">CNIOSLegacyIdentifierDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNImageDataAvailableDescription.h">CNImageDataAvailableDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNImageDataDescription.h">CNImageDataDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNIndexClientState.h">CNIndexClientState.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNIndexRequestHandler.h">CNIndexRequestHandler.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNInstantMessageAddress.h">CNInstantMessageAddress.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNInstantMessageAddressContactPredicate.h">CNInstantMessageAddressContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNInstantMessageAddressesDescription.h">CNInstantMessageAddressesDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNInternalIdentifierDescription.h">CNInternalIdentifierDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNJobTitleDescription.h">CNJobTitleDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNLabelValuePair.h">CNLabelValuePair.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNLabeledValue.h">CNLabeledValue.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNLaunchServicesRemoteAdapter.h">CNLaunchServicesRemoteAdapter.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNLinkIdentifierDescription.h">CNLinkIdentifierDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNLinkedContactsPredicate.h">CNLinkedContactsPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMapsDataDescription.h">CNMapsDataDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMeContactsPredicate.h">CNMeContactsPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMiddleNameDescription.h">CNMiddleNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMockContactsLogger.h">CNMockContactsLogger.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMockFavoritesLogger.h">CNMockFavoritesLogger.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMockGeminiLogger.h">CNMockGeminiLogger.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMockLoggerProvider.h">CNMockLoggerProvider.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMockSpotlightIndexingLogger.h">CNMockSpotlightIndexingLogger.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNModificationDateDescription.h">CNModificationDateDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMultiValueAddUpdate.h">CNMultiValueAddUpdate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMultiValueDiff.h">CNMultiValueDiff.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMultiValuePropertyDescription.h">CNMultiValuePropertyDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMultiValueRemoveUpdate.h">CNMultiValueRemoveUpdate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMultiValueReorderUpdate.h">CNMultiValueReorderUpdate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMultiValueReplaceUpdate.h">CNMultiValueReplaceUpdate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMultiValueSingleUpdate.h">CNMultiValueSingleUpdate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMultiValueUpdate.h">CNMultiValueUpdate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMutableActivityAlert.h">CNMutableActivityAlert.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMutableContact.h">CNMutableContact.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMutableContactKeyVector.h">CNMutableContactKeyVector.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMutableContainer.h">CNMutableContainer.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMutableGroup.h">CNMutableGroup.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMutableInstantMessageAddress.h">CNMutableInstantMessageAddress.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMutablePostalAddress.h">CNMutablePostalAddress.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMutableSaveResponse.h">CNMutableSaveResponse.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNMutableSocialProfile.h">CNMutableSocialProfile.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNNamePrefixDescription.h">CNNamePrefixDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNNameSuffixDescription.h">CNNameSuffixDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNNicknameNameDescription.h">CNNicknameNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNNonGregorianBirthdayDescription.h">CNNonGregorianBirthdayDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNNoteDescription.h">CNNoteDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNOrganizationNameDescription.h">CNOrganizationNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPerContactPropertyKeyDescriptor.h">CNPerContactPropertyKeyDescriptor.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPermissivePolicy.h">CNPermissivePolicy.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPhoneDialer.h">CNPhoneDialer.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPhoneNumber.h">CNPhoneNumber.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPhoneNumberContactPredicate.h">CNPhoneNumberContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPhoneNumbersDescription.h">CNPhoneNumbersDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPhonemeDataDescription.h">CNPhonemeDataDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPhoneticFamilyNameDescription.h">CNPhoneticFamilyNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPhoneticGivenNameDescription.h">CNPhoneticGivenNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPhoneticMiddleNameDescription.h">CNPhoneticMiddleNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPhoneticOrganizationNameDescription.h">CNPhoneticOrganizationNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPolicy.h">CNPolicy.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPostalAddress.h">CNPostalAddress.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPostalAddressContactPredicate.h">CNPostalAddressContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPostalAddressFormatter.h">CNPostalAddressFormatter.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPostalAddressFormattingSpecification.h">CNPostalAddressFormattingSpecification.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPostalAddressesDescription.h">CNPostalAddressesDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPredicate.h">CNPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPredicateValidator.h">CNPredicateValidator.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPreferredApplePersonaIdentifierDescription.h">CNPreferredApplePersonaIdentifierDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPreferredChannelDescription.h">CNPreferredChannelDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPreferredForImageDescription.h">CNPreferredForImageDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPreferredForNameDescription.h">CNPreferredForNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPreferredLikenessSourceDescription.h">CNPreferredLikenessSourceDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPreviousFamilyNameDescription.h">CNPreviousFamilyNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPronunciationFamilyNameDescription.h">CNPronunciationFamilyNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPronunciationGivenNameDescription.h">CNPronunciationGivenNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNPropertyDescription.h">CNPropertyDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNReputationContactsAdapter.h">CNReputationContactsAdapter.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNReputationCoreRecentsAdapter.h">CNReputationCoreRecentsAdapter.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNReputationFutureBuilder.h">CNReputationFutureBuilder.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNReputationHandle.h">CNReputationHandle.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNReputationLogger.h">CNReputationLogger.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNReputationResult.h">CNReputationResult.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNReputationStore.h">CNReputationStore.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNSaveRequest.h">CNSaveRequest.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNSaveResponse.h">CNSaveResponse.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNSectionForSortingByFamilyNameDescription.h">CNSectionForSortingByFamilyNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNSectionForSortingByGivenNameDescription.h">CNSectionForSortingByGivenNameDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNSecureCodingClassSets.h">CNSecureCodingClassSets.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNSmartPropertyFetcher.h">CNSmartPropertyFetcher.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNSocialProfile.h">CNSocialProfile.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNSocialProfileContactPredicate.h">CNSocialProfileContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNSocialProfilesDescription.h">CNSocialProfilesDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNSuggestedContactIdentifierPredicate.h">CNSuggestedContactIdentifierPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNSuggestedContactStore.h">CNSuggestedContactStore.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNSuggestedSaveRequest.h">CNSuggestedSaveRequest.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNTCC.h">CNTCC.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNTCCServices.h">CNTCCServices.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNTestSmartFetcher.h">CNTestSmartFetcher.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNTextAlertDescription.h">CNTextAlertDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNThumbnailImageDataDescription.h">CNThumbnailImageDataDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNUnifiedContacts.h">CNUnifiedContacts.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNUrlAddressesDescription.h">CNUrlAddressesDescription.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNUuidIdentifierProvider.h">CNUuidIdentifierProvider.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNVCardConstantsMapping.h">CNVCardConstantsMapping.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNValueOrigin.h">CNValueOrigin.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNXPCDataMapper.h">CNXPCDataMapper.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNXPCDataMapperProgressiveHandler.h">CNXPCDataMapperProgressiveHandler.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABAccountForContainerPredicate.h">CNiOSABAccountForContainerPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABAccountForExternalIdentifierPredicate.h">CNiOSABAccountForExternalIdentifierPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABAccountIdentifiersPredicate.h">CNiOSABAccountIdentifiersPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABAllContactsPredicate.h">CNiOSABAllContactsPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABConstantsMapping.h">CNiOSABConstantsMapping.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABContactBuffersDecoder.h">CNiOSABContactBuffersDecoder.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABContactIdentifiersPredicate.h">CNiOSABContactIdentifiersPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABContactLegacyIdentifierPredicate.h">CNiOSABContactLegacyIdentifierPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABContactWithNamePredicate.h">CNiOSABContactWithNamePredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABContactsInContainerPredicate.h">CNiOSABContactsInContainerPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABContactsInGroupPredicate.h">CNiOSABContactsInGroupPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABContactsUserDefaults.h">CNiOSABContactsUserDefaults.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABContactsUserDefaultsABWrapper.h">CNiOSABContactsUserDefaultsABWrapper.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABContainerIdentifiersPredicate.h">CNiOSABContainerIdentifiersPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABContainerOfContactPredicate.h">CNiOSABContainerOfContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABContainerOfGroupPredicate.h">CNiOSABContainerOfGroupPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABContaineriOSLegacyIdentifierPredicate.h">CNiOSABContaineriOSLegacyIdentifierPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABContainersForAccountExternalIdentifierPredicate.h">CNiOSABContainersForAccountExternalIdentifierPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABContainersForAccountPredicate.h">CNiOSABContainersForAccountPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABConversions.h">CNiOSABConversions.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABDefaultContainerForAccountPredicate.h">CNiOSABDefaultContainerForAccountPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABDependentPropertiesUpdateContext.h">CNiOSABDependentPropertiesUpdateContext.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABDisabledContainersPredicate.h">CNiOSABDisabledContainersPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABEKParticipantMatchingSearchOperationDelegate.h">CNiOSABEKParticipantMatchingSearchOperationDelegate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABEKParticipantPredicate.h">CNiOSABEKParticipantPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABEmailAddressContactPredicate.h">CNiOSABEmailAddressContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABFaultFulfillmentPredicate.h">CNiOSABFaultFulfillmentPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABFullTextSearchContactPredicate.h">CNiOSABFullTextSearchContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABGroupIdentifiersPredicate.h">CNiOSABGroupIdentifiersPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABGroupNameMatchingPredicate.h">CNiOSABGroupNameMatchingPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABGroupiOSLegacyIdentifierPredicate.h">CNiOSABGroupiOSLegacyIdentifierPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABGroupsInContainerPredicate.h">CNiOSABGroupsInContainerPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABGroupsInGroupPredicate.h">CNiOSABGroupsInGroupPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABInstantMessageAddressContactPredicate.h">CNiOSABInstantMessageAddressContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABLinkedContactsPredicate.h">CNiOSABLinkedContactsPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABLocalContainerPredicate.h">CNiOSABLocalContainerPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABMapDataContactPredicate.h">CNiOSABMapDataContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABMeContactsPredicate.h">CNiOSABMeContactsPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABOrganizationNameContactPredicate.h">CNiOSABOrganizationNameContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABPhoneNumberContactPredicate.h">CNiOSABPhoneNumberContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABPolicy.h">CNiOSABPolicy.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABPostalAddressContactPredicate.h">CNiOSABPostalAddressContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABPredicateRunner.h">CNiOSABPredicateRunner.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABPreferredChannelContactPredicate.h">CNiOSABPreferredChannelContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABPreferredNameContactsPredicate.h">CNiOSABPreferredNameContactsPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABPreferredNameInContainersAndGroupsPredicate.h">CNiOSABPreferredNameInContainersAndGroupsPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABSaveContext.h">CNiOSABSaveContext.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABSocialProfileContactPredicate.h">CNiOSABSocialProfileContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABStringMatchContactPredicate.h">CNiOSABStringMatchContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABURLContactPredicate.h">CNiOSABURLContactPredicate.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSABUtilities.h">CNiOSABUtilities.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSAddressBook.h">CNiOSAddressBook.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSAddressBookDataMapper.h">CNiOSAddressBookDataMapper.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSContactFetcher.h">CNiOSContactFetcher.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSEncodedPeopleFetcher.h">CNiOSEncodedPeopleFetcher.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSFetchExecution.h">CNiOSFetchExecution.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSPersonFetchRequest.h">CNiOSPersonFetchRequest.h</a>
+<a href="/tree/Frameworks/Contacts.framework/CNiOSPersonFetcher.h">CNiOSPersonFetcher.h</a>
+<a href="/tree/Frameworks/Contacts.framework/_CNABPredicateObservable.h">_CNABPredicateObservable.h</a>
+<a href="/tree/Frameworks/Contacts.framework/_CNContactMatchingFetchRequestInfos.h">_CNContactMatchingFetchRequestInfos.h</a>
+<a href="/tree/Frameworks/Contacts.framework/_CNContactVCardNameSummzarizationScope.h">_CNContactVCardNameSummzarizationScope.h</a>
+<a href="/tree/Frameworks/Contacts.framework/_CNContactsLogger.h">_CNContactsLogger.h</a>
+<a href="/tree/Frameworks/Contacts.framework/_CNFavoritesLogger.h">_CNFavoritesLogger.h</a>
+<a href="/tree/Frameworks/Contacts.framework/_CNGeminiLogger.h">_CNGeminiLogger.h</a>
+<a href="/tree/Frameworks/Contacts.framework/_CNRegulatoryLogger.h">_CNRegulatoryLogger.h</a>
+<a href="/tree/Frameworks/Contacts.framework/_CNReputationEmailAddressHandle.h">_CNReputationEmailAddressHandle.h</a>
+<a href="/tree/Frameworks/Contacts.framework/_CNReputationGenericHandle.h">_CNReputationGenericHandle.h</a>
+<a href="/tree/Frameworks/Contacts.framework/_CNReputationPhoneNumberHandle.h">_CNReputationPhoneNumberHandle.h</a>
+<a href="/tree/Frameworks/Contacts.framework/_CNSpotlightIndexingLogger.h">_CNSpotlightIndexingLogger.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

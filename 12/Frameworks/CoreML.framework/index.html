@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CoreML.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/Frameworks/CoreML.framework/
+103 classes
+
+<a href="..">..</a>
+<a href="/tree/Frameworks/CoreML.framework/CoreMLVersion.h">CoreMLVersion.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLAppleImageFeatureExtractor.h">MLAppleImageFeatureExtractor.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLAppleImageFeatureExtractorParameters.h">MLAppleImageFeatureExtractorParameters.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLAppleImageFeatureExtractorScenePrintParameters.h">MLAppleImageFeatureExtractorScenePrintParameters.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLAppleTextClassifier.h">MLAppleTextClassifier.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLAppleTextClassifierParameters.h">MLAppleTextClassifierParameters.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLAppleWordTagger.h">MLAppleWordTagger.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLAppleWordTaggerParameters.h">MLAppleWordTaggerParameters.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLArrayBatchProvider.h">MLArrayBatchProvider.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLArrayFeatureExtractor.h">MLArrayFeatureExtractor.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLBatchProviderUtils.h">MLBatchProviderUtils.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLBayesianProbitRegression.h">MLBayesianProbitRegression.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLCategoricalMapping.h">MLCategoricalMapping.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLClassifier.h">MLClassifier.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLClassifierResult.h">MLClassifierResult.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLCompiler.h">MLCompiler.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLCompilerOptions.h">MLCompilerOptions.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLCompilerResult.h">MLCompilerResult.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLCustomLayerWrapper.h">MLCustomLayerWrapper.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLCustomModelLoader.h">MLCustomModelLoader.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLCustomModelWrapper.h">MLCustomModelWrapper.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLDefaultCustomLayerFactory.h">MLDefaultCustomLayerFactory.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLDefaultCustomModelFactory.h">MLDefaultCustomModelFactory.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLDictVectorizer.h">MLDictVectorizer.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLDictionaryConstraint.h">MLDictionaryConstraint.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLDictionaryFeatureProvider.h">MLDictionaryFeatureProvider.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLFeatureDescription.h">MLFeatureDescription.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLFeatureProviderUtils.h">MLFeatureProviderUtils.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLFeatureTypeUtils.h">MLFeatureTypeUtils.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLFeatureValue.h">MLFeatureValue.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLFeatureVectorizer.h">MLFeatureVectorizer.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLGKDecisionTree.h">MLGKDecisionTree.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLGLMClassification.h">MLGLMClassification.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLGLMRegression.h">MLGLMRegression.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLIdentity.h">MLIdentity.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLImageConstraint.h">MLImageConstraint.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLImageSize.h">MLImageSize.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLImageSizeConstraint.h">MLImageSizeConstraint.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLImputer.h">MLImputer.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLIndexedBatchProvider.h">MLIndexedBatchProvider.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLInt64ProbabilityDictionary.h">MLInt64ProbabilityDictionary.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLInt64ProbabilityDictionaryEnumerator.h">MLInt64ProbabilityDictionaryEnumerator.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLInternalSettings.h">MLInternalSettings.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLLazyUnionBatchProvider.h">MLLazyUnionBatchProvider.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLLazyUnionFeatureProvider.h">MLLazyUnionFeatureProvider.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLLoader.h">MLLoader.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLLogging.h">MLLogging.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLModel.h">MLModel.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLModelAsset.h">MLModelAsset.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLModelConfiguration.h">MLModelConfiguration.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLModelDescription.h">MLModelDescription.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLModelDescriptionUtils.h">MLModelDescriptionUtils.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLModelErrorUtils.h">MLModelErrorUtils.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLModelIOUtils.h">MLModelIOUtils.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLModelInterface.h">MLModelInterface.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLModelMetadata.h">MLModelMetadata.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLModelTypeRegistry.h">MLModelTypeRegistry.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLModelVisionFeaturePrintInfo.h">MLModelVisionFeaturePrintInfo.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLMultiArray.h">MLMultiArray.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLMultiArrayAsNSArrayWrapper.h">MLMultiArrayAsNSArrayWrapper.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLMultiArrayConstraint.h">MLMultiArrayConstraint.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLMultiArrayShapeConstraint.h">MLMultiArrayShapeConstraint.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLMultiArrayUtils.h">MLMultiArrayUtils.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLMultiArrayView.h">MLMultiArrayView.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLNeuralNetworkEngine.h">MLNeuralNetworkEngine.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLNeuralNetworkSpecification.h">MLNeuralNetworkSpecification.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLNonMaximumSuppression.h">MLNonMaximumSuppression.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLNonMaximumSuppressionParameters.h">MLNonMaximumSuppressionParameters.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLNormalizer.h">MLNormalizer.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLObjectBoundingBoxOutputDescription.h">MLObjectBoundingBoxOutputDescription.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLOneHotEncoder.h">MLOneHotEncoder.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLPipeline.h">MLPipeline.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLPipelineClassifier.h">MLPipelineClassifier.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLPipelineLoader.h">MLPipelineLoader.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLPipelineRegressor.h">MLPipelineRegressor.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLPredictionOptions.h">MLPredictionOptions.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLProbabilityDictionary.h">MLProbabilityDictionary.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLRegressor.h">MLRegressor.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLRegressorResult.h">MLRegressorResult.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLSVMEngine.h">MLSVMEngine.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLSVMLoader.h">MLSVMLoader.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLSVREngine.h">MLSVREngine.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLSVRLoader.h">MLSVRLoader.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLSaver.h">MLSaver.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLScaler.h">MLScaler.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLSequence.h">MLSequence.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLSequenceConstraint.h">MLSequenceConstraint.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLSequnceAsFeatureValueArray.h">MLSequnceAsFeatureValueArray.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLStringProbabilityDictionary.h">MLStringProbabilityDictionary.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLStringProbabilityDictionaryEnumerator.h">MLStringProbabilityDictionaryEnumerator.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLSupervisedOnlineUpdateOptions.h">MLSupervisedOnlineUpdateOptions.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLSupportVectorClassifier.h">MLSupportVectorClassifier.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLSupportVectorRegressor.h">MLSupportVectorRegressor.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLTreeEnsembleClassifier.h">MLTreeEnsembleClassifier.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLTreeEnsembleRegressor.h">MLTreeEnsembleRegressor.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLVersionInfo.h">MLVersionInfo.h</a>
+<a href="/tree/Frameworks/CoreML.framework/MLWindowedBatchProvider.h">MLWindowedBatchProvider.h</a>
+<a href="/tree/Frameworks/CoreML.framework/_MLInternalNLPModelWriter.h">_MLInternalNLPModelWriter.h</a>
+<a href="/tree/Frameworks/CoreML.framework/_MLNLPFrameworkHandle.h">_MLNLPFrameworkHandle.h</a>
+<a href="/tree/Frameworks/CoreML.framework/_MLNLPSentenceClassifierModel.h">_MLNLPSentenceClassifierModel.h</a>
+<a href="/tree/Frameworks/CoreML.framework/_MLNLPWordTaggingModel.h">_MLNLPWordTaggingModel.h</a>
+<a href="/tree/Frameworks/CoreML.framework/_MLVNFrameworkHandle.h">_MLVNFrameworkHandle.h</a>
+<a href="/tree/Frameworks/CoreML.framework/_MLVNScenePrintCustomModel.h">_MLVNScenePrintCustomModel.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

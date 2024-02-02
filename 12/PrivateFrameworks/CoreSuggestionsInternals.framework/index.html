@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CoreSuggestionsInternals.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/PrivateFrameworks/CoreSuggestionsInternals.framework/
+235 classes
+
+<a href="..">..</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGAccountsAdapter.h">SGAccountsAdapter.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGAddressCoalescingState.h">SGAddressCoalescingState.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGAggregateLogging.h">SGAggregateLogging.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGAhoCorasick.h">SGAhoCorasick.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGAppIconState.h">SGAppIconState.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGAppLaunchHistory.h">SGAppLaunchHistory.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGAsset.h">SGAsset.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGBigUTF8String.h">SGBigUTF8String.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGBloomFilter.h">SGBloomFilter.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGBloomFilterChunkInMemory.h">SGBloomFilterChunkInMemory.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGBloomFilterChunkInMemorySparse.h">SGBloomFilterChunkInMemorySparse.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGBloomFilterChunkMmap.h">SGBloomFilterChunkMmap.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGBundleIdBlacklist.h">SGBundleIdBlacklist.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCalendarAttachmentDissector.h">SGCalendarAttachmentDissector.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGChatLengthEstimator.h">SGChatLengthEstimator.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCoalescingDropBox.h">SGCoalescingDropBox.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactAggregator.h">SGContactAggregator.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactDetail.h">SGContactDetail.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactDetailKey.h">SGContactDetailKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactDetailSummary.h">SGContactDetailSummary.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactDetailSupervision.h">SGContactDetailSupervision.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactDetailsHolder.h">SGContactDetailsHolder.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactEntity.h">SGContactEntity.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactPipelineHelper.h">SGContactPipelineHelper.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactSharingModelHelper.h">SGContactSharingModelHelper.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactSharingTransformer.h">SGContactSharingTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactStoreFactory.h">SGContactStoreFactory.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactsInterface.h">SGContactsInterface.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContentAdmission.h">SGContentAdmission.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContentAdmissionKVOObserver.h">SGContentAdmissionKVOObserver.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGConversationFlatteningTransformer.h">SGConversationFlatteningTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGConversationHistory.h">SGConversationHistory.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCuratedChangeNotifications.h">SGCuratedChangeNotifications.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCuratedChangeNotificationsAddressBookListener.h">SGCuratedChangeNotificationsAddressBookListener.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCuratedChangeNotificationsBaseListener.h">SGCuratedChangeNotificationsBaseListener.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCuratedChangeNotificationsCalendarListener.h">SGCuratedChangeNotificationsCalendarListener.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCuratedContactKey.h">SGCuratedContactKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCuratedContactMatcher.h">SGCuratedContactMatcher.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCuratedEventKey.h">SGCuratedEventKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDCKEvent.h">SGDCKEvent.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDCKLocation.h">SGDCKLocation.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDCKTimeRange.h">SGDCKTimeRange.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDCloudKitSync.h">SGDCloudKitSync.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueue.h">SGDHarvestQueue.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueCombo.h">SGDHarvestQueueCombo.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueFileReader.h">SGDHarvestQueueFileReader.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueFileRegistry.h">SGDHarvestQueueFileRegistry.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueFileWriter.h">SGDHarvestQueueFileWriter.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueInMemory.h">SGDHarvestQueueInMemory.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueItem.h">SGDHarvestQueueItem.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueItemInMemory.h">SGDHarvestQueueItemInMemory.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueItemLegacy.h">SGDHarvestQueueItemLegacy.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueItemOnDisk.h">SGDHarvestQueueItemOnDisk.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueLegacy.h">SGDHarvestQueueLegacy.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueNop.h">SGDHarvestQueueNop.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueOnDisk.h">SGDHarvestQueueOnDisk.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDManagerForCTS.h">SGDManagerForCTS.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDNotificationBroadcaster.h">SGDNotificationBroadcaster.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDPluginManager.h">SGDPluginManager.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDPowerBudget.h">SGDPowerBudget.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDPowerBudgetThrottlingState.h">SGDPowerBudgetThrottlingState.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDPowerLog.h">SGDPowerLog.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDSpotlightCommander.h">SGDSpotlightCommander.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDSpotlightReceiver.h">SGDSpotlightReceiver.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDSuggestManager.h">SGDSuggestManager.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDWorkQueue.h">SGDWorkQueue.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDWorkQueueFile.h">SGDWorkQueueFile.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDWorkQueueItem.h">SGDWorkQueueItem.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDWorkQueueName.h">SGDWorkQueueName.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDataDetectorDissector.h">SGDataDetectorDissector.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDataDetectorMatch.h">SGDataDetectorMatch.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDataNormalization.h">SGDataNormalization.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDatabaseJournal.h">SGDatabaseJournal.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDatabaseJournalFile.h">SGDatabaseJournalFile.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDatabaseMigratorEntities.h">SGDatabaseMigratorEntities.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDatabaseMigratorSnippets.h">SGDatabaseMigratorSnippets.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDeduper.h">SGDeduper.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDetectedAttributeDissector.h">SGDetectedAttributeDissector.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDetectedAttributeML.h">SGDetectedAttributeML.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDetectedAttributeMetrics.h">SGDetectedAttributeMetrics.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDetection.h">SGDetection.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDuplicateKey.h">SGDuplicateKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGEKCalendarAdapter.h">SGEKCalendarAdapter.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGEmailKey.h">SGEmailKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGEntity.h">SGEntity.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGEntityMappingTransformer.h">SGEntityMappingTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGEntityMatchingTransformer.h">SGEntityMatchingTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGExtractionDissector.h">SGExtractionDissector.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGFirstPersonAddressSharingModel.h">SGFirstPersonAddressSharingModel.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGFirstPersonEmailSharingModel.h">SGFirstPersonEmailSharingModel.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGFirstPersonPhoneSharingModel.h">SGFirstPersonPhoneSharingModel.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGFlight.h">SGFlight.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGFlightData.h">SGFlightData.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGHistoryObserver.h">SGHistoryObserver.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGHtmlEntities.h">SGHtmlEntities.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGHtmlParserDissector.h">SGHtmlParserDissector.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGHtmlParserDissectorTask.h">SGHtmlParserDissectorTask.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGIconLocation.h">SGIconLocation.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGIdentityEdge.h">SGIdentityEdge.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGIdentityKey.h">SGIdentityKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGIdentityName.h">SGIdentityName.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGInMemoryAdapter.h">SGInMemoryAdapter.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGInhumanDissector.h">SGInhumanDissector.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGInhumans.h">SGInhumans.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGInteractionKey.h">SGInteractionKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGJSBurstTrie.h">SGJSBurstTrie.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGJournal.h">SGJournal.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGJournalEntry.h">SGJournalEntry.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGKeyValueCacheManager.h">SGKeyValueCacheManager.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGKnownNameMappingTransformer.h">SGKnownNameMappingTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGLabeledValue.h">SGLabeledValue.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGLanguageDetection.h">SGLanguageDetection.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGLevenshtein.h">SGLevenshtein.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGLongRunningTask.h">SGLongRunningTask.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGLongRunningTaskManager.h">SGLongRunningTaskManager.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMailAttachment.h">SGMailAttachment.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMailPatterns.h">SGMailPatterns.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMailQuoteDissector.h">SGMailQuoteDissector.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMailUtils.h">SGMailUtils.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMeContact.h">SGMeContact.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMessage.h">SGMessage.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMessageKey.h">SGMessageKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMicrodataDocument.h">SGMicrodataDocument.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMicrodataItem.h">SGMicrodataItem.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMicrodataItemProp.h">SGMicrodataItemProp.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMicrodataItemScope.h">SGMicrodataItemScope.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMicrodataParser.h">SGMicrodataParser.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMicrodataParserStackItem.h">SGMicrodataParserStackItem.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGModel.h">SGModel.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGModelAsset.h">SGModelAsset.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGModelFeatures.h">SGModelFeatures.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGModelMappingHelper.h">SGModelMappingHelper.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGModelRules.h">SGModelRules.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMonochrome.h">SGMonochrome.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNGramTransformer.h">SGNGramTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNLPDetection.h">SGNLPDetection.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNameInversionPredictor.h">SGNameInversionPredictor.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNameMappingTransformer.h">SGNameMappingTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNamedEntityContainer.h">SGNamedEntityContainer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNamedEntityDissector.h">SGNamedEntityDissector.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNamedEntityDissectorGuardedData.h">SGNamedEntityDissectorGuardedData.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNamedEntityPlugin.h">SGNamedEntityPlugin.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNamedEntityStringDonationHandler.h">SGNamedEntityStringDonationHandler.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNames.h">SGNames.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNaturalLanguageDissector.h">SGNaturalLanguageDissector.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNicknames.h">SGNicknames.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNoCloudNSUbiquitousKeyValueStore.h">SGNoCloudNSUbiquitousKeyValueStore.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGOffsetDictionary.h">SGOffsetDictionary.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGParsedName.h">SGParsedName.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGParsedPersonFromInteraction.h">SGParsedPersonFromInteraction.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPaths.h">SGPaths.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPatternDataFile.h">SGPatternDataFile.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPatternGlobalData.h">SGPatternGlobalData.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPatterns.h">SGPatterns.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPipeline.h">SGPipeline.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPipelineDissector.h">SGPipelineDissector.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPipelineEntity.h">SGPipelineEntity.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPipelineTransformer.h">SGPipelineTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPlainTextContentCursor.h">SGPlainTextContentCursor.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPreparedStatement.h">SGPreparedStatement.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPseudoContactKey.h">SGPseudoContactKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPseudoEventKey.h">SGPseudoEventKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQuickResponsesClassificationModel.h">SGQuickResponsesClassificationModel.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQuickResponsesML.h">SGQuickResponsesML.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQuickResponsesModel.h">SGQuickResponsesModel.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQuickResponsesModelRules.h">SGQuickResponsesModelRules.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQuickResponsesTransformerInstance.h">SGQuickResponsesTransformerInstance.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRTCLogging.h">SGRTCLogging.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRawKey.h">SGRawKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRe2.h">SGRe2.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRe2Basic.h">SGRe2Basic.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRe2Lazy.h">SGRe2Lazy.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRe2PrefilterTree.h">SGRe2PrefilterTree.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRe2Subregexps.h">SGRe2Subregexps.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRealtimeEventResponse.h">SGRealtimeEventResponse.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRealtimeSuggestionsTuple.h">SGRealtimeSuggestionsTuple.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRegexTransformer.h">SGRegexTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGReplyParserDissector.h">SGReplyParserDissector.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRequestContext.h">SGRequestContext.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGReverseTemplateJS.h">SGReverseTemplateJS.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGReverseTemplatesJSDataDetectors.h">SGReverseTemplatesJSDataDetectors.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSGtoCNContactsCacheUpdateAdapter.h">SGSGtoCNContactsCacheUpdateAdapter.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSchemaOrgKey.h">SGSchemaOrgKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSeekableData.h">SGSeekableData.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSelfIDSupervision.h">SGSelfIDSupervision.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSelfIdentification.h">SGSelfIdentification.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSelfIdentificationDetection.h">SGSelfIdentificationDetection.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSelfIdentificationModel.h">SGSelfIdentificationModel.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGServiceContext.h">SGServiceContext.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSignatureDissector.h">SGSignatureDissector.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSignificantAddressModel.h">SGSignificantAddressModel.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSignificantEmailAddressModel.h">SGSignificantEmailAddressModel.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSignificantPhonenumberModel.h">SGSignificantPhonenumberModel.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSimpleMailHeaderKeyValue.h">SGSimpleMailHeaderKeyValue.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSimpleMailMessage.h">SGSimpleMailMessage.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSlice.h">SGSlice.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSpotlightContactsAdapter.h">SGSpotlightContactsAdapter.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSqlEntityStore.h">SGSqlEntityStore.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSqliteDatabase.h">SGSqliteDatabase.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSqliteExitOnDeviceLockErrorHandler.h">SGSqliteExitOnDeviceLockErrorHandler.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGStorageContact.h">SGStorageContact.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGStorageEvent.h">SGStorageEvent.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGStorageLocation.h">SGStorageLocation.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGStringLabellingTransformer.h">SGStringLabellingTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGStringMappingTransformer.h">SGStringMappingTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGStringPreprocessingTransformer.h">SGStringPreprocessingTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGStringReplacementTransformer.h">SGStringReplacementTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSuggestHistory.h">SGSuggestHistory.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSymbolicMappingTransformer.h">SGSymbolicMappingTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTaggedMallocCompressionBuffer.h">SGTaggedMallocCompressionBuffer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTaggedMallocEmailHtml.h">SGTaggedMallocEmailHtml.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTaggedMallocLevenshteinDistanceBuffer.h">SGTaggedMallocLevenshteinDistanceBuffer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTaggedMallocWorkQueueItemPart.h">SGTaggedMallocWorkQueueItemPart.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTextFeaturization.h">SGTextFeaturization.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTextFeaturizationLabelTransformer.h">SGTextFeaturizationLabelTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTextFeaturizationVectorTransformer.h">SGTextFeaturizationVectorTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTextMessage.h">SGTextMessage.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTextMessageConversationTracker.h">SGTextMessageConversationTracker.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTextMessageItem.h">SGTextMessageItem.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTextMessageKey.h">SGTextMessageKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGThirdPersonAddressSharingModel.h">SGThirdPersonAddressSharingModel.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGThirdPersonEmailSharingModel.h">SGThirdPersonEmailSharingModel.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGThirdPersonPhoneSharingModel.h">SGThirdPersonPhoneSharingModel.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGThreadParser.h">SGThreadParser.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTokenDistanceMappingTransformer.h">SGTokenDistanceMappingTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTokenString.h">SGTokenString.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTokenizer.h">SGTokenizer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTokenizerMappingTransformer.h">SGTokenizerMappingTransformer.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTransformerInstance.h">SGTransformerInstance.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGUnrecognizedContactKey.h">SGUnrecognizedContactKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGWebPageKey.h">SGWebPageKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGWords.h">SGWords.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGXPCActivityManager.h">SGXPCActivityManager.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGXpcTransaction.h">SGXpcTransaction.h</a>
+<a href="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/_SGDCloudKitSyncPersistedState.h">_SGDCloudKitSyncPersistedState.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

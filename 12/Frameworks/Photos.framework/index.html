@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Photos.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/Frameworks/Photos.framework/
+232 classes
+
+<a href="..">..</a>
+<a href="/tree/Frameworks/Photos.framework/DurationGroup.h">DurationGroup.h</a>
+<a href="/tree/Frameworks/Photos.framework/ICCameraDeviceRemovedItemsCoalescer.h">ICCameraDeviceRemovedItemsCoalescer.h</a>
+<a href="/tree/Frameworks/Photos.framework/PDCachingImageManager.h">PDCachingImageManager.h</a>
+<a href="/tree/Frameworks/Photos.framework/PDFigDecoder.h">PDFigDecoder.h</a>
+<a href="/tree/Frameworks/Photos.framework/PDImageDecoder.h">PDImageDecoder.h</a>
+<a href="/tree/Frameworks/Photos.framework/PDImageIODecoder.h">PDImageIODecoder.h</a>
+<a href="/tree/Frameworks/Photos.framework/PDImageManager.h">PDImageManager.h</a>
+<a href="/tree/Frameworks/Photos.framework/PDImageRequest.h">PDImageRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PDMediaRequestContext.h">PDMediaRequestContext.h</a>
+<a href="/tree/Frameworks/Photos.framework/PDVideoRequest.h">PDVideoRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAdjustmentData.h">PHAdjustmentData.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAdjustmentDataRequest.h">PHAdjustmentDataRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAdjustmentDataRequestBehaviorSpec.h">PHAdjustmentDataRequestBehaviorSpec.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAlbum.h">PHAlbum.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAnimatedImage.h">PHAnimatedImage.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAnimatedImageRequestOptions.h">PHAnimatedImageRequestOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAsset.h">PHAsset.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetAdjustmentProperties.h">PHAssetAdjustmentProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetAestheticProperties.h">PHAssetAestheticProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetAnalysisStateProperties.h">PHAssetAnalysisStateProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetChangeRequest.h">PHAssetChangeRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetCollection.h">PHAssetCollection.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetCollectionChangeRequest.h">PHAssetCollectionChangeRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetCollectionDeleteRequest.h">PHAssetCollectionDeleteRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetComment.h">PHAssetComment.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetCreationOptions.h">PHAssetCreationOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetCreationPhotoStreamPublishingRequest.h">PHAssetCreationPhotoStreamPublishingRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetCreationRequest.h">PHAssetCreationRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetCreationRequestPlaceholderSupport.h">PHAssetCreationRequestPlaceholderSupport.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetCreationRequestPlaceholderSupportCrashRecovery.h">PHAssetCreationRequestPlaceholderSupportCrashRecovery.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetCreationRequestPlaceholderSupportNotificationManager.h">PHAssetCreationRequestPlaceholderSupportNotificationManager.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetCurationProperties.h">PHAssetCurationProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetDeleteRequest.h">PHAssetDeleteRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetDescriptionProperties.h">PHAssetDescriptionProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetDestinationAssetCopyProperties.h">PHAssetDestinationAssetCopyProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetExportRequest.h">PHAssetExportRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetExportRequestOptions.h">PHAssetExportRequestOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetImportProperties.h">PHAssetImportProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetMediaAnalysisProperties.h">PHAssetMediaAnalysisProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetOriginalMetadataProperties.h">PHAssetOriginalMetadataProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetPLAdapter.h">PHAssetPLAdapter.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetPhotoCommentProperties.h">PHAssetPhotoCommentProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetPhotoIrisProperties.h">PHAssetPhotoIrisProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetPhotosOneUpProperties.h">PHAssetPhotosOneUpProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetPropertySet.h">PHAssetPropertySet.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetResource.h">PHAssetResource.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetResourceBag.h">PHAssetResourceBag.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetResourceCreationOptions.h">PHAssetResourceCreationOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetResourceManager.h">PHAssetResourceManager.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetResourceQualityClass.h">PHAssetResourceQualityClass.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetResourceRequest.h">PHAssetResourceRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetResourceRequestOptions.h">PHAssetResourceRequestOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetResourceValidatedContext.h">PHAssetResourceValidatedContext.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetSceneAnalysisProperties.h">PHAssetSceneAnalysisProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetSceneprintProperties.h">PHAssetSceneprintProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetUUIDRequestJob.h">PHAssetUUIDRequestJob.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAssetUserActivityProperties.h">PHAssetUserActivityProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHAvailabilityRequest.h">PHAvailabilityRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHBatchFetchingArray.h">PHBatchFetchingArray.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHCachingImageManager.h">PHCachingImageManager.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHChange.h">PHChange.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHChangeBuilder.h">PHChangeBuilder.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHChangeRequestHelper.h">PHChangeRequestHelper.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHChangeRequestJob.h">PHChangeRequestJob.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHChangeValidationController.h">PHChangeValidationController.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHCloudInvitation.h">PHCloudInvitation.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHCloudResourceManager.h">PHCloudResourceManager.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHCloudResourceRequest.h">PHCloudResourceRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHCloudSharedAlbum.h">PHCloudSharedAlbum.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHCloudSharedAssetExportRequest.h">PHCloudSharedAssetExportRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHCloudSharedPhoto.h">PHCloudSharedPhoto.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHCollection.h">PHCollection.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHCollectionList.h">PHCollectionList.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHCollectionListChangeRequest.h">PHCollectionListChangeRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHCollectionListDeleteRequest.h">PHCollectionListDeleteRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHConcurrentMapTable.h">PHConcurrentMapTable.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHContentEditingInput.h">PHContentEditingInput.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHContentEditingInputRequestOptions.h">PHContentEditingInputRequestOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHContentEditingOutput.h">PHContentEditingOutput.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHCoreImageManager.h">PHCoreImageManager.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHDerivativeAssetResource.h">PHDerivativeAssetResource.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHEntityKeyMap.h">PHEntityKeyMap.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHExternalAssetResource.h">PHExternalAssetResource.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFace.h">PHFace.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFaceChangeRequest.h">PHFaceChangeRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFaceClusteringProperties.h">PHFaceClusteringProperties.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFaceCrop.h">PHFaceCrop.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFaceCropChangeRequest.h">PHFaceCropChangeRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFaceCropDeleteRequest.h">PHFaceCropDeleteRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFaceDeleteRequest.h">PHFaceDeleteRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFaceGroup.h">PHFaceGroup.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFaceGroupChangeRequest.h">PHFaceGroupChangeRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFaceGroupDeleteRequest.h">PHFaceGroupDeleteRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFaceGroupPLAdapter.h">PHFaceGroupPLAdapter.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFacePLAdapter.h">PHFacePLAdapter.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFacePropertySet.h">PHFacePropertySet.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFaceprint.h">PHFaceprint.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFetchOptions.h">PHFetchOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFetchResult.h">PHFetchResult.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHFetchResultChangeDetails.h">PHFetchResultChangeDetails.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImage.h">PHImage.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImageCache.h">PHImageCache.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImageCacheEntry.h">PHImageCacheEntry.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImageDisplaySpec.h">PHImageDisplaySpec.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImageManager.h">PHImageManager.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImageManagerRequest.h">PHImageManagerRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImageManagerSettings.h">PHImageManagerSettings.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImageRequest.h">PHImageRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImageRequestBehaviorSpec.h">PHImageRequestBehaviorSpec.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImageRequestColorSpace.h">PHImageRequestColorSpace.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImageRequestOptions.h">PHImageRequestOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImageRequestResource.h">PHImageRequestResource.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImageRequestUniformTypeIdentifier.h">PHImageRequestUniformTypeIdentifier.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImageRequestVendor.h">PHImageRequestVendor.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImageResult.h">PHImageResult.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportAsset.h">PHImportAsset.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportAssetDataRequest.h">PHImportAssetDataRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportAssetDataResponse.h">PHImportAssetDataResponse.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportBatch.h">PHImportBatch.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportController.h">PHImportController.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportDeleteJob.h">PHImportDeleteJob.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportDeviceAsset.h">PHImportDeviceAsset.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportDeviceSidecarAsset.h">PHImportDeviceSidecarAsset.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportDeviceSource.h">PHImportDeviceSource.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportDuplicateChecker.h">PHImportDuplicateChecker.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportDuplicateInfo.h">PHImportDuplicateInfo.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportException.h">PHImportException.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportExceptionRecorder.h">PHImportExceptionRecorder.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportOptions.h">PHImportOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportRecord.h">PHImportRecord.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportResults.h">PHImportResults.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportServiceController.h">PHImportServiceController.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportServiceImporter.h">PHImportServiceImporter.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportSession.h">PHImportSession.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportSidecarAsset.h">PHImportSidecarAsset.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportSource.h">PHImportSource.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportTimer.h">PHImportTimer.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportTimerCollection.h">PHImportTimerCollection.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHImportUrlSource.h">PHImportUrlSource.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHInternalAssetExportRequest.h">PHInternalAssetExportRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHInternalAssetResource.h">PHInternalAssetResource.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHLibraryChangeRequest.h">PHLibraryChangeRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHLivePhoto.h">PHLivePhoto.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHLivePhotoCreationOperation.h">PHLivePhotoCreationOperation.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHLivePhotoEditingContext.h">PHLivePhotoEditingContext.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHLivePhotoExportSession.h">PHLivePhotoExportSession.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHLivePhotoExportSessionOptions.h">PHLivePhotoExportSessionOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHLivePhotoRequest.h">PHLivePhotoRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHLivePhotoRequestOptions.h">PHLivePhotoRequestOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHLocallyAvailableResourceBag.h">PHLocallyAvailableResourceBag.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHManualFetchResult.h">PHManualFetchResult.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMediaRequest.h">PHMediaRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMemory.h">PHMemory.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMemoryChangeRequest.h">PHMemoryChangeRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMemoryDeleteRequest.h">PHMemoryDeleteRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMemoryFeature.h">PHMemoryFeature.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMemoryFeatureDecoder.h">PHMemoryFeatureDecoder.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMemoryFeatureEncoder.h">PHMemoryFeatureEncoder.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMemoryGenerationOptions.h">PHMemoryGenerationOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMoment.h">PHMoment.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMomentList.h">PHMomentList.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMomentShare.h">PHMomentShare.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMomentShareChangeRequest.h">PHMomentShareChangeRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMomentShareDeleteRequest.h">PHMomentShareDeleteRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMomentShareParticipant.h">PHMomentShareParticipant.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMomentShareParticipantChangeRequest.h">PHMomentShareParticipantChangeRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMomentShareParticipantDeleteRequest.h">PHMomentShareParticipantDeleteRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHMomentSharePreview.h">PHMomentSharePreview.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHObject.h">PHObject.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHObjectChangeDetails.h">PHObjectChangeDetails.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHObjectDeleteRequest.h">PHObjectDeleteRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHObjectPLAdapter.h">PHObjectPLAdapter.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHObjectPlaceholder.h">PHObjectPlaceholder.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHPersistentChangeFetchRequest.h">PHPersistentChangeFetchRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHPersistentChangeFetchResult.h">PHPersistentChangeFetchResult.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHPersistentChangeToken.h">PHPersistentChangeToken.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHPerson.h">PHPerson.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHPersonChangeRequest.h">PHPersonChangeRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHPersonDeleteRequest.h">PHPersonDeleteRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHPersonPLAdapter.h">PHPersonPLAdapter.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHPersonResetManager.h">PHPersonResetManager.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHPersonResetOperation.h">PHPersonResetOperation.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHPersonSuggestion.h">PHPersonSuggestion.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHPhotoLibrary.h">PHPhotoLibrary.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHPhotoMaster.h">PHPhotoMaster.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHPhotoRepresentation.h">PHPhotoRepresentation.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHPlaceholderImageHelper.h">PHPlaceholderImageHelper.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHQuery.h">PHQuery.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHQueryPersonContext.h">PHQueryPersonContext.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHRecyclableObjectVendor.h">PHRecyclableObjectVendor.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHRelatedCollection.h">PHRelatedCollection.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHRelatedFetchOptions.h">PHRelatedFetchOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHRelationshipChangeRequestHelper.h">PHRelationshipChangeRequestHelper.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHResourceAvailabilityChangeRequest.h">PHResourceAvailabilityChangeRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHResourceAvailabilityDataStoreManager.h">PHResourceAvailabilityDataStoreManager.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHResourceAvailabilityJob.h">PHResourceAvailabilityJob.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHResourceAvailabilityRequest.h">PHResourceAvailabilityRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHResourceAvailabilityRequestManager.h">PHResourceAvailabilityRequestManager.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHResourceChooser.h">PHResourceChooser.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHResourceDownloadRequest.h">PHResourceDownloadRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHResourceDownloadRequestOptions.h">PHResourceDownloadRequestOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHResourceDownloadSettings.h">PHResourceDownloadSettings.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHResourceImageUtilities.h">PHResourceImageUtilities.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHRootSettings.h">PHRootSettings.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHSafeNSCacheDelegateReflector.h">PHSafeNSCacheDelegateReflector.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHSandboxExtensionWrapper.h">PHSandboxExtensionWrapper.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHSceneClassification.h">PHSceneClassification.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHSettings.h">PHSettings.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHSmartAlbum.h">PHSmartAlbum.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHSuggestion.h">PHSuggestion.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHSuggestionChangeRequest.h">PHSuggestionChangeRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHSuggestionDeleteRequest.h">PHSuggestionDeleteRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHSuggestionMessageContext.h">PHSuggestionMessageContext.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHSuggestionMessageMatchingResult.h">PHSuggestionMessageMatchingResult.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHTextFeature.h">PHTextFeature.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHTextFeatureDecoder.h">PHTextFeatureDecoder.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHTextFeatureEncoder.h">PHTextFeatureEncoder.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHUnauthorizedFetchResult.h">PHUnauthorizedFetchResult.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHValidator.h">PHValidator.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHVariationCacheManager.h">PHVariationCacheManager.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHVideoChoosingAndAvailabilityRequest.h">PHVideoChoosingAndAvailabilityRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHVideoChoosingResult.h">PHVideoChoosingResult.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHVideoRequest.h">PHVideoRequest.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHVideoRequestBehaviorSpec.h">PHVideoRequestBehaviorSpec.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHVideoRequestOptions.h">PHVideoRequestOptions.h</a>
+<a href="/tree/Frameworks/Photos.framework/PHVisionAnalysisUtilities.h">PHVisionAnalysisUtilities.h</a>
+<a href="/tree/Frameworks/Photos.framework/_PHAnimatedImageLoadOperation.h">_PHAnimatedImageLoadOperation.h</a>
+<a href="/tree/Frameworks/Photos.framework/_PHAssetCreationRequestValidator.h">_PHAssetCreationRequestValidator.h</a>
+<a href="/tree/Frameworks/Photos.framework/_PHFetchRequestWrapper.h">_PHFetchRequestWrapper.h</a>
+<a href="/tree/Frameworks/Photos.framework/_PHPhotoLibraryValidator.h">_PHPhotoLibraryValidator.h</a>
+<a href="/tree/Frameworks/Photos.framework/_PHValidation.h">_PHValidation.h</a>
+<a href="/tree/Frameworks/Photos.framework/_PHVariationInMemoryCachedValue.h">_PHVariationInMemoryCachedValue.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

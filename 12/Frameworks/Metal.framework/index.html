@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Metal.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/Frameworks/Metal.framework/
+171 classes
+
+<a href="..">..</a>
+<a href="/tree/Frameworks/Metal.framework/MTLArgument.h">MTLArgument.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLArgumentDescriptor.h">MTLArgumentDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLArgumentDescriptorInternal.h">MTLArgumentDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLArgumentInternal.h">MTLArgumentInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLArrayType.h">MTLArrayType.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLArrayTypeInternal.h">MTLArrayTypeInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLAttribute.h">MTLAttribute.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLAttributeDescriptor.h">MTLAttributeDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLAttributeDescriptorArray.h">MTLAttributeDescriptorArray.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLAttributeDescriptorArrayInternal.h">MTLAttributeDescriptorArrayInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLAttributeDescriptorInternal.h">MTLAttributeDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLAttributeInternal.h">MTLAttributeInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLBufferArgument.h">MTLBufferArgument.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLBufferLayoutDescriptor.h">MTLBufferLayoutDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLBufferLayoutDescriptorArray.h">MTLBufferLayoutDescriptorArray.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLBufferLayoutDescriptorArrayInternal.h">MTLBufferLayoutDescriptorArrayInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLBufferLayoutDescriptorInternal.h">MTLBufferLayoutDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLBuiltInArgument.h">MTLBuiltInArgument.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLCaptureManager.h">MTLCaptureManager.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLCaptureScope.h">MTLCaptureScope.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLCommandQueueDescriptor.h">MTLCommandQueueDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLCommandQueueDescriptorInternal.h">MTLCommandQueueDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLCompileOptions.h">MTLCompileOptions.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLCompileOptionsInternal.h">MTLCompileOptionsInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLCompiler.h">MTLCompiler.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLComputePipelineDescriptor.h">MTLComputePipelineDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLComputePipelineDescriptorInternal.h">MTLComputePipelineDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLComputePipelineReflection.h">MTLComputePipelineReflection.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLComputePipelineReflectionInternal.h">MTLComputePipelineReflectionInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLDepthStencilDescriptor.h">MTLDepthStencilDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLDepthStencilDescriptorInternal.h">MTLDepthStencilDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLEmulationIndirectArgumentBufferLayout.h">MTLEmulationIndirectArgumentBufferLayout.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLEmulationIndirectArgumentEncoder.h">MTLEmulationIndirectArgumentEncoder.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLFunctionConstant.h">MTLFunctionConstant.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLFunctionConstantInternal.h">MTLFunctionConstantInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLFunctionConstantValues.h">MTLFunctionConstantValues.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLFunctionConstantValuesInternal.h">MTLFunctionConstantValuesInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLFunctionReflection.h">MTLFunctionReflection.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLFunctionReflectionInternal.h">MTLFunctionReflectionInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLFunctionVariant.h">MTLFunctionVariant.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLHeapDescriptor.h">MTLHeapDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLHeapDescriptorInternal.h">MTLHeapDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelBlitCommandEncoder.h">MTLIOAccelBlitCommandEncoder.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelBuffer.h">MTLIOAccelBuffer.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelCommandBuffer.h">MTLIOAccelCommandBuffer.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelCommandEncoder.h">MTLIOAccelCommandEncoder.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelCommandQueue.h">MTLIOAccelCommandQueue.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelComputeCommandEncoder.h">MTLIOAccelComputeCommandEncoder.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelDebugCommandEncoder.h">MTLIOAccelDebugCommandEncoder.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelDevice.h">MTLIOAccelDevice.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelDeviceShmem.h">MTLIOAccelDeviceShmem.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelDeviceShmemPool.h">MTLIOAccelDeviceShmemPool.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelFence.h">MTLIOAccelFence.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelFragmentRenderCommandEncoder.h">MTLIOAccelFragmentRenderCommandEncoder.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelHeap.h">MTLIOAccelHeap.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelIndirectArgumentEncoder.h">MTLIOAccelIndirectArgumentEncoder.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelIndirectCommandBuffer.h">MTLIOAccelIndirectCommandBuffer.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelIndirectRenderCommand.h">MTLIOAccelIndirectRenderCommand.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelParallelRenderCommandEncoder.h">MTLIOAccelParallelRenderCommandEncoder.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelPooledResource.h">MTLIOAccelPooledResource.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelRenderCommandEncoder.h">MTLIOAccelRenderCommandEncoder.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelResource.h">MTLIOAccelResource.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelResourceAllocation.h">MTLIOAccelResourceAllocation.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelResourcePool.h">MTLIOAccelResourcePool.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelTexture.h">MTLIOAccelTexture.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOAccelTextureLayout.h">MTLIOAccelTextureLayout.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIOMemoryInfo.h">MTLIOMemoryInfo.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLImageBlockArgument.h">MTLImageBlockArgument.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLImageBlockDataArgument.h">MTLImageBlockDataArgument.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIndexedConstantValue.h">MTLIndexedConstantValue.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIndirectArgumentBufferEmulationData.h">MTLIndirectArgumentBufferEmulationData.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIndirectArgumentDescriptor.h">MTLIndirectArgumentDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIndirectArgumentDescriptorInternal.h">MTLIndirectArgumentDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIndirectCommandBufferDescriptor.h">MTLIndirectCommandBufferDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIndirectCommandBufferDescriptorInternal.h">MTLIndirectCommandBufferDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLIndirectConstantArgument.h">MTLIndirectConstantArgument.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLInferredInput.h">MTLInferredInput.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLNamedConstantValue.h">MTLNamedConstantValue.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLPipelineBufferDescriptor.h">MTLPipelineBufferDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLPipelineBufferDescriptorArray.h">MTLPipelineBufferDescriptorArray.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLPipelineBufferDescriptorArrayInternal.h">MTLPipelineBufferDescriptorArrayInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLPipelineBufferDescriptorInternal.h">MTLPipelineBufferDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLPointerType.h">MTLPointerType.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLPointerTypeInternal.h">MTLPointerTypeInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLPostVertexDumpOutput.h">MTLPostVertexDumpOutput.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPassAttachmentDescriptor.h">MTLRenderPassAttachmentDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPassColorAttachmentDescriptor.h">MTLRenderPassColorAttachmentDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPassColorAttachmentDescriptorArray.h">MTLRenderPassColorAttachmentDescriptorArray.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPassColorAttachmentDescriptorArrayInternal.h">MTLRenderPassColorAttachmentDescriptorArrayInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPassColorAttachmentDescriptorInternal.h">MTLRenderPassColorAttachmentDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPassDepthAttachmentDescriptor.h">MTLRenderPassDepthAttachmentDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPassDepthAttachmentDescriptorInternal.h">MTLRenderPassDepthAttachmentDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPassDescriptor.h">MTLRenderPassDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPassDescriptorInternal.h">MTLRenderPassDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPassStencilAttachmentDescriptor.h">MTLRenderPassStencilAttachmentDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPassStencilAttachmentDescriptorInternal.h">MTLRenderPassStencilAttachmentDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPipelineColorAttachmentDescriptor.h">MTLRenderPipelineColorAttachmentDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPipelineColorAttachmentDescriptorArray.h">MTLRenderPipelineColorAttachmentDescriptorArray.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPipelineColorAttachmentDescriptorArrayInternal.h">MTLRenderPipelineColorAttachmentDescriptorArrayInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPipelineColorAttachmentDescriptorInternal.h">MTLRenderPipelineColorAttachmentDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPipelineDescriptor.h">MTLRenderPipelineDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPipelineDescriptorInternal.h">MTLRenderPipelineDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPipelineReflection.h">MTLRenderPipelineReflection.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLRenderPipelineReflectionInternal.h">MTLRenderPipelineReflectionInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLResourceAllocationInfo.h">MTLResourceAllocationInfo.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLResourceList.h">MTLResourceList.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLResourceListPool.h">MTLResourceListPool.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLSamplerDescriptor.h">MTLSamplerDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLSamplerDescriptorInternal.h">MTLSamplerDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLSharedEventHandle.h">MTLSharedEventHandle.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLSharedEventListener.h">MTLSharedEventListener.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLSharedEventListenerInternal.h">MTLSharedEventListenerInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLStageInputOutputDescriptor.h">MTLStageInputOutputDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLStageInputOutputDescriptorInternal.h">MTLStageInputOutputDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLStencilDescriptor.h">MTLStencilDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLStencilDescriptorInternal.h">MTLStencilDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLStructMember.h">MTLStructMember.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLStructMemberInternal.h">MTLStructMemberInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLStructType.h">MTLStructType.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLStructTypeInternal.h">MTLStructTypeInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLTextureArgument.h">MTLTextureArgument.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLTextureDescriptor.h">MTLTextureDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLTextureDescriptorInternal.h">MTLTextureDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLTextureReferenceType.h">MTLTextureReferenceType.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLTextureReferenceTypeInternal.h">MTLTextureReferenceTypeInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLThreadgroupMemoryArgument.h">MTLThreadgroupMemoryArgument.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLTileRenderPipelineColorAttachmentDescriptor.h">MTLTileRenderPipelineColorAttachmentDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLTileRenderPipelineColorAttachmentDescriptorArray.h">MTLTileRenderPipelineColorAttachmentDescriptorArray.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLTileRenderPipelineColorAttachmentDescriptorArrayInternal.h">MTLTileRenderPipelineColorAttachmentDescriptorArrayInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLTileRenderPipelineColorAttachmentDescriptorInternal.h">MTLTileRenderPipelineColorAttachmentDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLTileRenderPipelineDescriptor.h">MTLTileRenderPipelineDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLTileRenderPipelineDescriptorInternal.h">MTLTileRenderPipelineDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLType.h">MTLType.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLTypeInternal.h">MTLTypeInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLVertexAttribute.h">MTLVertexAttribute.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLVertexAttributeDescriptor.h">MTLVertexAttributeDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLVertexAttributeDescriptorArray.h">MTLVertexAttributeDescriptorArray.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLVertexAttributeDescriptorArrayInternal.h">MTLVertexAttributeDescriptorArrayInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLVertexAttributeDescriptorInternal.h">MTLVertexAttributeDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLVertexAttributeInternal.h">MTLVertexAttributeInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLVertexBufferLayoutDescriptor.h">MTLVertexBufferLayoutDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLVertexBufferLayoutDescriptorArray.h">MTLVertexBufferLayoutDescriptorArray.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLVertexBufferLayoutDescriptorArrayInternal.h">MTLVertexBufferLayoutDescriptorArrayInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLVertexBufferLayoutDescriptorInternal.h">MTLVertexBufferLayoutDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLVertexDescriptor.h">MTLVertexDescriptor.h</a>
+<a href="/tree/Frameworks/Metal.framework/MTLVertexDescriptorInternal.h">MTLVertexDescriptorInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLCommandBuffer.h">_MTLCommandBuffer.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLCommandEncoder.h">_MTLCommandEncoder.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLCommandQueue.h">_MTLCommandQueue.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLComputePipelineState.h">_MTLComputePipelineState.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLDebugCommandEncoder.h">_MTLDebugCommandEncoder.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLDepthStencilState.h">_MTLDepthStencilState.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLDevice.h">_MTLDevice.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLFunction.h">_MTLFunction.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLFunctionInternal.h">_MTLFunctionInternal.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLIOAccelMTLEvent.h">_MTLIOAccelMTLEvent.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLIndirectArgumentBufferLayout.h">_MTLIndirectArgumentBufferLayout.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLIndirectArgumentEncoder.h">_MTLIndirectArgumentEncoder.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLIndirectDrawArguments.h">_MTLIndirectDrawArguments.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLIndirectDrawIndexedArguments.h">_MTLIndirectDrawIndexedArguments.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLIndirectDrawIndexedPatchesArguments.h">_MTLIndirectDrawIndexedPatchesArguments.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLIndirectDrawPatchesArguments.h">_MTLIndirectDrawPatchesArguments.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLIndirectRenderCommand.h">_MTLIndirectRenderCommand.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLIndirectTessellationFactorArguments.h">_MTLIndirectTessellationFactorArguments.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLLibrary.h">_MTLLibrary.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLParallelRenderCommandEncoder.h">_MTLParallelRenderCommandEncoder.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLPipelineCache.h">_MTLPipelineCache.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLPipelineLibrary.h">_MTLPipelineLibrary.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLRenderPipelineState.h">_MTLRenderPipelineState.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLSamplerState.h">_MTLSamplerState.h</a>
+<a href="/tree/Frameworks/Metal.framework/_MTLSharedEvent.h">_MTLSharedEvent.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

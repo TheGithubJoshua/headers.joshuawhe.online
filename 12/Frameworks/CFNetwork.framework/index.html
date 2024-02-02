@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CFNetwork.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/Frameworks/CFNetwork.framework/
+164 classes
+
+<a href="..">..</a>
+<a href="/tree/Frameworks/CFNetwork.framework/AVAssetDownloadTask.h">AVAssetDownloadTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/AVAssetDownloadURLSession.h">AVAssetDownloadURLSession.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/AuthChallengeDelegate.h">AuthChallengeDelegate.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/BadPasswordProxyAuthenticationURLDelegate.h">BadPasswordProxyAuthenticationURLDelegate.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/CFNetworkTimer.h">CFNetworkTimer.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/CONNECTION_SessionTask.h">CONNECTION_SessionTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/CoalescingDomainHolder.h">CoalescingDomainHolder.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/MultiplePauseResumeDataDownloadDelegate.h">MultiplePauseResumeDataDownloadDelegate.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/MyProgressReporter.h">MyProgressReporter.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSAboutURLProtocol.h">NSAboutURLProtocol.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSAsyncSSDownloadManager.h">NSAsyncSSDownloadManager.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSCachedURLResponse.h">NSCachedURLResponse.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSCachedURLResponseInternal.h">NSCachedURLResponseInternal.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSGZipDecoder.h">NSGZipDecoder.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSHTTPCookie.h">NSHTTPCookie.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSHTTPCookieStorage.h">NSHTTPCookieStorage.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSHTTPCookieStorageInternal.h">NSHTTPCookieStorageInternal.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSHTTPURLRequestParameters.h">NSHTTPURLRequestParameters.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSHTTPURLResponse.h">NSHTTPURLResponse.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSHTTPURLResponseInternal.h">NSHTTPURLResponseInternal.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSHost.h">NSHost.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSMutableURLRequest.h">NSMutableURLRequest.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSNetService.h">NSNetService.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSNetServiceBrowser.h">NSNetServiceBrowser.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSNetServicesInternal.h">NSNetServicesInternal.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSProxyConnection.h">NSProxyConnection.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSProxyConnectionStreamTask.h">NSProxyConnectionStreamTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLAuthenticationChallenge.h">NSURLAuthenticationChallenge.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLAuthenticationChallengeInternal.h">NSURLAuthenticationChallengeInternal.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLCache.h">NSURLCache.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLCacheDBReader.h">NSURLCacheDBReader.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLCacheInternal.h">NSURLCacheInternal.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLConnection.h">NSURLConnection.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLConnectionInternal.h">NSURLConnectionInternal.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLConnectionInternalBackgroundDownload.h">NSURLConnectionInternalBackgroundDownload.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLConnectionInternalConnection.h">NSURLConnectionInternalConnection.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLCredential.h">NSURLCredential.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLCredentialStorage.h">NSURLCredentialStorage.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLDownload.h">NSURLDownload.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLDownloadInternal.h">NSURLDownloadInternal.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLProtectionSpace.h">NSURLProtectionSpace.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLProtocol.h">NSURLProtocol.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLProtocolInternal.h">NSURLProtocolInternal.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLRequest.h">NSURLRequest.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLRequestInternal.h">NSURLRequestInternal.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLResponse.h">NSURLResponse.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLResponseInternal.h">NSURLResponseInternal.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSession.h">NSURLSession.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionAVAggregateAssetDownloadTask.h">NSURLSessionAVAggregateAssetDownloadTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionAVAssetDownloadTask.h">NSURLSessionAVAssetDownloadTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionConfiguration.h">NSURLSessionConfiguration.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionDataTask.h">NSURLSessionDataTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionDownloadTask.h">NSURLSessionDownloadTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionStreamTask.h">NSURLSessionStreamTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionStreamTaskTester.h">NSURLSessionStreamTaskTester.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionTask.h">NSURLSessionTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionTaskBackgroundHTTPAuthenticator.h">NSURLSessionTaskBackgroundHTTPAuthenticator.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionTaskDependency.h">NSURLSessionTaskDependency.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionTaskDependencyDescription.h">NSURLSessionTaskDependencyDescription.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionTaskDependencyTree.h">NSURLSessionTaskDependencyTree.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionTaskHTTPAuthenticator.h">NSURLSessionTaskHTTPAuthenticator.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionTaskLocalHTTPAuthenticator.h">NSURLSessionTaskLocalHTTPAuthenticator.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionTaskMetrics.h">NSURLSessionTaskMetrics.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionTaskTransactionMetrics.h">NSURLSessionTaskTransactionMetrics.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLSessionUploadTask.h">NSURLSessionUploadTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/NSURLStorage_CacheClient.h">NSURLStorage_CacheClient.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/PACURLSessionDelegate.h">PACURLSessionDelegate.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/PathHolder.h">PathHolder.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/PathPolicyManager.h">PathPolicyManager.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/ProxyAuthenticationURLDelegate.h">ProxyAuthenticationURLDelegate.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/SZDelegate.h">SZDelegate.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/SocksHandshake.h">SocksHandshake.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/SocksHandshakev5.h">SocksHandshakev5.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/StrictSecurityURLSessionDelegate.h">StrictSecurityURLSessionDelegate.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/TLSTestHarness.h">TLSTestHarness.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/TLSTestHarnessResult.h">TLSTestHarnessResult.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/TestDelegate24722429.h">TestDelegate24722429.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/TestDelegate24725687.h">TestDelegate24725687.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/TestDelegateParentDirAuthCheck.h">TestDelegateParentDirAuthCheck.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/TestDelegatetAuthSlashFirstRequest.h">TestDelegatetAuthSlashFirstRequest.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/TheServerPorterHolderOfPower.h">TheServerPorterHolderOfPower.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/UnitTestBackgroundSessionTester.h">UnitTestBackgroundSessionTester.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/UnitTestPOSTTaskDelegate.h">UnitTestPOSTTaskDelegate.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/UnitTestRedirectTaskDelegate.h">UnitTestRedirectTaskDelegate.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/UnitTestSchemeUpgradeTaskDelegate.h">UnitTestSchemeUpgradeTaskDelegate.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/UnitTestSessionTaskDelegate.h">UnitTestSessionTaskDelegate.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/UnitTestSessionTaskDelegateWithDidCompleteWithError.h">UnitTestSessionTaskDelegateWithDidCompleteWithError.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/UnitTestSessionTask_publishingURL_BasicTest_Delegate.h">UnitTestSessionTask_publishingURL_BasicTest_Delegate.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/VaryHeaderSupportTaskDelegate.h">VaryHeaderSupportTaskDelegate.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_AWDMetricsReporter.h">_AWDMetricsReporter.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSCFServer.h">_NSCFServer.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSCFSocksProxy.h">_NSCFSocksProxy.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSCFTranslatedFileURLProtocol.h">_NSCFTranslatedFileURLProtocol.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSCFTranslatedFileURLProtocol_PIMPL_0.h">_NSCFTranslatedFileURLProtocol_PIMPL_0.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSCFTranslatedFileURLProtocol_PIMPL_1.h">_NSCFTranslatedFileURLProtocol_PIMPL_1.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSCFTranslatedFileURLProtocol_PIMPL_2.h">_NSCFTranslatedFileURLProtocol_PIMPL_2.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSCFTranslatedFileURLProtocol_PIMPL_3.h">_NSCFTranslatedFileURLProtocol_PIMPL_3.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSCFTranslatedFileURLProtocol_PIMPL_4.h">_NSCFTranslatedFileURLProtocol_PIMPL_4.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSCFTranslatedFileURLProtocol_PIMPL_5.h">_NSCFTranslatedFileURLProtocol_PIMPL_5.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSCFTranslatedFileURLProtocol_PIMPL_6.h">_NSCFTranslatedFileURLProtocol_PIMPL_6.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSCFTranslatedFileURLProtocol_PIMPL_7.h">_NSCFTranslatedFileURLProtocol_PIMPL_7.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSCFURLProtocol.h">_NSCFURLProtocol.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSCFWikipediaProtocol.h">_NSCFWikipediaProtocol.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSURLBDOnce.h">_NSURLBDOnce.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSURLDataProtocol.h">_NSURLDataProtocol.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSURLFTPProtocol.h">_NSURLFTPProtocol.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSURLFileProtocol.h">_NSURLFileProtocol.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/_NSURLHTTPProtocol.h">_NSURLHTTPProtocol.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__CoreSchedulingSetRunnable.h">__CoreSchedulingSetRunnable.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFBackgroundAVAggregateAssetDownloadTask.h">__NSCFBackgroundAVAggregateAssetDownloadTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFBackgroundAVAssetDownloadTask.h">__NSCFBackgroundAVAssetDownloadTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFBackgroundDataTask.h">__NSCFBackgroundDataTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFBackgroundDownloadTask.h">__NSCFBackgroundDownloadTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFBackgroundSessionTask.h">__NSCFBackgroundSessionTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFBackgroundUploadTask.h">__NSCFBackgroundUploadTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFDummyQueue.h">__NSCFDummyQueue.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFLocalDataTask.h">__NSCFLocalDataTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFLocalDownloadFile.h">__NSCFLocalDownloadFile.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFLocalDownloadTask.h">__NSCFLocalDownloadTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFLocalSessionTask.h">__NSCFLocalSessionTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFLocalUploadTask.h">__NSCFLocalUploadTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFMemoryHTTPCookieStorage.h">__NSCFMemoryHTTPCookieStorage.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFMemoryURLCache.h">__NSCFMemoryURLCache.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFMemoryURLCredentialStorage.h">__NSCFMemoryURLCredentialStorage.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFSS.h">__NSCFSS.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFTCPIOStreamTask.h">__NSCFTCPIOStreamTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFTCPIO_BlockCallbacks_Referent.h">__NSCFTCPIO_BlockCallbacks_Referent.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFTaskPerformanceTiming.h">__NSCFTaskPerformanceTiming.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLLocalSessionConnection.h">__NSCFURLLocalSessionConnection.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLLocalStreamTask.h">__NSCFURLLocalStreamTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLLocalStreamTaskFromDataTask.h">__NSCFURLLocalStreamTaskFromDataTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLLocalStreamTaskFromDataTaskDataBlobby.h">__NSCFURLLocalStreamTaskFromDataTaskDataBlobby.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLLocalStreamTaskWork.h">__NSCFURLLocalStreamTaskWork.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLLocalStreamTaskWorkBlockOp.h">__NSCFURLLocalStreamTaskWorkBlockOp.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLLocalStreamTaskWorkRead.h">__NSCFURLLocalStreamTaskWorkRead.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLLocalStreamTaskWorkWrite.h">__NSCFURLLocalStreamTaskWorkWrite.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLLocalTCPIOStreamTaskFromDataTask.h">__NSCFURLLocalTCPIOStreamTaskFromDataTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLProtocolClient_NS.h">__NSCFURLProtocolClient_NS.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLProxySessionConnection.h">__NSCFURLProxySessionConnection.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLSession.h">__NSCFURLSession.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLSessionConfiguration.h">__NSCFURLSessionConfiguration.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLSessionConnection.h">__NSCFURLSessionConnection.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLSessionTask.h">__NSCFURLSessionTask.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLSessionTaskActiveStreamDependencyInfo.h">__NSCFURLSessionTaskActiveStreamDependencyInfo.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLSessionTaskDependency.h">__NSCFURLSessionTaskDependency.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLSessionTaskDependencyDescription.h">__NSCFURLSessionTaskDependencyDescription.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLSessionTaskDependencyTree.h">__NSCFURLSessionTaskDependencyTree.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLSessionTaskDependencyTreeNode.h">__NSCFURLSessionTaskDependencyTreeNode.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLSessionTaskInfo.h">__NSCFURLSessionTaskInfo.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLSessionTaskMetrics.h">__NSCFURLSessionTaskMetrics.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLSessionTaskTransactionMetrics.h">__NSCFURLSessionTaskTransactionMetrics.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSCFURLSessionXPC.h">__NSCFURLSessionXPC.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSHostExtraIvars.h">__NSHostExtraIvars.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSTCPIOCONNECTION__.h">__NSTCPIOCONNECTION__.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSURLAVBackgroundSession.h">__NSURLAVBackgroundSession.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSURLBackgroundSession.h">__NSURLBackgroundSession.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSURLSessionLocal.h">__NSURLSessionLocal.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSURLSessionStatistics.h">__NSURLSessionStatistics.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/__NSURLSessionTaskDependencyResourceIdentifier.h">__NSURLSessionTaskDependencyResourceIdentifier.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/myDelegates.h">myDelegates.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/myDelegatesForEventTest.h">myDelegatesForEventTest.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/myDeli.h">myDeli.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/myDeli2.h">myDeli2.h</a>
+<a href="/tree/Frameworks/CFNetwork.framework/taskDelegates.h">taskDelegates.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

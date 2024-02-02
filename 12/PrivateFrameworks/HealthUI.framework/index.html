@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HealthUI.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/PrivateFrameworks/HealthUI.framework/
+453 classes
+
+<a href="..">..</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAbstractFixedAxisScalingRule.h">HKAbstractFixedAxisScalingRule.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAbstractMinimumRangeScalingRule.h">HKAbstractMinimumRangeScalingRule.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKActivityCacheChartDataSource.h">HKActivityCacheChartDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKActivityChartPoint.h">HKActivityChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKActivityChartPointSummary.h">HKActivityChartPointSummary.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKActivityGoalSeries.h">HKActivityGoalSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKActivityStatisticsChartPoint.h">HKActivityStatisticsChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKActivityStatisticsChartPointNode.h">HKActivityStatisticsChartPointNode.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKActivityStatisticsChartPointSummary.h">HKActivityStatisticsChartPointSummary.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKActivityStatisticsDataSource.h">HKActivityStatisticsDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKActivitySummaryDataProvider.h">HKActivitySummaryDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKActivityTodayWidgetView.h">HKActivityTodayWidgetView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAdjustableTapTargetButton.h">HKAdjustableTapTargetButton.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAppImageManager.h">HKAppImageManager.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAttributionTextView.h">HKAttributionTextView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAuthorizationPresentationController.h">HKAuthorizationPresentationController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAuthorizationPresentationRequest.h">HKAuthorizationPresentationRequest.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAuthorizationSettingsViewController.h">HKAuthorizationSettingsViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAxis.h">HKAxis.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAxisAnnotation.h">HKAxisAnnotation.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAxisExclusion.h">HKAxisExclusion.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAxisLabel.h">HKAxisLabel.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAxisLabelCache.h">HKAxisLabelCache.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAxisLabelDimensionInteger.h">HKAxisLabelDimensionInteger.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAxisLabelDimensionMinuteSecond.h">HKAxisLabelDimensionMinuteSecond.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAxisLabelDimensionScalar.h">HKAxisLabelDimensionScalar.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAxisLabelStyle.h">HKAxisLabelStyle.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKAxisStyle.h">HKAxisStyle.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKBarButtonItemControl.h">HKBarButtonItemControl.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKBarSeries.h">HKBarSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKBeatToBeatViewController.h">HKBeatToBeatViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKBloodPressureChartPoint.h">HKBloodPressureChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKBloodPressureDataProviderCurrentValue.h">HKBloodPressureDataProviderCurrentValue.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKBloodPressureDataSource.h">HKBloodPressureDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKBloodPressureSeries.h">HKBloodPressureSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKBloodPressureSeriesPresentationStyle.h">HKBloodPressureSeriesPresentationStyle.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKBorderLineView.h">HKBorderLineView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKBrandImageManager.h">HKBrandImageManager.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKBrandImageManagerInvalidateOldImagesOperation.h">HKBrandImageManagerInvalidateOldImagesOperation.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCDADocumentDetailViewController.h">HKCDADocumentDetailViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCDADocumentReportViewController.h">HKCDADocumentReportViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCDADocumentShareItemSource.h">HKCDADocumentShareItemSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCDADocumentTableViewCell.h">HKCDADocumentTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCDAPDFGenerator.h">HKCDAPDFGenerator.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCDAPDFPrintPageRenderer.h">HKCDAPDFPrintPageRenderer.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCacheBackedChartSeriesDataSource.h">HKCacheBackedChartSeriesDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCalendarDayCell.h">HKCalendarDayCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCalendarWeekView.h">HKCalendarWeekView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCaretOptionalTextField.h">HKCaretOptionalTextField.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKChartAxisDimensionFactory.h">HKChartAxisDimensionFactory.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKChartAxisDimensionUsingTable.h">HKChartAxisDimensionUsingTable.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKChartCache.h">HKChartCache.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKChartCacheFetchOperation.h">HKChartCacheFetchOperation.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKChartDataCacheController.h">HKChartDataCacheController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKChartPointRangeBuilder.h">HKChartPointRangeBuilder.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKChartSeriesPointMarker.h">HKChartSeriesPointMarker.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKClinicalAuthorizationBinaryChoiceFooterView.h">HKClinicalAuthorizationBinaryChoiceFooterView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKClinicalAuthorizationDisplayController.h">HKClinicalAuthorizationDisplayController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKClinicalAuthorizationHeaderView.h">HKClinicalAuthorizationHeaderView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKClinicalAuthorizationIntroViewController.h">HKClinicalAuthorizationIntroViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKClinicalAuthorizationNewRecordsViewController.h">HKClinicalAuthorizationNewRecordsViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKClinicalAuthorizationPrimaryChoiceFooterView.h">HKClinicalAuthorizationPrimaryChoiceFooterView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKClinicalAuthorizationPrivacyDetailsCell.h">HKClinicalAuthorizationPrivacyDetailsCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKClinicalAuthorizationSequenceContext.h">HKClinicalAuthorizationSequenceContext.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKClinicalAuthorizationSettingsViewController.h">HKClinicalAuthorizationSettingsViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKClinicalSourceAuthorizationController.h">HKClinicalSourceAuthorizationController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKColoredButton.h">HKColoredButton.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCoordinateTransform.h">HKCoordinateTransform.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCoreTelephonyUtilities.h">HKCoreTelephonyUtilities.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCountCurrentValueDataProvider.h">HKCountCurrentValueDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCumulativeSumCurrentValueDataProvider.h">HKCumulativeSumCurrentValueDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCurrentTimeChevronButton.h">HKCurrentTimeChevronButton.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKCurrentTimeView.h">HKCurrentTimeView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDailySleepSeries.h">HKDailySleepSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDailySleepSeriesDataSource.h">HKDailySleepSeriesDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDailySleepSeriesDataSourceChartPoint.h">HKDailySleepSeriesDataSourceChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataMetadataBeatToBeatSection.h">HKDataMetadataBeatToBeatSection.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataMetadataDeletionSection.h">HKDataMetadataDeletionSection.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataMetadataDetailSection.h">HKDataMetadataDetailSection.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataMetadataDeviceSection.h">HKDataMetadataDeviceSection.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataMetadataReportAccessSection.h">HKDataMetadataReportAccessSection.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataMetadataReportSection.h">HKDataMetadataReportSection.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataMetadataSection.h">HKDataMetadataSection.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataMetadataSimpleSection.h">HKDataMetadataSimpleSection.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataMetadataSimpleTableViewCell.h">HKDataMetadataSimpleTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataMetadataSubsampleSection.h">HKDataMetadataSubsampleSection.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataMetadataViewController.h">HKDataMetadataViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataMetadataWorkoutEventSection.h">HKDataMetadataWorkoutEventSection.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataMetadataWorkoutRouteCell.h">HKDataMetadataWorkoutRouteCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataMetadataWorkoutRouteSection.h">HKDataMetadataWorkoutRouteSection.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDataProviderNoDataCurrentValue.h">HKDataProviderNoDataCurrentValue.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDateAxis.h">HKDateAxis.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDateCache.h">HKDateCache.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDateCoordinateTransform.h">HKDateCoordinateTransform.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDateGraphViewController.h">HKDateGraphViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDateIntervalCache.h">HKDateIntervalCache.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDateIntervalDateCacheDate.h">HKDateIntervalDateCacheDate.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDateRangeDataSource.h">HKDateRangeDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDateZoomScale.h">HKDateZoomScale.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDemographicsInformationWrapper.h">HKDemographicsInformationWrapper.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDeviceIngestSettingsViewController.h">HKDeviceIngestSettingsViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDisplayCategory.h">HKDisplayCategory.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDisplayCategoryController.h">HKDisplayCategoryController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDisplayType.h">HKDisplayType.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDisplayTypeChartingRules.h">HKDisplayTypeChartingRules.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDisplayTypeContextCollectionViewCell.h">HKDisplayTypeContextCollectionViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDisplayTypeContextItem.h">HKDisplayTypeContextItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDisplayTypeContextTableViewCell.h">HKDisplayTypeContextTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDisplayTypeContextView.h">HKDisplayTypeContextView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDisplayTypeController.h">HKDisplayTypeController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDisplayTypeValueFormatter.h">HKDisplayTypeValueFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDistributionBlockPoint.h">HKDistributionBlockPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDocumentPickerPresentationController.h">HKDocumentPickerPresentationController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDocumentPickerViewController.h">HKDocumentPickerViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKDynamicButton.h">HKDynamicButton.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKElectrocardiogramAxisOptions.h">HKElectrocardiogramAxisOptions.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKElectrocardiogramAxisView.h">HKElectrocardiogramAxisView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKElectrocardiogramBulletedTextTableViewCell.h">HKElectrocardiogramBulletedTextTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKElectrocardiogramCardView.h">HKElectrocardiogramCardView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKElectrocardiogramChartTableViewCell.h">HKElectrocardiogramChartTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKElectrocardiogramChartView.h">HKElectrocardiogramChartView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKElectrocardiogramGridOptions.h">HKElectrocardiogramGridOptions.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKElectrocardiogramGridView.h">HKElectrocardiogramGridView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKElectrocardiogramInfoView.h">HKElectrocardiogramInfoView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKElectrocardiogramTableViewCell.h">HKElectrocardiogramTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKElectrocardiogramWaveformView.h">HKElectrocardiogramWaveformView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardAllergyInfoTableItem.h">HKEmergencyCardAllergyInfoTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardBirthdateTableItem.h">HKEmergencyCardBirthdateTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardBloodTypeTableItem.h">HKEmergencyCardBloodTypeTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardContactsTableItem.h">HKEmergencyCardContactsTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardDeletionTableItem.h">HKEmergencyCardDeletionTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardEnabledTableItem.h">HKEmergencyCardEnabledTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardGroupTableItem.h">HKEmergencyCardGroupTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardHeightTableItem.h">HKEmergencyCardHeightTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardLastUpdatedTableItem.h">HKEmergencyCardLastUpdatedTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardMedicalConditionsTableItem.h">HKEmergencyCardMedicalConditionsTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardMedicalNotesTableItem.h">HKEmergencyCardMedicalNotesTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardMedicationInfoTableItem.h">HKEmergencyCardMedicationInfoTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardMultilineTextTableItem.h">HKEmergencyCardMultilineTextTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardNameAndPictureTableItem.h">HKEmergencyCardNameAndPictureTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardOrganDonorTableItem.h">HKEmergencyCardOrganDonorTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardSOSDetailsCell.h">HKEmergencyCardSOSDetailsCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardSOSHeaderCell.h">HKEmergencyCardSOSHeaderCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardSummaryTableItem.h">HKEmergencyCardSummaryTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardTableItem.h">HKEmergencyCardTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEmergencyCardWeightTableItem.h">HKEmergencyCardWeightTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEnumeratedDisplayTypeNumberFormatter.h">HKEnumeratedDisplayTypeNumberFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEnumeratedDisplayTypeValueFormatter.h">HKEnumeratedDisplayTypeValueFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEnumeratedValueChartPoint.h">HKEnumeratedValueChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKEnumeratedValueDataSource.h">HKEnumeratedValueDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKFetchOperation.h">HKFetchOperation.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKFillStyle.h">HKFillStyle.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKFooterViewWithLink.h">HKFooterViewWithLink.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKFullScreenTextViewController.h">HKFullScreenTextViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGenericDataProviderCurrentValue.h">HKGenericDataProviderCurrentValue.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGenericQuantityDataProviderCurrentValue.h">HKGenericQuantityDataProviderCurrentValue.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGradient.h">HKGradient.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGradientFillStyle.h">HKGradientFillStyle.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGradientView.h">HKGradientView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGraphRenderView.h">HKGraphRenderView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGraphSeries.h">HKGraphSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGraphSeriesBlockCoordinateList.h">HKGraphSeriesBlockCoordinateList.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGraphSeriesDataBlock.h">HKGraphSeriesDataBlock.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGraphSeriesDataSource.h">HKGraphSeriesDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGraphSeriesSecondaryRenderContext.h">HKGraphSeriesSecondaryRenderContext.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGraphSeriesVisibleBlockCoordinates.h">HKGraphSeriesVisibleBlockCoordinates.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGraphTile.h">HKGraphTile.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGraphView.h">HKGraphView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGraphViewController.h">HKGraphViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGraphViewPointSelectionContext.h">HKGraphViewPointSelectionContext.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGraphViewSelectionStyle.h">HKGraphViewSelectionStyle.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKGraphZoomLevelConfiguration.h">HKGraphZoomLevelConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHealthChartFactory.h">HKHealthChartFactory.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHealthChartPoint.h">HKHealthChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHealthManageStorageViewController.h">HKHealthManageStorageViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHealthPrivacyHostAuthorizationViewController.h">HKHealthPrivacyHostAuthorizationViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHealthPrivacyHostDocumentPickerViewController.h">HKHealthPrivacyHostDocumentPickerViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHealthQueryChartCacheDataSource.h">HKHealthQueryChartCacheDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHealthQueryFetchOperation.h">HKHealthQueryFetchOperation.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHeartRateDisplayTypeContextResult.h">HKHeartRateDisplayTypeContextResult.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHeartRateDistributionSeries.h">HKHeartRateDistributionSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHeartRateHistogramChartPoint.h">HKHeartRateHistogramChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHeartRateHistogramDataSource.h">HKHeartRateHistogramDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHeartRateQueryUtility.h">HKHeartRateQueryUtility.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHeartbeatSequenceChartData.h">HKHeartbeatSequenceChartData.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHeartbeatSequenceChartViewController.h">HKHeartbeatSequenceChartViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHeartbeatSequenceDataSource.h">HKHeartbeatSequenceDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHeartbeatSequenceListMetadataSection.h">HKHeartbeatSequenceListMetadataSection.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHeartbeatSequencePoint.h">HKHeartbeatSequencePoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHeightDisplayTypeValueFormatter.h">HKHeightDisplayTypeValueFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHeightNumberFormatter.h">HKHeightNumberFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHorizontalFlowLayout.h">HKHorizontalFlowLayout.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHorizontalSingleLineChartPoint.h">HKHorizontalSingleLineChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHorizontalSingleLineDataSource.h">HKHorizontalSingleLineDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHorizontalSingleLineDataSourceMenstruation.h">HKHorizontalSingleLineDataSourceMenstruation.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHorizontalSingleLineSeries.h">HKHorizontalSingleLineSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHorizontalTimePeriodChartPoint.h">HKHorizontalTimePeriodChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHorizontalTimePeriodDataSource.h">HKHorizontalTimePeriodDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHorizontalTimePeriodSeries.h">HKHorizontalTimePeriodSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHostingAreaLayoutView.h">HKHostingAreaLayoutView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKHourlyActivitySummary.h">HKHourlyActivitySummary.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKIDRegisteredReviewCell.h">HKIDRegisteredReviewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKIDUpdatedAndEditCell.h">HKIDUpdatedAndEditCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKIncrementalSearchBar.h">HKIncrementalSearchBar.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInsulinChartPoint.h">HKInsulinChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInsulinDataSource.h">HKInsulinDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartActivityData.h">HKInteractiveChartActivityData.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartAnnotationData.h">HKInteractiveChartAnnotationData.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartAnnotationFormatter.h">HKInteractiveChartAnnotationFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartAnnotationView.h">HKInteractiveChartAnnotationView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartAnnotationViewDataSource.h">HKInteractiveChartAnnotationViewDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartAnnotationViewKeyValueLabel.h">HKInteractiveChartAnnotationViewKeyValueLabel.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartBloodPressureData.h">HKInteractiveChartBloodPressureData.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartBloodPressureFormatter.h">HKInteractiveChartBloodPressureFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartCategoryValueData.h">HKInteractiveChartCategoryValueData.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartCategoryValueFormatter.h">HKInteractiveChartCategoryValueFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartDataFormatter.h">HKInteractiveChartDataFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartEnumeratedValueFormatter.h">HKInteractiveChartEnumeratedValueFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartGenericStatFormatter.h">HKInteractiveChartGenericStatFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartHearingSensitivityData.h">HKInteractiveChartHearingSensitivityData.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartHearingSensitivityFormatter.h">HKInteractiveChartHearingSensitivityFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartInsulinData.h">HKInteractiveChartInsulinData.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartInsulinFormatter.h">HKInteractiveChartInsulinFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartMedicalRecordData.h">HKInteractiveChartMedicalRecordData.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartMedicalRecordFormatter.h">HKInteractiveChartMedicalRecordFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartMinMaxData.h">HKInteractiveChartMinMaxData.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartNumberData.h">HKInteractiveChartNumberData.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartNumberFormatter.h">HKInteractiveChartNumberFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartSinglePointData.h">HKInteractiveChartSinglePointData.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartTimePeriodData.h">HKInteractiveChartTimePeriodData.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKInteractiveChartTimePeriodFormatter.h">HKInteractiveChartTimePeriodFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLandscapeSpecificQuantityFixedAxisScalingRule.h">HKLandscapeSpecificQuantityFixedAxisScalingRule.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLargePlainTextViewController.h">HKLargePlainTextViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLargeTitleNavigationBar.h">HKLargeTitleNavigationBar.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLastUpdatedDayCurrentValueDataProvider.h">HKLastUpdatedDayCurrentValueDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLastUpdatedDayDataProviderCurrentValue.h">HKLastUpdatedDayDataProviderCurrentValue.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLastUpdatedTimeDataProviderCurrentValue.h">HKLastUpdatedTimeDataProviderCurrentValue.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLegendEntry.h">HKLegendEntry.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLegendView.h">HKLegendView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLevelCategoryChartPoint.h">HKLevelCategoryChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLevelCategoryDataSource.h">HKLevelCategoryDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLevelCategoryTimePeriodSeries.h">HKLevelCategoryTimePeriodSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLineSeries.h">HKLineSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLineSeriesPresentationStyle.h">HKLineSeriesPresentationStyle.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLocationFetcher.h">HKLocationFetcher.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLocationReadings.h">HKLocationReadings.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLollipopController.h">HKLollipopController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKLookUpAppPrivacyPolicyURLOperation.h">HKLookUpAppPrivacyPolicyURLOperation.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKManualEntryValidationController.h">HKManualEntryValidationController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMapPointAnnotation.h">HKMapPointAnnotation.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMapRouteTableViewCell.h">HKMapRouteTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalIDCallToActionTableViewCell.h">HKMedicalIDCallToActionTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalIDEditorCell.h">HKMedicalIDEditorCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalIDEditorDateCell.h">HKMedicalIDEditorDateCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalIDEditorEmergencyContactCell.h">HKMedicalIDEditorEmergencyContactCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalIDEditorHeightCell.h">HKMedicalIDEditorHeightCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalIDEditorMultilineStringCell.h">HKMedicalIDEditorMultilineStringCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalIDEditorNameAndPhotoCell.h">HKMedicalIDEditorNameAndPhotoCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalIDEditorPickerCell.h">HKMedicalIDEditorPickerCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalIDEditorWeightCell.h">HKMedicalIDEditorWeightCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalIDNoValueTableViewCell.h">HKMedicalIDNoValueTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalIDPersonSummaryCell.h">HKMedicalIDPersonSummaryCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalIDRegisteredOrganDonorTableItem.h">HKMedicalIDRegisteredOrganDonorTableItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalIDViewController.h">HKMedicalIDViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalRecordChartDataSource.h">HKMedicalRecordChartDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalRecordChartPoint.h">HKMedicalRecordChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMedicalRecordChartSeries.h">HKMedicalRecordChartSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMinMaxCoordinate.h">HKMinMaxCoordinate.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMinMaxSeries.h">HKMinMaxSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMinimumSizeView.h">HKMinimumSizeView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMostRecentTimePeriodCurrentValueDataProvider.h">HKMostRecentTimePeriodCurrentValueDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMostRecentValueDataProvider.h">HKMostRecentValueDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMultiTouchPressGestureRecognizer.h">HKMultiTouchPressGestureRecognizer.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKMultilinePSTableCell.h">HKMultilinePSTableCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKNaturalScaleDistanceMeasurementFormatter.h">HKNaturalScaleDistanceMeasurementFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKNavigationController.h">HKNavigationController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKNumericAxis.h">HKNumericAxis.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKNumericAxisZeroOnly.h">HKNumericAxisZeroOnly.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKNumericChartPoint.h">HKNumericChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKNumericClampingAxisScalingRule.h">HKNumericClampingAxisScalingRule.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKNumericFixedAxisScalingRule.h">HKNumericFixedAxisScalingRule.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKNumericMinimumRangeAxisScalingRule.h">HKNumericMinimumRangeAxisScalingRule.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationAddressCell.h">HKOrganDonationAddressCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationAddressEntryItem.h">HKOrganDonationAddressEntryItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationAlreadyDonorViewController.h">HKOrganDonationAlreadyDonorViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationBaseViewController.h">HKOrganDonationBaseViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationCallToActionTableViewCell.h">HKOrganDonationCallToActionTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationConfirmDeleteViewController.h">HKOrganDonationConfirmDeleteViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationConfirmUpdateViewController.h">HKOrganDonationConfirmUpdateViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationConfirmationViewController.h">HKOrganDonationConfirmationViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationConnectionManager.h">HKOrganDonationConnectionManager.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationDeleteSuccessViewController.h">HKOrganDonationDeleteSuccessViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationIntroductionViewController.h">HKOrganDonationIntroductionViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationMoreAboutPrivacyViewController.h">HKOrganDonationMoreAboutPrivacyViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationRegisterViewController.h">HKOrganDonationRegisterViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationRegisteredTableViewCell.h">HKOrganDonationRegisteredTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationRegistrant.h">HKOrganDonationRegistrant.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationThankYouViewController.h">HKOrganDonationThankYouViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationUnderageViewController.h">HKOrganDonationUnderageViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOrganDonationUpdateSuccessViewController.h">HKOrganDonationUpdateSuccessViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOutsideViewTapDetector.h">HKOutsideViewTapDetector.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKOutstandingFetchOperationManager.h">HKOutstandingFetchOperationManager.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKParagraphTableViewCell.h">HKParagraphTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKPercentageDisplayTypeValueFormatter.h">HKPercentageDisplayTypeValueFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKPersonHeightFormatter.h">HKPersonHeightFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKPersonWeightFormatter.h">HKPersonWeightFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKPickerViewTitleMeasurer.h">HKPickerViewTitleMeasurer.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKPointLabelEngine.h">HKPointLabelEngine.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKPortraitLandscapeCompoundScalingRule.h">HKPortraitLandscapeCompoundScalingRule.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKProfileBarButtonItem.h">HKProfileBarButtonItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKPropertyAnimation.h">HKPropertyAnimation.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKPropertyAnimationApplier.h">HKPropertyAnimationApplier.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKQuantityDisplayTypeValueFormatter.h">HKQuantityDisplayTypeValueFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKQuantityFixedAxisScalingRule.h">HKQuantityFixedAxisScalingRule.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKQuantityMinimumRangeAxisScalingRule.h">HKQuantityMinimumRangeAxisScalingRule.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKQuantityRange.h">HKQuantityRange.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKQuantityTypeDataSource.h">HKQuantityTypeDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKQuantityTypeDataSourceValue.h">HKQuantityTypeDataSourceValue.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKRoundedHeaderView.h">HKRoundedHeaderView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKRouteMapGenerator.h">HKRouteMapGenerator.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKRouteView.h">HKRouteView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSampleTypeCountDataSource.h">HKSampleTypeCountDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSampleTypeDateRangeController.h">HKSampleTypeDateRangeController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSampleTypeUpdateController.h">HKSampleTypeUpdateController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKScalarGraphViewController.h">HKScalarGraphViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKScalarZoomScale.h">HKScalarZoomScale.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSelectedRangeData.h">HKSelectedRangeData.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSelectedRangeFormatter.h">HKSelectedRangeFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSelectedRangeLabel.h">HKSelectedRangeLabel.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSeparatorLineView.h">HKSeparatorLineView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSimpleDataEntryCell.h">HKSimpleDataEntryCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSimpleDataEntryDateItem.h">HKSimpleDataEntryDateItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSimpleDataEntryHeightItem.h">HKSimpleDataEntryHeightItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSimpleDataEntryItem.h">HKSimpleDataEntryItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSimpleDataEntryMultipleChoiceItem.h">HKSimpleDataEntryMultipleChoiceItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSimpleDataEntryPlainTextCell.h">HKSimpleDataEntryPlainTextCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSimpleDataEntryPlainTextItem.h">HKSimpleDataEntryPlainTextItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSimpleDataEntryWeightItem.h">HKSimpleDataEntryWeightItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSingleDailyValueQuantityTypeDataSource.h">HKSingleDailyValueQuantityTypeDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSleepAnalysisDataSource.h">HKSleepAnalysisDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSleepAnalysisDataSourceContext.h">HKSleepAnalysisDataSourceContext.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSleepChartPointUserInfo.h">HKSleepChartPointUserInfo.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSleepCurrentValueDataProvider.h">HKSleepCurrentValueDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSleepDataProviderCurrentValue.h">HKSleepDataProviderCurrentValue.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSleepDurationChartPoint.h">HKSleepDurationChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSleepDurationCoordinate.h">HKSleepDurationCoordinate.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSleepDurationSeries.h">HKSleepDurationSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSleepPeriodChartPoint.h">HKSleepPeriodChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSleepPeriodChartPointOffset.h">HKSleepPeriodChartPointOffset.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSleepPeriodSeries.h">HKSleepPeriodSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSleepUtilities.h">HKSleepUtilities.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSolidFillStyle.h">HKSolidFillStyle.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSourceAuthorizationController.h">HKSourceAuthorizationController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSourceAuthorizationFamilyViewController.h">HKSourceAuthorizationFamilyViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSourceIngestSettingsViewController.h">HKSourceIngestSettingsViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSplashScreenFeatureViewCell.h">HKSplashScreenFeatureViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSplashScreenItem.h">HKSplashScreenItem.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSplashScreenView.h">HKSplashScreenView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSplashScreenViewController.h">HKSplashScreenViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKStackedBarCoordinate.h">HKStackedBarCoordinate.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKStackedBarSeries.h">HKStackedBarSeries.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKStackedButtonView.h">HKStackedButtonView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKStackedCategoryValueSeriesCoordinate.h">HKStackedCategoryValueSeriesCoordinate.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKStaticDecimalPrecisionRule.h">HKStaticDecimalPrecisionRule.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKStickyHeaderFooterTableWrapperView.h">HKStickyHeaderFooterTableWrapperView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKStrokeStyle.h">HKStrokeStyle.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKSwitchTableViewCell.h">HKSwitchTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTabBarController.h">HKTabBarController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTableViewController.h">HKTableViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTableViewHeaderFooterView.h">HKTableViewHeaderFooterView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTickStyle.h">HKTickStyle.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTieredDecimalPrecisionRule.h">HKTieredDecimalPrecisionRule.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTimePeriodDisplayTypeValueFormatter.h">HKTimePeriodDisplayTypeValueFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTimePeriodNumberFormatter.h">HKTimePeriodNumberFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTimePeriodSeriesDataSource.h">HKTimePeriodSeriesDataSource.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTimeSinceStartOfDayNumberFormatter.h">HKTimeSinceStartOfDayNumberFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTitledBuddyHeaderView.h">HKTitledBuddyHeaderView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTitledBuddyViewController.h">HKTitledBuddyViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTitledContactBuddyHeaderView.h">HKTitledContactBuddyHeaderView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTitledIconHeaderView.h">HKTitledIconHeaderView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTitledLogoBuddyHeaderView.h">HKTitledLogoBuddyHeaderView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKTokenObfuscator.h">HKTokenObfuscator.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKUIConnectedGymIconUtilties.h">HKUIConnectedGymIconUtilties.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKUIDateLabel.h">HKUIDateLabel.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKUIInteractiveChartDateLabelSlider.h">HKUIInteractiveChartDateLabelSlider.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKUIMetricColors.h">HKUIMetricColors.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKUITodayCirclePulseBackground.h">HKUITodayCirclePulseBackground.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKUITodayCirclePulseView.h">HKUITodayCirclePulseView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKUnitPreferenceController.h">HKUnitPreferenceController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKValueDataProvider.h">HKValueDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKValueRange.h">HKValueRange.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKVerticalMarginView.h">HKVerticalMarginView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKViewController.h">HKViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKViewTableViewCell.h">HKViewTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKWorkoutDurationNumberFormatter.h">HKWorkoutDurationNumberFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKWorkoutEventDetailViewController.h">HKWorkoutEventDetailViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKWorkoutRouteTableViewController.h">HKWorkoutRouteTableViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HKWorkoutRouteViewController.h">HKWorkoutRouteViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HealthUIAWDHealthUIMetric5.h">HealthUIAWDHealthUIMetric5.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HealthUIAWDHealthUIOrganDonationErrorEvent.h">HealthUIAWDHealthUIOrganDonationErrorEvent.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HealthUIAWDHealthUIOrganDonationFlowImpressionEvent.h">HealthUIAWDHealthUIOrganDonationFlowImpressionEvent.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HealthUIAWDHealthUIRecordsCategoryInteractionEvent.h">HealthUIAWDHealthUIRecordsCategoryInteractionEvent.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HealthUIAWDHealthUIRecordsNumberOfAccountsQuery.h">HealthUIAWDHealthUIRecordsNumberOfAccountsQuery.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/HealthUIAWDHealthUIRecordsOnboardingEvent.h">HealthUIAWDHealthUIRecordsOnboardingEvent.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/WDGenericDataProviderSecondaryValue.h">WDGenericDataProviderSecondaryValue.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/WDHourlyActivitySummaryPage.h">WDHourlyActivitySummaryPage.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_DisclosureLabel.h">_DisclosureLabel.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_GradientPolylineRenderer.h">_GradientPolylineRenderer.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKActivityGoalSeriesBlockCoordinate.h">_HKActivityGoalSeriesBlockCoordinate.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKActivityItemProvider.h">_HKActivityItemProvider.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKAppImageManagerContainer.h">_HKAppImageManagerContainer.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKBaseBlockCoordinateList.h">_HKBaseBlockCoordinateList.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKBloodPressureCoordinate.h">_HKBloodPressureCoordinate.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKBloodPressureWrapper.h">_HKBloodPressureWrapper.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKCalendarDayCellIconConfiguration.h">_HKCalendarDayCellIconConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKChartCachePendingFetchOperationManager.h">_HKChartCachePendingFetchOperationManager.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKClinicalBulletedListLayoutManager.h">_HKClinicalBulletedListLayoutManager.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKCompoundBlockCoordinateList.h">_HKCompoundBlockCoordinateList.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKCustomInsetCellLayoutManager.h">_HKCustomInsetCellLayoutManager.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKDailySleepSeriesCoordinate.h">_HKDailySleepSeriesCoordinate.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKDataMetadataSimpleRow.h">_HKDataMetadataSimpleRow.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKDocumentImageView.h">_HKDocumentImageView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKEmergencyCardContactCell.h">_HKEmergencyCardContactCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKEmergencyContactRelationshipPicker.h">_HKEmergencyContactRelationshipPicker.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKGraphSeriesSecondaryRenderContextOffScreenRegion.h">_HKGraphSeriesSecondaryRenderContextOffScreenRegion.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKGraphViewAnnotationEntry.h">_HKGraphViewAnnotationEntry.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKGraphViewAxisAnnotationHandler.h">_HKGraphViewAxisAnnotationHandler.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKGraphViewSelectionContext.h">_HKGraphViewSelectionContext.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKGraphViewSeriesGroup.h">_HKGraphViewSeriesGroup.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKHorizontalSingleLineSeriesCoordinate.h">_HKHorizontalSingleLineSeriesCoordinate.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKHorizontalSingleLineSeriesMarkEntry.h">_HKHorizontalSingleLineSeriesMarkEntry.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKIngestSettingsViewController.h">_HKIngestSettingsViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKLegendDot.h">_HKLegendDot.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKLegendEntryView.h">_HKLegendEntryView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKLineSeriesBlockCoordinate.h">_HKLineSeriesBlockCoordinate.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKMedicalIDMultilineStringCell.h">_HKMedicalIDMultilineStringCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKMedicalRecordSeriesBlockCoordinate.h">_HKMedicalRecordSeriesBlockCoordinate.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKReportSegmentControl.h">_HKReportSegmentControl.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKReportTableViewCell.h">_HKReportTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKRoundedRectBuddyButton.h">_HKRoundedRectBuddyButton.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKSleepPeriodCoordinate.h">_HKSleepPeriodCoordinate.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKStaticDateGraphViewController.h">_HKStaticDateGraphViewController.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKStaticDecimalPrecisionNumberFormatter.h">_HKStaticDecimalPrecisionNumberFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKStretchableImage.h">_HKStretchableImage.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKTieredDecimalPrecisionNumberFormatter.h">_HKTieredDecimalPrecisionNumberFormatter.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_HKTimePeriodChartPoint.h">_HKTimePeriodChartPoint.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_IncrementalSearchOperation.h">_IncrementalSearchOperation.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_JavascriptOperation.h">_JavascriptOperation.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_SearchBarContent.h">_SearchBarContent.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_SearchEntryWithMatchDisplay.h">_SearchEntryWithMatchDisplay.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_SpacingView.h">_SpacingView.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_WDChartDataCacheControllerDisplayTypeTimeScopeTuple.h">_WDChartDataCacheControllerDisplayTypeTimeScopeTuple.h</a>
+<a href="/tree/PrivateFrameworks/HealthUI.framework/_WDSelectedRangeIcon.h">_WDSelectedRangeIcon.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

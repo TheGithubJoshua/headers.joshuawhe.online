@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HealthKit.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/Frameworks/HealthKit.framework/
+404 classes
+
+<a href="..">..</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKAccountOwner.h">HKAccountOwner.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKAccountOwnerType.h">HKAccountOwnerType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKActiveWatchFeatureAvailabilityDataSource.h">HKActiveWatchFeatureAvailabilityDataSource.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKActivityCache.h">HKActivityCache.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKActivitySummary.h">HKActivitySummary.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKActivitySummaryQuery.h">HKActivitySummaryQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKActivitySummaryQueryServerConfiguration.h">HKActivitySummaryQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKActivitySummaryType.h">HKActivitySummaryType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKAllergyReaction.h">HKAllergyReaction.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKAllergyRecord.h">HKAllergyRecord.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKAllergyRecordType.h">HKAllergyRecordType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKAnchoredObjectQuery.h">HKAnchoredObjectQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKAuthorizationRequestRecord.h">HKAuthorizationRequestRecord.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKBadge.h">HKBadge.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKBaseUnit.h">HKBaseUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKBeatToBeatInstantaneousBPM.h">HKBeatToBeatInstantaneousBPM.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKBiologicalSexObject.h">HKBiologicalSexObject.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKBloodTypeObject.h">HKBloodTypeObject.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKBundleLoadObserver.h">HKBundleLoadObserver.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCDADocument.h">HKCDADocument.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCDADocumentSample.h">HKCDADocumentSample.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCSVParser.h">HKCSVParser.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCategorySample.h">HKCategorySample.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCategoryType.h">HKCategoryType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCharacteristicType.h">HKCharacteristicType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKClinicalAccount.h">HKClinicalAccount.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKClinicalAccountLoginCompletionState.h">HKClinicalAccountLoginCompletionState.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKClinicalBrand.h">HKClinicalBrand.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKClinicalGateway.h">HKClinicalGateway.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKClinicalProvider.h">HKClinicalProvider.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKClinicalProviderSearchResult.h">HKClinicalProviderSearchResult.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKClinicalProviderSearchResultsPage.h">HKClinicalProviderSearchResultsPage.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKClinicalRecord.h">HKClinicalRecord.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKClinicalType.h">HKClinicalType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCodableCondensedWorkout.h">HKCodableCondensedWorkout.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCodableCondensedWorkoutCollection.h">HKCodableCondensedWorkoutCollection.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCodableQuantitySeries.h">HKCodableQuantitySeries.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCodableQuantitySeriesDatum.h">HKCodableQuantitySeriesDatum.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCodedQuantity.h">HKCodedQuantity.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCodedValue.h">HKCodedValue.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCodedValueCollection.h">HKCodedValueCollection.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKConditionRecord.h">HKConditionRecord.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKConditionRecordType.h">HKConditionRecordType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKConductanceUnit.h">HKConductanceUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCorrelation.h">HKCorrelation.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCorrelationQuery.h">HKCorrelationQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCorrelationType.h">HKCorrelationType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCumulativeQuantitySeriesSample.h">HKCumulativeQuantitySeriesSample.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCurrentActivityCacheQuery.h">HKCurrentActivityCacheQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKCurrentActivityCacheQueryServerConfiguration.h">HKCurrentActivityCacheQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKDataFlowLink.h">HKDataFlowLink.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKDateInterval.h">HKDateInterval.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKDecibelHearingLevelUnit.h">HKDecibelHearingLevelUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKDecibelSPLUnit.h">HKDecibelSPLUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKDeletedObject.h">HKDeletedObject.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKDevice.h">HKDevice.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKDiagnosticTestReport.h">HKDiagnosticTestReport.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKDiagnosticTestReportType.h">HKDiagnosticTestReportType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKDiagnosticTestResult.h">HKDiagnosticTestResult.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKDiagnosticTestResultType.h">HKDiagnosticTestResultType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKDiscreteQuantitySeriesSample.h">HKDiscreteQuantitySeriesSample.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKDocumentQuery.h">HKDocumentQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKDocumentSample.h">HKDocumentSample.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKDocumentType.h">HKDocumentType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKEADFFileParser.h">HKEADFFileParser.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKElectrocardiogram.h">HKElectrocardiogram.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKElectrocardiogramBuilder.h">HKElectrocardiogramBuilder.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKElectrocardiogramSession.h">HKElectrocardiogramSession.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKElectrocardiogramSessionConfiguration.h">HKElectrocardiogramSessionConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKElectrocardiogramSessionTaskConfiguration.h">HKElectrocardiogramSessionTaskConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKElectrocardiogramType.h">HKElectrocardiogramType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKEnergyUnit.h">HKEnergyUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKEquivalentsUnit.h">HKEquivalentsUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKExtendedHealthStore.h">HKExtendedHealthStore.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFHIRIdentifier.h">HKFHIRIdentifier.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFHIRResource.h">HKFHIRResource.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityActiveWatchAtrialFibrillationDetectionVersionEqualsRule.h">HKFeatureAvailabilityActiveWatchAtrialFibrillationDetectionVersionEqualsRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityActiveWatchAtrialFibrillationDetectionVersionGreaterThanRule.h">HKFeatureAvailabilityActiveWatchAtrialFibrillationDetectionVersionGreaterThanRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityActiveWatchAtrialFibrillationDetectionVersionLessThanRule.h">HKFeatureAvailabilityActiveWatchAtrialFibrillationDetectionVersionLessThanRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityActiveWatchElectrocardiogramVersionEqualsRule.h">HKFeatureAvailabilityActiveWatchElectrocardiogramVersionEqualsRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityActiveWatchElectrocardiogramVersionGreaterThanRule.h">HKFeatureAvailabilityActiveWatchElectrocardiogramVersionGreaterThanRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityActiveWatchElectrocardiogramVersionLessThanRule.h">HKFeatureAvailabilityActiveWatchElectrocardiogramVersionLessThanRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityAlwaysFalseRule.h">HKFeatureAvailabilityAlwaysFalseRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityAlwaysTrueRule.h">HKFeatureAvailabilityAlwaysTrueRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityAtrialFibrillationOnboardingCountryCodeRule.h">HKFeatureAvailabilityAtrialFibrillationOnboardingCountryCodeRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityBaseRule.h">HKFeatureAvailabilityBaseRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityCompoundRule.h">HKFeatureAvailabilityCompoundRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityElectrocardiogramOnboardingCountryCodeRule.h">HKFeatureAvailabilityElectrocardiogramOnboardingCountryCodeRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityRuleSet.h">HKFeatureAvailabilityRuleSet.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityWatchBuildTypeEqualsRule.h">HKFeatureAvailabilityWatchBuildTypeEqualsRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityWatchModelNumberHasPrefixRule.h">HKFeatureAvailabilityWatchModelNumberHasPrefixRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityWatchOSBuildVersionEqualsRule.h">HKFeatureAvailabilityWatchOSBuildVersionEqualsRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityWatchOSBuildVersionGreaterThanRule.h">HKFeatureAvailabilityWatchOSBuildVersionGreaterThanRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityWatchOSBuildVersionLessThanRule.h">HKFeatureAvailabilityWatchOSBuildVersionLessThanRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityWatchOSVersionEqualsRule.h">HKFeatureAvailabilityWatchOSVersionEqualsRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityWatchOSVersionGreaterThanRule.h">HKFeatureAvailabilityWatchOSVersionGreaterThanRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityWatchOSVersionLessThanRule.h">HKFeatureAvailabilityWatchOSVersionLessThanRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityWatchProductTypeHasPrefixRule.h">HKFeatureAvailabilityWatchProductTypeHasPrefixRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFeatureAvailabilityWatchRegionEqualsRule.h">HKFeatureAvailabilityWatchRegionEqualsRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFitzpatrickSkinTypeObject.h">HKFitzpatrickSkinTypeObject.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKFrequencyUnit.h">HKFrequencyUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKGymKitDataSource.h">HKGymKitDataSource.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKGymKitMetricsDataSource.h">HKGymKitMetricsDataSource.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthKitControlTaskClient.h">HKHealthKitControlTaskClient.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthKitControlTaskServerConfiguration.h">HKHealthKitControlTaskServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthRecordsStore.h">HKHealthRecordsStore.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthService.h">HKHealthService.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthServiceDiscovery.h">HKHealthServiceDiscovery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthServiceSession.h">HKHealthServiceSession.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthServicesManager.h">HKHealthServicesManager.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthStore.h">HKHealthStore.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthWrapCodableKeyValue.h">HKHealthWrapCodableKeyValue.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthWrapCodableMessageHeader.h">HKHealthWrapCodableMessageHeader.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthWrapCodableMessageKey.h">HKHealthWrapCodableMessageKey.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthWrapCodablePayloadHeader.h">HKHealthWrapCodablePayloadHeader.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthWrapCodableValue.h">HKHealthWrapCodableValue.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthWrapEncryptor.h">HKHealthWrapEncryptor.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthWrapMessage.h">HKHealthWrapMessage.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHealthWrapMessageConfiguration.h">HKHealthWrapMessageConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHeartRateSummary.h">HKHeartRateSummary.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHeartRateSummaryBreatheStatistics.h">HKHeartRateSummaryBreatheStatistics.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHeartRateSummaryQuery.h">HKHeartRateSummaryQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHeartRateSummaryReading.h">HKHeartRateSummaryReading.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHeartRateSummaryStatistics.h">HKHeartRateSummaryStatistics.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHeartRateSummaryStatisticsBucket.h">HKHeartRateSummaryStatisticsBucket.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHeartRateSummaryWorkoutRecoveryStatistics.h">HKHeartRateSummaryWorkoutRecoveryStatistics.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHeartRateSummaryWorkoutStatistics.h">HKHeartRateSummaryWorkoutStatistics.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHeartRateVariabilityUtilities.h">HKHeartRateVariabilityUtilities.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHeartRhythmAvailability.h">HKHeartRhythmAvailability.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHeartbeatSequenceSample.h">HKHeartbeatSequenceSample.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKHeartbeatSequenceSampleType.h">HKHeartbeatSequenceSampleType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKInspectableValue.h">HKInspectableValue.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKInspectableValueCollection.h">HKInspectableValueCollection.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKInspectableValueInRange.h">HKInspectableValueInRange.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKJSONValidator.h">HKJSONValidator.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKJSONVisitor.h">HKJSONVisitor.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKKeyValueDomain.h">HKKeyValueDomain.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKKeyValueDomainServerConfiguration.h">HKKeyValueDomainServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKLengthUnit.h">HKLengthUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKLiveWorkoutBuilder.h">HKLiveWorkoutBuilder.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKLiveWorkoutDataSource.h">HKLiveWorkoutDataSource.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMassUnit.h">HKMassUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicalCoding.h">HKMedicalCoding.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicalCodingCollection.h">HKMedicalCodingCollection.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicalCodingResult.h">HKMedicalCodingResult.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicalCodingSystem.h">HKMedicalCodingSystem.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicalCodingTask.h">HKMedicalCodingTask.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicalConcept.h">HKMedicalConcept.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicalDate.h">HKMedicalDate.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicalDateInterval.h">HKMedicalDateInterval.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicalRecord.h">HKMedicalRecord.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicalRecordIndexController.h">HKMedicalRecordIndexController.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicalRecordSearchController.h">HKMedicalRecordSearchController.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicalType.h">HKMedicalType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicationDispenseRecord.h">HKMedicationDispenseRecord.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicationDispenseRecordType.h">HKMedicationDispenseRecordType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicationDosage.h">HKMedicationDosage.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicationOrder.h">HKMedicationOrder.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicationOrderType.h">HKMedicationOrderType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicationRecord.h">HKMedicationRecord.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMedicationRecordType.h">HKMedicationRecordType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMobileCountryCodeManager.h">HKMobileCountryCodeManager.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKMoleUnit.h">HKMoleUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKNanoSyncPairedDeviceInfo.h">HKNanoSyncPairedDeviceInfo.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKNanoSyncPairedDevicesSnapshot.h">HKNanoSyncPairedDevicesSnapshot.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKNonConvertibleIUUnit.h">HKNonConvertibleIUUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKOAuth2Credential.h">HKOAuth2Credential.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKOAuth2TokenSession.h">HKOAuth2TokenSession.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKObject.h">HKObject.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKObjectAuthorizationPromptSession.h">HKObjectAuthorizationPromptSession.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKObjectType.h">HKObjectType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKObserverQuery.h">HKObserverQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKObserverSet.h">HKObserverSet.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKPPT.h">HKPPT.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKPPTPluginManager.h">HKPPTPluginManager.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKPersistentTimer.h">HKPersistentTimer.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKPluginProxyProvider.h">HKPluginProxyProvider.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKPotentiallyNonConvertibleMassUnit.h">HKPotentiallyNonConvertibleMassUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKPressureUnit.h">HKPressureUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKProcedureRecord.h">HKProcedureRecord.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKProcedureRecordType.h">HKProcedureRecordType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKProductVersions.h">HKProductVersions.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKProfileIdentifier.h">HKProfileIdentifier.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKProxyProvider.h">HKProxyProvider.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKQuantity.h">HKQuantity.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKQuantitySample.h">HKQuantitySample.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKQuantitySeriesSampleBuilder.h">HKQuantitySeriesSampleBuilder.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKQuantitySeriesSampleBuilderTaskServerConfiguration.h">HKQuantitySeriesSampleBuilderTaskServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKQuantitySeriesSampleQuery.h">HKQuantitySeriesSampleQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKQuantityType.h">HKQuantityType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKQuery.h">HKQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKQueryAnchor.h">HKQueryAnchor.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKQueryServerConfiguration.h">HKQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKQueryServerProxyProvider.h">HKQueryServerProxyProvider.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKRatioValue.h">HKRatioValue.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKReferenceRange.h">HKReferenceRange.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSample.h">HKSample.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSampleCountQuery.h">HKSampleCountQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSampleQuery.h">HKSampleQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSampleType.h">HKSampleType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKScalarUnit.h">HKScalarUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSemanticDate.h">HKSemanticDate.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSeriesBuilder.h">HKSeriesBuilder.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSeriesBuilderConfiguration.h">HKSeriesBuilderConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSeriesSample.h">HKSeriesSample.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSeriesType.h">HKSeriesType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKServerConfiguration.h">HKServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSleepAnalysis.h">HKSleepAnalysis.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSleepAnalysisUtilities.h">HKSleepAnalysisUtilities.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSleepDay.h">HKSleepDay.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSleepPeriod.h">HKSleepPeriod.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSleepPeriodSegment.h">HKSleepPeriodSegment.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSleepQuery.h">HKSleepQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSortedSampleArray.h">HKSortedSampleArray.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSource.h">HKSource.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSourceQuery.h">HKSourceQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSourceRevision.h">HKSourceRevision.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKStateMachine.h">HKStateMachine.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKStateMachinePendingEvent.h">HKStateMachinePendingEvent.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKStateMachineState.h">HKStateMachineState.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKStateMachineTransition.h">HKStateMachineTransition.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKStatistics.h">HKStatistics.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKStatisticsCollection.h">HKStatisticsCollection.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKStatisticsCollectionQuery.h">HKStatisticsCollectionQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKStatisticsQuery.h">HKStatisticsQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKSynchronousObserverSet.h">HKSynchronousObserverSet.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKTableFormatter.h">HKTableFormatter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKTaskConfiguration.h">HKTaskConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKTaskServerProxyProvider.h">HKTaskServerProxyProvider.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKTemperatureUnit.h">HKTemperatureUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKTimeUnit.h">HKTimeUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKTiterUnit.h">HKTiterUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKUCUMUnitDisplayConverter.h">HKUCUMUnitDisplayConverter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKUnit.h">HKUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKUnknownRecord.h">HKUnknownRecord.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKUnknownRecordType.h">HKUnknownRecordType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKVaccinationRecord.h">HKVaccinationRecord.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKVaccinationRecordType.h">HKVaccinationRecordType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKVolumeUnit.h">HKVolumeUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWheelchairUseObject.h">HKWheelchairUseObject.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkout.h">HKWorkout.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkoutBuilder.h">HKWorkoutBuilder.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkoutBuilderConfiguration.h">HKWorkoutBuilderConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkoutBuilderSampleQuery.h">HKWorkoutBuilderSampleQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkoutConfiguration.h">HKWorkoutConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkoutDataSource.h">HKWorkoutDataSource.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkoutDataSourceConfiguration.h">HKWorkoutDataSourceConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkoutEvent.h">HKWorkoutEvent.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkoutRoute.h">HKWorkoutRoute.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkoutRouteBuilder.h">HKWorkoutRouteBuilder.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkoutRouteDataSource.h">HKWorkoutRouteDataSource.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkoutRouteQuery.h">HKWorkoutRouteQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkoutSession.h">HKWorkoutSession.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkoutSessionTaskConfiguration.h">HKWorkoutSessionTaskConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/HKWorkoutType.h">HKWorkoutType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKActivityCacheIndexFilter.h">_HKActivityCacheIndexFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKActivityStatisticsQuantityInfo.h">_HKActivityStatisticsQuantityInfo.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKActivityStatisticsQuery.h">_HKActivityStatisticsQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKActivityStatisticsQueryServerConfiguration.h">_HKActivityStatisticsQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKActivityStatisticsStandHourInfo.h">_HKActivityStatisticsStandHourInfo.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKActivityStatisticsWorkoutInfo.h">_HKActivityStatisticsWorkoutInfo.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKAnchoredObjectQueryBlockObserver.h">_HKAnchoredObjectQueryBlockObserver.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKAnchoredObjectQueryManager.h">_HKAnchoredObjectQueryManager.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKAnchoredObjectQueryServerConfiguration.h">_HKAnchoredObjectQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKAppURLSpecification.h">_HKAppURLSpecification.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKAppleWatchSampleFilter.h">_HKAppleWatchSampleFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKArchiveCreator.h">_HKArchiveCreator.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKAssociationFilter.h">_HKAssociationFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKAuthorizationRecord.h">_HKAuthorizationRecord.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKBaseDimension.h">_HKBaseDimension.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKBedtimeAlarm.h">_HKBedtimeAlarm.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKBehavior.h">_HKBehavior.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKBooleanFilter.h">_HKBooleanFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCDADocumentExtractedFields.h">_HKCDADocumentExtractedFields.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCDADocumentFieldFilter.h">_HKCDADocumentFieldFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGCharacterSequenceTerminal.h">_HKCFGCharacterSequenceTerminal.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGCharacterTerminal.h">_HKCFGCharacterTerminal.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGDoubleTerminal.h">_HKCFGDoubleTerminal.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGEmptyStringNode.h">_HKCFGEmptyStringNode.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGExpression.h">_HKCFGExpression.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGIntegerTerminal.h">_HKCFGIntegerTerminal.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGNode.h">_HKCFGNode.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGNodeCache.h">_HKCFGNodeCache.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGNonTerminal.h">_HKCFGNonTerminal.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGNonTerminalNode.h">_HKCFGNonTerminalNode.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGParseContext.h">_HKCFGParseContext.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGReplacementRule.h">_HKCFGReplacementRule.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGStringTerminal.h">_HKCFGStringTerminal.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGTerminal.h">_HKCFGTerminal.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCFGTerminalNode.h">_HKCFGTerminalNode.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCategoryValueFilter.h">_HKCategoryValueFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKComparisonMetadataFilter.h">_HKComparisonMetadataFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCompoundDimension.h">_HKCompoundDimension.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCompoundFilter.h">_HKCompoundFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCompoundUnit.h">_HKCompoundUnit.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCompressionEngine.h">_HKCompressionEngine.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKContainsMetadataFilter.h">_HKContainsMetadataFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKContextFreeGrammar.h">_HKContextFreeGrammar.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCorrelationFilter.h">_HKCorrelationFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCorrelationPlaceholder.h">_HKCorrelationPlaceholder.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCorrelationQueryServerConfiguration.h">_HKCorrelationQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCreationDateFilter.h">_HKCreationDateFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCurrentActivitySummaryQuery.h">_HKCurrentActivitySummaryQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCurrentActivitySummaryQueryServerConfiguration.h">_HKCurrentActivitySummaryQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKCurrentWorkoutSnapshot.h">_HKCurrentWorkoutSnapshot.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKDaemonPreferences.h">_HKDaemonPreferences.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKDateCalendarUnitKey.h">_HKDateCalendarUnitKey.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKDateIntervalCollection.h">_HKDateIntervalCollection.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKDateRangeQuery.h">_HKDateRangeQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKDeepBreathingSession.h">_HKDeepBreathingSession.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKDeepBreathingSessionConfiguration.h">_HKDeepBreathingSessionConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKDelayedOperation.h">_HKDelayedOperation.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKDeviceFilter.h">_HKDeviceFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKDevicePropertyFilter.h">_HKDevicePropertyFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKDiagnosticTestResultCategoryFilter.h">_HKDiagnosticTestResultCategoryFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKDimension.h">_HKDimension.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKDocumentQueryServerConfiguration.h">_HKDocumentQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKEmergencyContact.h">_HKEmergencyContact.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKEmergencyContactWrapper.h">_HKEmergencyContactWrapper.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKEndDateFilter.h">_HKEndDateFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKEntitlements.h">_HKEntitlements.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKExpiringCompletionTimer.h">_HKExpiringCompletionTimer.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKFHIRResourceIdentifierFilter.h">_HKFHIRResourceIdentifierFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKFHIRResourceResourceTypeFilter.h">_HKFHIRResourceResourceTypeFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKFactorization.h">_HKFactorization.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKFilter.h">_HKFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKFirstPartyWorkoutSnapshot.h">_HKFirstPartyWorkoutSnapshot.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKFitnessFriendAchievement.h">_HKFitnessFriendAchievement.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKFitnessFriendActivitySnapshot.h">_HKFitnessFriendActivitySnapshot.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKFitnessFriendWorkout.h">_HKFitnessFriendWorkout.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKFitnessMachine.h">_HKFitnessMachine.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKFitnessMachineConnection.h">_HKFitnessMachineConnection.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKFitnessMachineConnectionInitiator.h">_HKFitnessMachineConnectionInitiator.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKFitnessMachineSessionConfiguration.h">_HKFitnessMachineSessionConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKHeartRateHistogramData.h">_HKHeartRateHistogramData.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKHeartRateHistogramQuery.h">_HKHeartRateHistogramQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKHeartRateHistogramQueryServerConfiguration.h">_HKHeartRateHistogramQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKHeartSettingsUtilities.h">_HKHeartSettingsUtilities.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKIdentifierLookupTable.h">_HKIdentifierLookupTable.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKLatestSummariesQuery.h">_HKLatestSummariesQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKLatestSummariesQueryServerConfiguration.h">_HKLatestSummariesQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKLocationShifter.h">_HKLocationShifter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKMedicalIDData.h">_HKMedicalIDData.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKMedicalRecordSortDateFilter.h">_HKMedicalRecordSortDateFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKMessageStreamReader.h">_HKMessageStreamReader.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKMessageStreamWriter.h">_HKMessageStreamWriter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKMetadataFilter.h">_HKMetadataFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKMobileAssetDownloadManager.h">_HKMobileAssetDownloadManager.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKMobileAssetDownloadOperation.h">_HKMobileAssetDownloadOperation.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKMutableFactorization.h">_HKMutableFactorization.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKObserverRecord.h">_HKObserverRecord.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKProductTypeObjectFilter.h">_HKProductTypeObjectFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKPropertyComparisonFilter.h">_HKPropertyComparisonFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKQuantityFilter.h">_HKQuantityFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKQuantitySeriesSampleQueryServerConfiguration.h">_HKQuantitySeriesSampleQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKQueryUtilities.h">_HKQueryUtilities.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKSampleCountQueryServerConfiguration.h">_HKSampleCountQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKSampleQueryConfiguration.h">_HKSampleQueryConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKSampleQueryResult.h">_HKSampleQueryResult.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKSampleQueryUtility.h">_HKSampleQueryUtility.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKSampleTypeQuery.h">_HKSampleTypeQuery.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKSleepQueryResult.h">_HKSleepQueryResult.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKSleepQueryResultBuilder.h">_HKSleepQueryResultBuilder.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKSourceFilter.h">_HKSourceFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKSourceRevisionFilter.h">_HKSourceRevisionFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKSourceUISupport.h">_HKSourceUISupport.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKStartDateFilter.h">_HKStartDateFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKStatisticsCollectionQueryServerConfiguration.h">_HKStatisticsCollectionQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKStatisticsQueryServerConfiguration.h">_HKStatisticsQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKStringFilter.h">_HKStringFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKStringSample.h">_HKStringSample.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKStringSampleType.h">_HKStringSampleType.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKSummary.h">_HKSummary.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKTaskCompletionCounter.h">_HKTaskCompletionCounter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKTimePeriod.h">_HKTimePeriod.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKUUIDFilter.h">_HKUUIDFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKValidationErrorTracker.h">_HKValidationErrorTracker.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWeakObserversMap.h">_HKWeakObserversMap.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWeightedAverageBuilder.h">_HKWeightedAverageBuilder.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWeightedAverageCalculator.h">_HKWeightedAverageCalculator.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWeightedAverageStatistics.h">_HKWeightedAverageStatistics.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWheelchairUseCharacteristicCache.h">_HKWheelchairUseCharacteristicCache.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWorkoutActivityTypeFilter.h">_HKWorkoutActivityTypeFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWorkoutBuilderSampleQueryConfiguration.h">_HKWorkoutBuilderSampleQueryConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWorkoutDurationFilter.h">_HKWorkoutDurationFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWorkoutEvent.h">_HKWorkoutEvent.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWorkoutFilter.h">_HKWorkoutFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWorkoutGoalFilter.h">_HKWorkoutGoalFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWorkoutGoalTypeFilter.h">_HKWorkoutGoalTypeFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWorkoutRecoveryHeartRateQueryUtility.h">_HKWorkoutRecoveryHeartRateQueryUtility.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWorkoutRouteQueryServerConfiguration.h">_HKWorkoutRouteQueryServerConfiguration.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWorkoutRouteStore.h">_HKWorkoutRouteStore.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWorkoutTotalDistanceFilter.h">_HKWorkoutTotalDistanceFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWorkoutTotalEnergyBurnedFilter.h">_HKWorkoutTotalEnergyBurnedFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWorkoutTotalFlightsClimbedFilter.h">_HKWorkoutTotalFlightsClimbedFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKWorkoutTotalSwimmingStrokeCountFilter.h">_HKWorkoutTotalSwimmingStrokeCountFilter.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKXMLExtractor.h">_HKXMLExtractor.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKXMLExtractorElement.h">_HKXMLExtractorElement.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKXMLExtractorSpecification.h">_HKXMLExtractorSpecification.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKXMLTranslator.h">_HKXMLTranslator.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKXMLValidator.h">_HKXMLValidator.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKXPCConnection.h">_HKXPCConnection.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKXPCExportedObjectProxy.h">_HKXPCExportedObjectProxy.h</a>
+<a href="/tree/Frameworks/HealthKit.framework/_HKZipArchiveExtractor.h">_HKZipArchiveExtractor.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

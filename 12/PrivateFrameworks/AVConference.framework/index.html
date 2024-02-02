@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>AVConference.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/PrivateFrameworks/AVConference.framework/
+318 classes
+
+<a href="..">..</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVAudioClient.h">AVAudioClient.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVAudioDevice.h">AVAudioDevice.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVAudioDeviceList.h">AVAudioDeviceList.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCAudioPowerSpectrum.h">AVCAudioPowerSpectrum.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCAudioPowerSpectrumBin.h">AVCAudioPowerSpectrumBin.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCAudioPowerSpectrumChannel.h">AVCAudioPowerSpectrumChannel.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCAudioPowerSpectrumMeter.h">AVCAudioPowerSpectrumMeter.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCAudioStream.h">AVCAudioStream.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCAudioStreamConfig.h">AVCAudioStreamConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCBasebandCongestionDetector.h">AVCBasebandCongestionDetector.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCCaptionsClient.h">AVCCaptionsClient.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCCaptionsConfig.h">AVCCaptionsConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCCaptionsResult.h">AVCCaptionsResult.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCCaptionsToken.h">AVCCaptionsToken.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCEffects.h">AVCEffects.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCMediaStreamConfig.h">AVCMediaStreamConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCMoments.h">AVCMoments.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCMomentsRequest.h">AVCMomentsRequest.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCNetworkAddress.h">AVCNetworkAddress.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCPacketFilter.h">AVCPacketFilter.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCPacketFilterRTP.h">AVCPacketFilterRTP.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCPacketRelay.h">AVCPacketRelay.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCPacketRelayConnection.h">AVCPacketRelayConnection.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCPacketRelayDriver.h">AVCPacketRelayDriver.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCPacketRelayIDSConnection.h">AVCPacketRelayIDSConnection.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCPacketRelaySocketConnection.h">AVCPacketRelaySocketConnection.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCRTCPPacket.h">AVCRTCPPacket.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCRTCPReceiverReport.h">AVCRTCPReceiverReport.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCRTCPSenderReport.h">AVCRTCPSenderReport.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCRTCPSourceDescription.h">AVCRTCPSourceDescription.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCRateControlFeedbackController.h">AVCRateControlFeedbackController.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCRateController.h">AVCRateController.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCRemoteVideoClient.h">AVCRemoteVideoClient.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCSession.h">AVCSession.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCSessionConfiguration.h">AVCSessionConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCSessionParticipant.h">AVCSessionParticipant.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCStatisticsCollector.h">AVCStatisticsCollector.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCTextStream.h">AVCTextStream.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCTextStreamConfig.h">AVCTextStreamConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCVideoFrame.h">AVCVideoFrame.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCVideoStream.h">AVCVideoStream.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCVideoStreamConfig.h">AVCVideoStreamConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVCVirtualTTYDevice.h">AVCVirtualTTYDevice.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVConference.h">AVConference.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVConferenceCallState.h">AVConferenceCallState.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVConferencePreview.h">AVConferencePreview.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVConferenceXPCClient.h">AVConferenceXPCClient.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVConferenceXPCServer.h">AVConferenceXPCServer.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVInternalDeviceList.h">AVInternalDeviceList.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVPingTest.h">AVPingTest.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/AVTelephonyInterface.h">AVTelephonyInterface.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/BitrateLimits.h">BitrateLimits.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/CameraConferenceSynchronizer.h">CameraConferenceSynchronizer.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/CannedAVSync.h">CannedAVSync.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/CannedAudioInjector.h">CannedAudioInjector.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/CannedEncodedVideoCapture.h">CannedEncodedVideoCapture.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/CannedRawVideoCapture.h">CannedRawVideoCapture.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/CannedVideoCapture.h">CannedVideoCapture.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/DTMFEventHandler.h">DTMFEventHandler.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/FFTMeter.h">FFTMeter.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/GKInterfaceListener.h">GKInterfaceListener.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/GKNATObserver.h">GKNATObserver.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/GKNATObserverInternal.h">GKNATObserverInternal.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/GKNATObserver_SCContext.h">GKNATObserver_SCContext.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/GKRingBuffer.h">GKRingBuffer.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/GKSConnectivitySettings.h">GKSConnectivitySettings.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/GKVoiceChatError.h">GKVoiceChatError.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/HandleWrapper.h">HandleWrapper.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/ICEResultQuery.h">ICEResultQuery.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/ICEResultWaitQueue.h">ICEResultWaitQueue.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/IPPortWrapper.h">IPPortWrapper.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/IPv6PrefixWrapper.h">IPv6PrefixWrapper.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/LogDumpUtility.h">LogDumpUtility.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/LoopbackSocketTunnel.h">LoopbackSocketTunnel.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/NetworkUtils.h">NetworkUtils.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/SDPMediaLine.h">SDPMediaLine.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/SDPMini.h">SDPMini.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/SDPParser.h">SDPParser.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/SIPClientDataDictionary.h">SIPClientDataDictionary.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/SenderLargeFrameInfo.h">SenderLargeFrameInfo.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/SnapshotTimer.h">SnapshotTimer.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/SuddenChangeParameters.h">SuddenChangeParameters.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/TCPBufferPool.h">TCPBufferPool.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/TCPTunnelClient.h">TCPTunnelClient.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAVFoundationCapture.h">VCAVFoundationCapture.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioClient.h">VCAudioClient.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioClientManager.h">VCAudioClientManager.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioIO.h">VCAudioIO.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioIOControllerClient.h">VCAudioIOControllerClient.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioManager.h">VCAudioManager.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioPayload.h">VCAudioPayload.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioPayloadConfig.h">VCAudioPayloadConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioPowerLevelMonitor.h">VCAudioPowerLevelMonitor.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioPowerSpectrum.h">VCAudioPowerSpectrum.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioPowerSpectrumBin.h">VCAudioPowerSpectrumBin.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioPowerSpectrumManager.h">VCAudioPowerSpectrumManager.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioPowerSpectrumMeter.h">VCAudioPowerSpectrumMeter.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioPowerSpectrumSource.h">VCAudioPowerSpectrumSource.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioRedBuilder.h">VCAudioRedBuilder.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioRelay.h">VCAudioRelay.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioRelayIO.h">VCAudioRelayIO.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioRelayIOController.h">VCAudioRelayIOController.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioRule.h">VCAudioRule.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioRuleCollection.h">VCAudioRuleCollection.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioSession.h">VCAudioSession.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioSessionClient.h">VCAudioSessionClient.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioSessionMediaProperties.h">VCAudioSessionMediaProperties.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioStream.h">VCAudioStream.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioStreamCodecConfig.h">VCAudioStreamCodecConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioStreamConfig.h">VCAudioStreamConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioStreamTransport.h">VCAudioStreamTransport.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioTier.h">VCAudioTier.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioTierPicker.h">VCAudioTierPicker.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioTransmitter.h">VCAudioTransmitter.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioTransmitterConfig.h">VCAudioTransmitterConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCAudioUnitProperties.h">VCAudioUnitProperties.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCBasebandMetrics.h">VCBasebandMetrics.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCBitrateArbiter.h">VCBitrateArbiter.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCBitrateRule.h">VCBitrateRule.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCCallInfo.h">VCCallInfo.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCCallInfoBlob.h">VCCallInfoBlob.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCCallLinkCongestionDetector.h">VCCallLinkCongestionDetector.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCCallSession.h">VCCallSession.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCCameraPreview.h">VCCameraPreview.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCCameraTorchManager.h">VCCameraTorchManager.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCCapabilities.h">VCCapabilities.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCCaptionsClientContext.h">VCCaptionsClientContext.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCCaptionsManager.h">VCCaptionsManager.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCCaptionsManagerStreamTokenClientList.h">VCCaptionsManagerStreamTokenClientList.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCCaptionsReceiver.h">VCCaptionsReceiver.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCCaptionsSegment.h">VCCaptionsSegment.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCCaptionsTranscription.h">VCCaptionsTranscription.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCClientRelay.h">VCClientRelay.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCConnectionHealthMonitor.h">VCConnectionHealthMonitor.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCConnectionIDS.h">VCConnectionIDS.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCConnectionLegacy.h">VCConnectionLegacy.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCConnectionManager.h">VCConnectionManager.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCConnectionManagerIDS.h">VCConnectionManagerIDS.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCConnectionManagerLegacy.h">VCConnectionManagerLegacy.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCControlChannel.h">VCControlChannel.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCControlChannelDialog.h">VCControlChannelDialog.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCControlChannelFaceTime.h">VCControlChannelFaceTime.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCControlChannelMultiWay.h">VCControlChannelMultiWay.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCControlChannelTransaction.h">VCControlChannelTransaction.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCCryptoInfo.h">VCCryptoInfo.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCDatagramChannelIDS.h">VCDatagramChannelIDS.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCDatagramChannelManager.h">VCDatagramChannelManager.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCDefaults.h">VCDefaults.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCDispatchQueue.h">VCDispatchQueue.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCDispatchTimer.h">VCDispatchTimer.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCEffects.h">VCEffects.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCEffectsManager.h">VCEffectsManager.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCFigAssetWriter.h">VCFigAssetWriter.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCHardwareSettings.h">VCHardwareSettings.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCHardwareSettingsEmbedded.h">VCHardwareSettingsEmbedded.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCIDRScheduler.h">VCIDRScheduler.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCIDRSchedulerItem.h">VCIDRSchedulerItem.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCIDRSchedulerPeriodGroup.h">VCIDRSchedulerPeriodGroup.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCIDRSchedulerStream.h">VCIDRSchedulerStream.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCIDSSessionInfoSynchronizer.h">VCIDSSessionInfoSynchronizer.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCImageAttributeRules.h">VCImageAttributeRules.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCImageQueue.h">VCImageQueue.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMasterKeyIndex.h">VCMasterKeyIndex.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaControlInfo.h">VCMediaControlInfo.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaControlInfoFaceTimeAudio.h">VCMediaControlInfoFaceTimeAudio.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaControlInfoFaceTimeVideo.h">VCMediaControlInfoFaceTimeVideo.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaControlInfoGenerator.h">VCMediaControlInfoGenerator.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaControlInfoIPCamera.h">VCMediaControlInfoIPCamera.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaControlInfoMultiwayAudio.h">VCMediaControlInfoMultiwayAudio.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiationBlob.h">VCMediaNegotiationBlob.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiationBlobAudioSettings.h">VCMediaNegotiationBlobAudioSettings.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiationBlobBandwidthSettings.h">VCMediaNegotiationBlobBandwidthSettings.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiationBlobCaptionsSettings.h">VCMediaNegotiationBlobCaptionsSettings.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiationBlobMomentsSettings.h">VCMediaNegotiationBlobMomentsSettings.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiationBlobMultiwayAudioStream.h">VCMediaNegotiationBlobMultiwayAudioStream.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiationBlobMultiwayVideoStream.h">VCMediaNegotiationBlobMultiwayVideoStream.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiationBlobVideoPayloadSettings.h">VCMediaNegotiationBlobVideoPayloadSettings.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiationBlobVideoRuleCollection.h">VCMediaNegotiationBlobVideoRuleCollection.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiationBlobVideoSettings.h">VCMediaNegotiationBlobVideoSettings.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiator.h">VCMediaNegotiator.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiatorAudioResults.h">VCMediaNegotiatorAudioResults.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiatorCaptionsResults.h">VCMediaNegotiatorCaptionsResults.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiatorLocalConfiguration.h">VCMediaNegotiatorLocalConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiatorMomentsResults.h">VCMediaNegotiatorMomentsResults.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiatorMultiwayAudioResults.h">VCMediaNegotiatorMultiwayAudioResults.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiatorMultiwayVideoResults.h">VCMediaNegotiatorMultiwayVideoResults.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiatorResults.h">VCMediaNegotiatorResults.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaNegotiatorVideoResults.h">VCMediaNegotiatorVideoResults.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaStream.h">VCMediaStream.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaStreamConfig.h">VCMediaStreamConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaStreamManager.h">VCMediaStreamManager.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaStreamMultiwayConfig.h">VCMediaStreamMultiwayConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaStreamMultiwayConfigAudio.h">VCMediaStreamMultiwayConfigAudio.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaStreamMultiwayConfigVideo.h">VCMediaStreamMultiwayConfigVideo.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaStreamStats.h">VCMediaStreamStats.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaStreamSynchronizer.h">VCMediaStreamSynchronizer.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMediaStreamTransport.h">VCMediaStreamTransport.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMoments.h">VCMoments.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMomentsClientContext.h">VCMomentsClientContext.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMomentsCollector.h">VCMomentsCollector.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMomentsHistory.h">VCMomentsHistory.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMomentsHistoryBuffer.h">VCMomentsHistoryBuffer.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMomentsManager.h">VCMomentsManager.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMomentsManagerStreamTokenClientList.h">VCMomentsManagerStreamTokenClientList.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMomentsUtil.h">VCMomentsUtil.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMovieWriter.h">VCMovieWriter.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCMovieWriterUtil.h">VCMovieWriterUtil.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCNetworkAddress.h">VCNetworkAddress.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCNetworkAgent.h">VCNetworkAgent.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCNetworkFeedbackController.h">VCNetworkFeedbackController.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCObject.h">VCObject.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCPacketBundler.h">VCPacketBundler.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCPayloadUtils.h">VCPayloadUtils.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRateControlAlgorithmSparseNOWRD.h">VCRateControlAlgorithmSparseNOWRD.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRateControlAlgorithmStabilizedNOWRD.h">VCRateControlAlgorithmStabilizedNOWRD.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRateControlBandwidthEstimator.h">VCRateControlBandwidthEstimator.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRateControlBandwidthEstimatorMap.h">VCRateControlBandwidthEstimatorMap.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRateControlMediaController.h">VCRateControlMediaController.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRateControlOWRDEstimator.h">VCRateControlOWRDEstimator.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRecommendedNetworkSettings.h">VCRecommendedNetworkSettings.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRedundancyControlAlgorithmAudio.h">VCRedundancyControlAlgorithmAudio.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRedundancyControlAlgorithmAudioLegacy.h">VCRedundancyControlAlgorithmAudioLegacy.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRedundancyControlAlgorithmAudioMultiWay.h">VCRedundancyControlAlgorithmAudioMultiWay.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRedundancyControlAlgorithmVideo.h">VCRedundancyControlAlgorithmVideo.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRedundancyControlAlgorithmVideoMultiway.h">VCRedundancyControlAlgorithmVideoMultiway.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRedundancyControllerAudio.h">VCRedundancyControllerAudio.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRedundancyControllerVideo.h">VCRedundancyControllerVideo.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRemoteVideoManager.h">VCRemoteVideoManager.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCRemoteVideoState.h">VCRemoteVideoState.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCScreenCapture.h">VCScreenCapture.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSecureDataChannel.h">VCSecureDataChannel.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSecurityKeyManager.h">VCSecurityKeyManager.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCServerBag.h">VCServerBag.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSession.h">VCSession.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionBandwidthAllocationTable.h">VCSessionBandwidthAllocationTable.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionBandwidthAllocationTableEntry.h">VCSessionBandwidthAllocationTableEntry.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionBitrateArbiter.h">VCSessionBitrateArbiter.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionConfiguration.h">VCSessionConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionDownlinkBandwidthAllocator.h">VCSessionDownlinkBandwidthAllocator.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionErrorUtils.h">VCSessionErrorUtils.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionManager.h">VCSessionManager.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionMediaStreamConfigurationProvider.h">VCSessionMediaStreamConfigurationProvider.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionMessageTopic.h">VCSessionMessageTopic.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionMessaging.h">VCSessionMessaging.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionParticipant.h">VCSessionParticipant.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionParticipantAudioStreamConfig.h">VCSessionParticipantAudioStreamConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionParticipantConfig.h">VCSessionParticipantConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionParticipantLocal.h">VCSessionParticipantLocal.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionParticipantMediaStreamInfo.h">VCSessionParticipantMediaStreamInfo.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionParticipantRemote.h">VCSessionParticipantRemote.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionParticipantVideoStreamConfig.h">VCSessionParticipantVideoStreamConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionStatsController.h">VCSessionStatsController.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionUplinkBandwidthAllocator.h">VCSessionUplinkBandwidthAllocator.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCSessionUplinkVideoStreamController.h">VCSessionUplinkVideoStreamController.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCStatisticsCollectorQueue.h">VCStatisticsCollectorQueue.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCStatisticsHistory.h">VCStatisticsHistory.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCStatsRecorder.h">VCStatsRecorder.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCTextJitterBuffer.h">VCTextJitterBuffer.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCTextReceiver.h">VCTextReceiver.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCTextStream.h">VCTextStream.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCTextStreamConfig.h">VCTextStreamConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCTextTransmitter.h">VCTextTransmitter.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCTransport.h">VCTransport.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCTransportSession.h">VCTransportSession.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCTransportSessionIDS.h">VCTransportSessionIDS.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCTransportSessionLegacy.h">VCTransportSessionLegacy.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCTransportStream.h">VCTransportStream.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVTPWrapper.h">VCVTPWrapper.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoCapture.h">VCVideoCapture.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoCaptureConverter.h">VCVideoCaptureConverter.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoCaptureServer.h">VCVideoCaptureServer.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoDecoder.h">VCVideoDecoder.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoFeatureListStringHelper.h">VCVideoFeatureListStringHelper.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoFrameBufferPool.h">VCVideoFrameBufferPool.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoFrameUtil.h">VCVideoFrameUtil.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoQualityInfo.h">VCVideoQualityInfo.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoReceiverBase.h">VCVideoReceiverBase.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoReceiverDefault.h">VCVideoReceiverDefault.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoRelay.h">VCVideoRelay.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoRule.h">VCVideoRule.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoRuleCollectionKey.h">VCVideoRuleCollectionKey.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoRuleCollections.h">VCVideoRuleCollections.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoRuleCollectionsCamera.h">VCVideoRuleCollectionsCamera.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoRuleCollectionsCameraEmbedded.h">VCVideoRuleCollectionsCameraEmbedded.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoRuleCollectionsCameraMac.h">VCVideoRuleCollectionsCameraMac.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoRuleCollectionsMoments.h">VCVideoRuleCollectionsMoments.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoRuleCollectionsMomentsEmbeded.h">VCVideoRuleCollectionsMomentsEmbeded.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoRuleCollectionsMomentsMac.h">VCVideoRuleCollectionsMomentsMac.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoRuleCollectionsScreen.h">VCVideoRuleCollectionsScreen.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoStream.h">VCVideoStream.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoStreamConfig.h">VCVideoStreamConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoStreamNOWRDLossEventRateControl.h">VCVideoStreamNOWRDLossEventRateControl.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoStreamOWRDLossEventRateControl.h">VCVideoStreamOWRDLossEventRateControl.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoStreamRTTPLRRateControl.h">VCVideoStreamRTTPLRRateControl.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoStreamRateAdaptation.h">VCVideoStreamRateAdaptation.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoStreamRateController.h">VCVideoStreamRateController.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoStreamReceiver.h">VCVideoStreamReceiver.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoStreamTransmitter.h">VCVideoStreamTransmitter.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoTransmitterBase.h">VCVideoTransmitterBase.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoTransmitterConfig.h">VCVideoTransmitterConfig.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVideoTransmitterDefault.h">VCVideoTransmitterDefault.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVirtualTTYDevice.h">VCVirtualTTYDevice.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVirtualTextDevice.h">VCVirtualTextDevice.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVisualAlert.h">VCVisualAlert.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVoIPRelay.h">VCVoIPRelay.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCVoIPRelayInternal.h">VCVoIPRelayInternal.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCWCMClient.h">VCWCMClient.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCWeakObjectHolder.h">VCWeakObjectHolder.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCXPCClientShared.h">VCXPCClientShared.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCXPCConnection.h">VCXPCConnection.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VCXPCServerUser.h">VCXPCServerUser.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VideoAttributes.h">VideoAttributes.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VideoConference.h">VideoConference.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VideoConferenceManager.h">VideoConferenceManager.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VideoScaler.h">VideoScaler.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/VideoUtil.h">VideoUtil.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/WRMClient.h">WRMClient.h</a>
+<a href="/tree/PrivateFrameworks/AVConference.framework/XPCClientUser.h">XPCClientUser.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

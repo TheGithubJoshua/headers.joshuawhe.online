@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CoreDuet.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/PrivateFrameworks/CoreDuet.framework/
+323 classes
+
+<a href="..">..</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/CDAttribute.h">CDAttribute.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/CDAttributeOccurrence.h">CDAttributeOccurrence.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/CDBudget.h">CDBudget.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/CDDevice.h">CDDevice.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/CDGlanceLingerEvent.h">CDGlanceLingerEvent.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/CDMonitorManager.h">CDMonitorManager.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/CDSession.h">CDSession.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/CDTrendLogic.h">CDTrendLogic.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDAdvisedInteraction.h">_CDAdvisedInteraction.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDAirPlayDataCollectionSession.h">_CDAirPlayDataCollectionSession.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDAirPlayDataCollectionTask.h">_CDAirPlayDataCollectionTask.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDAppActionRecorder.h">_CDAppActionRecorder.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDAttachment.h">_CDAttachment.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDAttachmentRecord.h">_CDAttachmentRecord.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDAutoSuCache.h">_CDAutoSuCache.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDAutoSuConfig.h">_CDAutoSuConfig.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDBatterySaver.h">_CDBatterySaver.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDCachedPeopleSuggestion.h">_CDCachedPeopleSuggestion.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDCommunicatorHelper.h">_CDCommunicatorHelper.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDComplications.h">_CDComplications.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDContact.h">_CDContact.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDContactRecord.h">_CDContactRecord.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDContactStatistics.h">_CDContactStatistics.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDDatePrinter.h">_CDDatePrinter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDDateQuantizer.h">_CDDateQuantizer.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDDateRange.h">_CDDateRange.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDDeviceInfo.h">_CDDeviceInfo.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDDiagnosticDataReporter.h">_CDDiagnosticDataReporter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDEntitlementsUtilities.h">_CDEntitlementsUtilities.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDEntityMetadataKey.h">_CDEntityMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDErrorUtilities.h">_CDErrorUtilities.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDEventIndexerBookmark.h">_CDEventIndexerBookmark.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDEventIndexerContext.h">_CDEventIndexerContext.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDEventStream.h">_CDEventStream.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDEventStreamProperties.h">_CDEventStreamProperties.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDEventStreams.h">_CDEventStreams.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDGenericInteractionRanker.h">_CDGenericInteractionRanker.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDHashUtilities.h">_CDHashUtilities.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInBedDetection.h">_CDInBedDetection.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInBedDetector.h">_CDInBedDetector.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDIntentSpotlightIndex.h">_CDIntentSpotlightIndex.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteraction.h">_CDInteraction.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionAdviceEngine.h">_CDInteractionAdviceEngine.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionAdvisor.h">_CDInteractionAdvisor.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionAdvisorSettings.h">_CDInteractionAdvisorSettings.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionAdvisorSimple.h">_CDInteractionAdvisorSimple.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionAdvisorUtils.h">_CDInteractionAdvisorUtils.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionFeedbackLogger.h">_CDInteractionFeedbackLogger.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionHarvester.h">_CDInteractionHarvester.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionPolicies.h">_CDInteractionPolicies.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionPolicy.h">_CDInteractionPolicy.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionRank.h">_CDInteractionRank.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionRecord.h">_CDInteractionRecord.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionRecorder.h">_CDInteractionRecorder.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionStore.h">_CDInteractionStore.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionStoreNotificationReceiver.h">_CDInteractionStoreNotificationReceiver.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDInteractionStoreNotifier.h">_CDInteractionStoreNotifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDKeywordRecord.h">_CDKeywordRecord.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDLogging.h">_CDLogging.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDMDSearchQueryDelegate.h">_CDMDSearchQueryDelegate.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDMultiLevelRateLimiter.h">_CDMultiLevelRateLimiter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDMutablePerfMetric.h">_CDMutablePerfMetric.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDMutableSizeMetric.h">_CDMutableSizeMetric.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDNetworkBudgetCalculator.h">_CDNetworkBudgetCalculator.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDObservationCenter.h">_CDObservationCenter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPInteractionStoreDataHarvester.h">_CDPInteractionStoreDataHarvester.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPModelTuning.h">_CDPModelTuning.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPModelTuningState.h">_CDPModelTuningState.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPPredictionResult.h">_CDPPredictionResult.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPSerializedDataHarvester.h">_CDPSerializedDataHarvester.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPSimpleDataPoint.h">_CDPSimpleDataPoint.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPSimpleModel.h">_CDPSimpleModel.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPSimpleModelParameterManager.h">_CDPSimpleModelParameterManager.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPSimpleModelParameterManagerAccountState.h">_CDPSimpleModelParameterManagerAccountState.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPSimpleModelParameterManagerTuningValue.h">_CDPSimpleModelParameterManagerTuningValue.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPaths.h">_CDPaths.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPeopleSuggester.h">_CDPeopleSuggester.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPeopleSuggesterContext.h">_CDPeopleSuggesterContext.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPeopleSuggesterSettings.h">_CDPeopleSuggesterSettings.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPerfMetric.h">_CDPerfMetric.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPerfMetricFamily.h">_CDPerfMetricFamily.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPeriodicScheduler.h">_CDPeriodicScheduler.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPeriodicSchedulerJob.h">_CDPeriodicSchedulerJob.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPortraitMetadataKey.h">_CDPortraitMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPortraitStreams.h">_CDPortraitStreams.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDPrivacyPolicy.h">_CDPrivacyPolicy.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDQueryInteractionAdvisor.h">_CDQueryInteractionAdvisor.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDRateAndTotalLimiter.h">_CDRateAndTotalLimiter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDRateLimiter.h">_CDRateLimiter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSearchFeedbackListener.h">_CDSearchFeedbackListener.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSerializableKeyedData.h">_CDSerializableKeyedData.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDServerRequest.h">_CDServerRequest.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSharedMemoryKeyValueStore.h">_CDSharedMemoryKeyValueStore.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSizeMetric.h">_CDSizeMetric.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSizeMetricFamily.h">_CDSizeMetricFamily.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSleepForAutoSu.h">_CDSleepForAutoSu.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSleepPredictor.h">_CDSleepPredictor.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSleepPredictorMath.h">_CDSleepPredictorMath.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSocialInteractionAdvisor.h">_CDSocialInteractionAdvisor.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSpotlightEventIndexer.h">_CDSpotlightEventIndexer.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSpotlightEventIndexerDataSource.h">_CDSpotlightEventIndexerDataSource.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSpotlightIntentIndexerDataSource.h">_CDSpotlightIntentIndexerDataSource.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSpotlightItemRecorder.h">_CDSpotlightItemRecorder.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSpotlightItemRecorderOperation.h">_CDSpotlightItemRecorderOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSpotlightItemUtils.h">_CDSpotlightItemUtils.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSpotlightQuerier.h">_CDSpotlightQuerier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDStats.h">_CDStats.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDStatsPrinter.h">_CDStatsPrinter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDStringTokenizer.h">_CDStringTokenizer.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDSuggestedPerson.h">_CDSuggestedPerson.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDTemporalInteractionAdvisor.h">_CDTemporalInteractionAdvisor.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDTopicMetadataKey.h">_CDTopicMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDUserActivity.h">_CDUserActivity.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_CDVersionRecord.h">_CDVersionRecord.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKActivityThrottler.h">_DKActivityThrottler.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKAirPlayPredictionCategory.h">_DKAirPlayPredictionCategory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKAirPlayPredictionMetadataKey.h">_DKAirPlayPredictionMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKAnyDoubleQuantity.h">_DKAnyDoubleQuantity.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKAnyIntegerCategory.h">_DKAnyIntegerCategory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKAnyStringIdentifier.h">_DKAnyStringIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKAppActivityStreamTombstoneRequirement.h">_DKAppActivityStreamTombstoneRequirement.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKAppInstallMetadataKey.h">_DKAppInstallMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKAppIntentsStreamTombstoneRequirement.h">_DKAppIntentsStreamTombstoneRequirement.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKAppUsageTombstoneRequirement.h">_DKAppUsageTombstoneRequirement.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKApplicationActivityMetadataKey.h">_DKApplicationActivityMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKApplicationMetadataKey.h">_DKApplicationMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKAudioMetadataKey.h">_DKAudioMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKAudioRouteCategory.h">_DKAudioRouteCategory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKBacklightMetadataKey.h">_DKBacklightMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKBatteryPercentageQuantity.h">_DKBatteryPercentageQuantity.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKBatterySaverMetadataKey.h">_DKBatterySaverMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKBluetoothMetadataKey.h">_DKBluetoothMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKBoolCategory.h">_DKBoolCategory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKBulletinBoardMetadataKey.h">_DKBulletinBoardMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKBundleIdentifier.h">_DKBundleIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKCKError.h">_DKCKError.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKCachedLocationVisit.h">_DKCachedLocationVisit.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKCalendarMetadataKey.h">_DKCalendarMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKCallMetadataKey.h">_DKCallMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKCategory.h">_DKCategory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKCategoryCache.h">_DKCategoryCache.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKCategoryMO.h">_DKCategoryMO.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKCategoryType.h">_DKCategoryType.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKChangeSet.h">_DKChangeSet.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKChangeSetMO.h">_DKChangeSetMO.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKChangeSetSummary.h">_DKChangeSetSummary.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKCloudUtilities.h">_DKCloudUtilities.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKCoreDataStorage.h">_DKCoreDataStorage.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKCustomCategory.h">_DKCustomCategory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKCustomIdentifier.h">_DKCustomIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKCustomMetadataMO.h">_DKCustomMetadataMO.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKCustomQuantity.h">_DKCustomQuantity.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKDataProtectionMaster.h">_DKDataProtectionMaster.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKDataProtectionStateMonitor.h">_DKDataProtectionStateMonitor.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKDayOfWeekCategory.h">_DKDayOfWeekCategory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKDebugMetadataKey.h">_DKDebugMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKDeviceActivityStandingQuery.h">_DKDeviceActivityStandingQuery.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKDeviceIdMetadataKey.h">_DKDeviceIdMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKDigitalHealthMetadataKey.h">_DKDigitalHealthMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEligibleForPredictionTombstoneRequirement.h">_DKEligibleForPredictionTombstoneRequirement.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEntityCategory.h">_DKEntityCategory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEvent.h">_DKEvent.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventCKConverter.h">_DKEventCKConverter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventData.h">_DKEventData.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventDateRef.h">_DKEventDateRef.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventIntersection.h">_DKEventIntersection.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventMO.h">_DKEventMO.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventQuery.h">_DKEventQuery.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventResultStatsCounter.h">_DKEventResultStatsCounter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventStatsCollection.h">_DKEventStatsCollection.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventStatsCounter.h">_DKEventStatsCounter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventStatsCounterInternal.h">_DKEventStatsCounterInternal.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventStatsTimerCounter.h">_DKEventStatsTimerCounter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventStatsUtilities.h">_DKEventStatsUtilities.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventStream.h">_DKEventStream.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventStreamCache.h">_DKEventStreamCache.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventTypeResultStatsCounter.h">_DKEventTypeResultStatsCounter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventTypeStatsCounter.h">_DKEventTypeStatsCounter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventTypeStatsTimerCounter.h">_DKEventTypeStatsTimerCounter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKEventUtils.h">_DKEventUtils.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKFetchDatabaseChangesOperation.h">_DKFetchDatabaseChangesOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKFetchRecordZoneChangesOperation.h">_DKFetchRecordZoneChangesOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKFetchRecordZonesOperation.h">_DKFetchRecordZonesOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKGlanceLaunchMetadata.h">_DKGlanceLaunchMetadata.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKHistogram.h">_DKHistogram.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKHistogramMO.h">_DKHistogramMO.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKHistogramQuery.h">_DKHistogramQuery.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKHistogramValueMO.h">_DKHistogramValueMO.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKHomeKitAccessoryControlIdentifier.h">_DKHomeKitAccessoryControlIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKHomeKitHomeAppViewIdentifier.h">_DKHomeKitHomeAppViewIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKHomeKitSceneIdentifier.h">_DKHomeKitSceneIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKIdentifier.h">_DKIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKIdentifierMO.h">_DKIdentifierMO.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKIdentifierType.h">_DKIdentifierType.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKIntentMetadataKey.h">_DKIntentMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKKeyValueMO.h">_DKKeyValueMO.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKKeyValueStore.h">_DKKeyValueStore.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKKnowledgeStorage.h">_DKKnowledgeStorage.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKKnowledgeStorageLogging.h">_DKKnowledgeStorageLogging.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKKnowledgeStorageSimpleKeyValueStore.h">_DKKnowledgeStorageSimpleKeyValueStore.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKKnowledgeStore.h">_DKKnowledgeStore.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKKnowledgeSyncStorageAssertion.h">_DKKnowledgeSyncStorageAssertion.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKLocalChangeSets.h">_DKLocalChangeSets.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKLocalChanges.h">_DKLocalChanges.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKLocationApplicationActivityMetadataKey.h">_DKLocationApplicationActivityMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKLocationHistoryCache.h">_DKLocationHistoryCache.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKLocationIdentifier.h">_DKLocationIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKLocationMetadataKey.h">_DKLocationMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKMetadata.h">_DKMetadata.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKMetadataHomeAppView.h">_DKMetadataHomeAppView.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKMetadataHomeKitAccessoryControl.h">_DKMetadataHomeKitAccessoryControl.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKMetadataHomeKitScene.h">_DKMetadataHomeKitScene.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKMetadataPersistenceLookupTable.h">_DKMetadataPersistenceLookupTable.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKMicroLocationMetadataKey.h">_DKMicroLocationMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKModifyRecordZonesOperation.h">_DKModifyRecordZonesOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKModifyRecordsOperation.h">_DKModifyRecordsOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKMotionCategory.h">_DKMotionCategory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKMotionMetadataKey.h">_DKMotionMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKNextCalendarEventCategory.h">_DKNextCalendarEventCategory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKNotificationEventIdentifier.h">_DKNotificationEventIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKNotificationUsageMetadataKey.h">_DKNotificationUsageMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKNowPlayingMetadataKey.h">_DKNowPlayingMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKObject.h">_DKObject.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKObjectFromMOCache.h">_DKObjectFromMOCache.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKObjectMO.h">_DKObjectMO.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKObjectMOConverter.h">_DKObjectMOConverter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKObjectType.h">_DKObjectType.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKObserverEntry.h">_DKObserverEntry.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKOrientationMetadataKey.h">_DKOrientationMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPRChangeSet.h">_DKPRChangeSet.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPRCompressedChangeSet.h">_DKPRCompressedChangeSet.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPREvent.h">_DKPREvent.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPREventData.h">_DKPREventData.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPRMetadata.h">_DKPRMetadata.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPRMetadataEntry.h">_DKPRMetadataEntry.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPRSource.h">_DKPRSource.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPRStream.h">_DKPRStream.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPRValue.h">_DKPRValue.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPRValueType.h">_DKPRValueType.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPerformSyncDownOperation.h">_DKPerformSyncDownOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPerformSyncDownPeerAdditionsOperation.h">_DKPerformSyncDownPeerAdditionsOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPerformSyncDownPeerDeletionsOperation.h">_DKPerformSyncDownPeerDeletionsOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPerformSyncDownPeerOperation.h">_DKPerformSyncDownPeerOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPerformSyncUpChangeOperation.h">_DKPerformSyncUpChangeOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPerformSyncUpHistoryAdditionsOperation.h">_DKPerformSyncUpHistoryAdditionsOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPerformSyncUpHistoryDeletionsOperation.h">_DKPerformSyncUpHistoryDeletionsOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPerformSyncUpHistoryOperation.h">_DKPerformSyncUpHistoryOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPeriodMetadataKey.h">_DKPeriodMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPeriodOfDayCategory.h">_DKPeriodOfDayCategory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPlatform.h">_DKPlatform.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPredictionQuery.h">_DKPredictionQuery.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPredictionTimeline.h">_DKPredictionTimeline.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPredictor.h">_DKPredictor.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPreferences.h">_DKPreferences.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPrivacyMaintainer.h">_DKPrivacyMaintainer.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKPrivacyPolicyEnforcer.h">_DKPrivacyPolicyEnforcer.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKProtobufMetadata.h">_DKProtobufMetadata.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKQuantity.h">_DKQuantity.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKQuantityMO.h">_DKQuantityMO.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKQuantityType.h">_DKQuantityType.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKQuery.h">_DKQuery.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKQueryOperation.h">_DKQueryOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKRateLimitPolicyEnforcer.h">_DKRateLimitPolicyEnforcer.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKRelation.h">_DKRelation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKRelationMO.h">_DKRelationMO.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKRelevantShortcutMetadataKey.h">_DKRelevantShortcutMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKResourceIdentifier.h">_DKResourceIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKRoutineLocationCategory.h">_DKRoutineLocationCategory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSafariHistoryMetadataKey.h">_DKSafariHistoryMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSearchFeedbackMetadataKey.h">_DKSearchFeedbackMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSource.h">_DKSource.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSourceMO.h">_DKSourceMO.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSourceMOConverter.h">_DKSourceMOConverter.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKStandingQueryExecutor.h">_DKStandingQueryExecutor.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKStarkMetadataKey.h">_DKStarkMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKStructuredMetadataMO.h">_DKStructuredMetadataMO.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSync2Coordinator.h">_DKSync2Coordinator.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSync2Policy.h">_DKSync2Policy.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSync2State.h">_DKSync2State.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncBlockCompositeOperation.h">_DKSyncBlockCompositeOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncBlockOperation.h">_DKSyncBlockOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncChanges.h">_DKSyncChanges.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncCloudKitKnowledgeStorage.h">_DKSyncCloudKitKnowledgeStorage.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncCompositeOperation.h">_DKSyncCompositeOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncCoordinator.h">_DKSyncCoordinator.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncCoordinatorLogging.h">_DKSyncCoordinatorLogging.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncDeletedEventIDs.h">_DKSyncDeletedEventIDs.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncDownCloudKitKnowledgeStorage.h">_DKSyncDownCloudKitKnowledgeStorage.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncErrors.h">_DKSyncErrors.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncHistory.h">_DKSyncHistory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncLocalKnowledgeStorage.h">_DKSyncLocalKnowledgeStorage.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncMetadataStorage.h">_DKSyncMetadataStorage.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncOperation.h">_DKSyncOperation.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncPeer.h">_DKSyncPeer.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncPeerInfo.h">_DKSyncPeerInfo.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncPeerMO.h">_DKSyncPeerMO.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncPeerObserver.h">_DKSyncPeerObserver.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncPeerStatusTracker.h">_DKSyncPeerStatusTracker.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncPolicy.h">_DKSyncPolicy.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncPowerlog.h">_DKSyncPowerlog.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncRapportKnowledgeStorage.h">_DKSyncRapportKnowledgeStorage.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncSerializer.h">_DKSyncSerializer.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncState.h">_DKSyncState.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncStreamsTombstoneRequirement.h">_DKSyncStreamsTombstoneRequirement.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncToggle.h">_DKSyncToggle.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncType.h">_DKSyncType.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncUpCloudKitKnowledgeStorage.h">_DKSyncUpCloudKitKnowledgeStorage.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncUrgencyTracker.h">_DKSyncUrgencyTracker.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncV1CloudKitKnowledgeStorage.h">_DKSyncV1CloudKitKnowledgeStorage.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncWindow.h">_DKSyncWindow.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSyncedFeatures.h">_DKSyncedFeatures.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKSystemEventStreams.h">_DKSystemEventStreams.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKThrottledActivity.h">_DKThrottledActivity.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKTitleIdentifier.h">_DKTitleIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKTombstoneMetadataKey.h">_DKTombstoneMetadataKey.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKTombstoneNotifier.h">_DKTombstoneNotifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKTombstonePolicy.h">_DKTombstonePolicy.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKTombstoneRequirement.h">_DKTombstoneRequirement.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKTopicIdentifier.h">_DKTopicIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKTristateCategory.h">_DKTristateCategory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKUIOrientationCategory.h">_DKUIOrientationCategory.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKUUIDIdentifier.h">_DKUUIDIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/CoreDuet.framework/_DKXPCKnowledgeStore.h">_DKXPCKnowledgeStore.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

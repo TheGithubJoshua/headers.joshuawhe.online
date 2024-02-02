@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MobileTimer.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/PrivateFrameworks/MobileTimer.framework/
+114 classes
+
+<a href="..">..</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/Alarm.h">Alarm.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/ClockManager.h">ClockManager.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/DistributedNotificationPoster.h">DistributedNotificationPoster.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAgent.h">MTAgent.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAgentDiagnosticListener.h">MTAgentDiagnosticListener.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAgentNotification.h">MTAgentNotification.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAgentNotificationManager.h">MTAgentNotificationManager.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAlarm.h">MTAlarm.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAlarmCache.h">MTAlarmCache.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAlarmDataSource.h">MTAlarmDataSource.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAlarmIntentDonor.h">MTAlarmIntentDonor.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAlarmIntentHandler.h">MTAlarmIntentHandler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAlarmManager.h">MTAlarmManager.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAlarmManagerExportedObject.h">MTAlarmManagerExportedObject.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAlarmMigrator.h">MTAlarmMigrator.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAlarmScheduler.h">MTAlarmScheduler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAlarmServer.h">MTAlarmServer.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAlarmSnapshot.h">MTAlarmSnapshot.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTAlarmStorage.h">MTAlarmStorage.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTBedtimeDNDMonitor.h">MTBedtimeDNDMonitor.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTBedtimeSnapshot.h">MTBedtimeSnapshot.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTCreateAlarmIntent.h">MTCreateAlarmIntent.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTCreateAlarmIntentHandler.h">MTCreateAlarmIntentHandler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTCreateAlarmIntentResponse.h">MTCreateAlarmIntentResponse.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTCreateSingleTimerIntentHandler.h">MTCreateSingleTimerIntentHandler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTCreateTimerIntentHandler.h">MTCreateTimerIntentHandler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTDateFormatting.h">MTDateFormatting.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTDeleteTimerIntentHandler.h">MTDeleteTimerIntentHandler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTDeviceListener.h">MTDeviceListener.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTDiffSerializer.h">MTDiffSerializer.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTDisableAlarmIntent.h">MTDisableAlarmIntent.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTDisableAlarmIntentResponse.h">MTDisableAlarmIntentResponse.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTDistributedNotificationPoster.h">MTDistributedNotificationPoster.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTEnableAlarmIntent.h">MTEnableAlarmIntent.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTEnableAlarmIntentResponse.h">MTEnableAlarmIntentResponse.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTEnableDisableAlarmIntentHandler.h">MTEnableDisableAlarmIntentHandler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTGCDTaskScheduler.h">MTGCDTaskScheduler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTGCDTimer.h">MTGCDTimer.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTInMemoryDefaults.h">MTInMemoryDefaults.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTInMemorySyncStorage.h">MTInMemorySyncStorage.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTLanguageChangeListener.h">MTLanguageChangeListener.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTLegacyManager.h">MTLegacyManager.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTMetrics.h">MTMetrics.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTMutableAlarm.h">MTMutableAlarm.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTMutableTimer.h">MTMutableTimer.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTNextAlarm.h">MTNextAlarm.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTNextAlarmManager.h">MTNextAlarmManager.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTNotificationCenter.h">MTNotificationCenter.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTObjectDiff.h">MTObjectDiff.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTObjectDifference.h">MTObjectDifference.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTPBAlarm.h">MTPBAlarm.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTPBAlarmAction.h">MTPBAlarmAction.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTPBAlarmDelete.h">MTPBAlarmDelete.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTPBAlarmState.h">MTPBAlarmState.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTPBSyncMessage.h">MTPBSyncMessage.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTPairedDeviceListener.h">MTPairedDeviceListener.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTPauseResumeTimerIntentHandler.h">MTPauseResumeTimerIntentHandler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTPowerAssertion.h">MTPowerAssertion.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTResetTimerIntentHandler.h">MTResetTimerIntentHandler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTScheduledList.h">MTScheduledList.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTScheduledObject.h">MTScheduledObject.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSearchTimerIntentHandler.h">MTSearchTimerIntentHandler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSetTimerAttributeIntentHandler.h">MTSetTimerAttributeIntentHandler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSleepMetrics.h">MTSleepMetrics.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSleepMonitor.h">MTSleepMonitor.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSnapshotScheduler.h">MTSnapshotScheduler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSound.h">MTSound.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSpringboardStartMonitor.h">MTSpringboardStartMonitor.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTStorageReader.h">MTStorageReader.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTStorageReaderV1.h">MTStorageReaderV1.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTStorageWriter.h">MTStorageWriter.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSyncActionOperation.h">MTSyncActionOperation.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSyncArchiver.h">MTSyncArchiver.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSyncCommandListener.h">MTSyncCommandListener.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSyncMonitor.h">MTSyncMonitor.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSyncOperationQueue.h">MTSyncOperationQueue.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSyncStateOperation.h">MTSyncStateOperation.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSyncStorage.h">MTSyncStorage.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSyncUnarchiver.h">MTSyncUnarchiver.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTSystemStateListener.h">MTSystemStateListener.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTask.h">MTTask.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTaskGroup.h">MTTaskGroup.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTimeListener.h">MTTimeListener.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTimer.h">MTTimer.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTimerCache.h">MTTimerCache.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTimerDate.h">MTTimerDate.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTimerIntentDonor.h">MTTimerIntentDonor.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTimerIntentHandler.h">MTTimerIntentHandler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTimerManager.h">MTTimerManager.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTimerManagerExportedObject.h">MTTimerManagerExportedObject.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTimerMigrator.h">MTTimerMigrator.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTimerScheduler.h">MTTimerScheduler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTimerServer.h">MTTimerServer.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTimerSnapshot.h">MTTimerSnapshot.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTimerStorage.h">MTTimerStorage.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTimerTimeInterval.h">MTTimerTimeInterval.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTTrigger.h">MTTrigger.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTUpdateAlarmIntent.h">MTUpdateAlarmIntent.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTUpdateAlarmIntentHandler.h">MTUpdateAlarmIntentHandler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTUpdateAlarmIntentResponse.h">MTUpdateAlarmIntentResponse.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTUpdateTimerIntentHandler.h">MTUpdateTimerIntentHandler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTUserDefaults.h">MTUserDefaults.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTUserNotificationActionDispatcher.h">MTUserNotificationActionDispatcher.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTUserNotificationAppDelegate.h">MTUserNotificationAppDelegate.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTUserNotificationCenter.h">MTUserNotificationCenter.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTXPCClientInfo.h">MTXPCClientInfo.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTXPCConnectionInfo.h">MTXPCConnectionInfo.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTXPCConnectionListenerProvider.h">MTXPCConnectionListenerProvider.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTXPCConnectionProvider.h">MTXPCConnectionProvider.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/MTXPCScheduler.h">MTXPCScheduler.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/NotificationRelay.h">NotificationRelay.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/WorldClockCity.h">WorldClockCity.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/WorldClockManager.h">WorldClockManager.h</a>
+<a href="/tree/PrivateFrameworks/MobileTimer.framework/WorldClockPreferences.h">WorldClockPreferences.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

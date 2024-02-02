@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CoreImage.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/Frameworks/CoreImage.framework/
+445 classes
+
+<a href="..">..</a>
+<a href="/tree/Frameworks/CoreImage.framework/AutoCropper.h">AutoCropper.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CGRenderer.h">CGRenderer.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIASG50Percent.h">CIASG50Percent.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIASG60Percent.h">CIASG60Percent.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIASG66Percent.h">CIASG66Percent.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIASG75Percent.h">CIASG75Percent.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIASG80Percent.h">CIASG80Percent.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIASGPercent.h">CIASGPercent.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAccordionFoldTransition.h">CIAccordionFoldTransition.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAdditionCompositing.h">CIAdditionCompositing.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAffineClamp.h">CIAffineClamp.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAffineTile.h">CIAffineTile.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAffineTransform.h">CIAffineTransform.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAppleSmithGossettScale.h">CIAppleSmithGossettScale.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAreaAverage.h">CIAreaAverage.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAreaCentroid.h">CIAreaCentroid.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAreaHistogram.h">CIAreaHistogram.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAreaMaximum.h">CIAreaMaximum.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAreaMaximumAlpha.h">CIAreaMaximumAlpha.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAreaMinMax.h">CIAreaMinMax.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAreaMinMaxNormalize.h">CIAreaMinMaxNormalize.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAreaMinMaxRed.h">CIAreaMinMaxRed.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAreaMinMaxRedNormalize.h">CIAreaMinMaxRedNormalize.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAreaMinimum.h">CIAreaMinimum.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAreaMinimumAlpha.h">CIAreaMinimumAlpha.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAreaRedCentroid.h">CIAreaRedCentroid.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAreaRedRadialCentroid.h">CIAreaRedRadialCentroid.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAttributedTextImageGenerator.h">CIAttributedTextImageGenerator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAutoEnhanceFace.h">CIAutoEnhanceFace.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIAztecCodeDescriptor.h">CIAztecCodeDescriptor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBarcodeDescriptor.h">CIBarcodeDescriptor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBarcodeDetector.h">CIBarcodeDetector.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBarsSwipeTransition.h">CIBarsSwipeTransition.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBicubicScaleTransform.h">CIBicubicScaleTransform.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBilateralGridHash.h">CIBilateralGridHash.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBilateralSolverCPU.h">CIBilateralSolverCPU.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBilateralSolverGPU.h">CIBilateralSolverGPU.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBitmapContext.h">CIBitmapContext.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBlendKernel.h">CIBlendKernel.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBlendModeFilter.h">CIBlendModeFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBlendWithAlphaMask.h">CIBlendWithAlphaMask.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBlendWithBlueMask.h">CIBlendWithBlueMask.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBlendWithMask.h">CIBlendWithMask.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBlendWithRedMask.h">CIBlendWithRedMask.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBloom.h">CIBloom.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBlurProcessor.h">CIBlurProcessor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBlurmapSmoothing.h">CIBlurmapSmoothing.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBokehBlur.h">CIBokehBlur.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBoxBlur.h">CIBoxBlur.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBumpDistortion.h">CIBumpDistortion.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBumpDistortionLinear.h">CIBumpDistortionLinear.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBurstActionClassifier.h">CIBurstActionClassifier.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBurstClusterDivider.h">CIBurstClusterDivider.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBurstFaceConfigEntry.h">CIBurstFaceConfigEntry.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBurstFaceInfo.h">CIBurstFaceInfo.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBurstFaceScoreEntry.h">CIBurstFaceScoreEntry.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBurstFaceStat.h">CIBurstFaceStat.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBurstImageFaceAnalysisContext.h">CIBurstImageFaceAnalysisContext.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBurstImageSet.h">CIBurstImageSet.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBurstImageSetInternal.h">CIBurstImageSetInternal.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBurstImageStat.h">CIBurstImageStat.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBurstThumbnailCluster.h">CIBurstThumbnailCluster.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIBurstYUVImage.h">CIBurstYUVImage.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICMYKHalftone.h">CICMYKHalftone.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICameraCalibrationLensCorrection.h">CICameraCalibrationLensCorrection.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICheapBilateral.h">CICheapBilateral.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICheapBlur.h">CICheapBlur.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICheapMorphology.h">CICheapMorphology.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICheatBlur.h">CICheatBlur.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICheckerboardGenerator.h">CICheckerboardGenerator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICircleGenerator.h">CICircleGenerator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICircleSplashDistortion.h">CICircleSplashDistortion.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICircularMaskFromPointImage.h">CICircularMaskFromPointImage.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICircularScreen.h">CICircularScreen.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICircularWrap.h">CICircularWrap.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICircularityDescriptor.h">CICircularityDescriptor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIClamp.h">CIClamp.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColor.h">CIColor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorBalance.h">CIColorBalance.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorBlendMode.h">CIColorBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorBurnBlendMode.h">CIColorBurnBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorClamp.h">CIColorClamp.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorControls.h">CIColorControls.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorCrossPolynomial.h">CIColorCrossPolynomial.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorCube.h">CIColorCube.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorCubeWithColorSpace.h">CIColorCubeWithColorSpace.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorCubesMixedWithMask.h">CIColorCubesMixedWithMask.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorCurves.h">CIColorCurves.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorDodgeBlendMode.h">CIColorDodgeBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorInvert.h">CIColorInvert.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorKernel.h">CIColorKernel.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorMap.h">CIColorMap.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorMatrix.h">CIColorMatrix.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorMonochrome.h">CIColorMonochrome.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorPolynomial.h">CIColorPolynomial.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColorPosterize.h">CIColorPosterize.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIColumnAverage.h">CIColumnAverage.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIComicEffect.h">CIComicEffect.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIConstantColorGenerator.h">CIConstantColorGenerator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIContext.h">CIContext.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIContextCache.h">CIContextCache.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIContrastEnhancer.h">CIContrastEnhancer.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIConvexFill.h">CIConvexFill.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIConvolution.h">CIConvolution.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIConvolution3X3.h">CIConvolution3X3.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIConvolution5X5.h">CIConvolution5X5.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIConvolution7X7.h">CIConvolution7X7.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIConvolution9Horizontal.h">CIConvolution9Horizontal.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIConvolution9Vertical.h">CIConvolution9Vertical.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIConvolutionProcessor.h">CIConvolutionProcessor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICopyMachineTransition.h">CICopyMachineTransition.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICoreMLKernel.h">CICoreMLKernel.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICoreMLModelFilter.h">CICoreMLModelFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICrop.h">CICrop.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CICrystallize.h">CICrystallize.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDarkenBlendMode.h">CIDarkenBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDataMatrixCodeDescriptor.h">CIDataMatrixCodeDescriptor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDepthBlurEffect.h">CIDepthBlurEffect.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDepthDisparityConverter.h">CIDepthDisparityConverter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDepthEffect.h">CIDepthEffect.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDepthEffectApplyBlurMap.h">CIDepthEffectApplyBlurMap.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDepthEffectMakeBlurMap.h">CIDepthEffectMakeBlurMap.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDepthOfField.h">CIDepthOfField.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDepthToDisparity.h">CIDepthToDisparity.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDesaturateShadows.h">CIDesaturateShadows.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDetector.h">CIDetector.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDifferenceBlendMode.h">CIDifferenceBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDiscBlur.h">CIDiscBlur.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDisintegrateWithMaskTransition.h">CIDisintegrateWithMaskTransition.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDisparityPreprocV3.h">CIDisparityPreprocV3.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDisparityRefinement.h">CIDisparityRefinement.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDisparityRefinementAntialiasV3.h">CIDisparityRefinementAntialiasV3.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDisparityRefinementSparseSamplerV3.h">CIDisparityRefinementSparseSamplerV3.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDisparityRefinementV3.h">CIDisparityRefinementV3.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDisparitySmoothing.h">CIDisparitySmoothing.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDisparitySmoothingProcessor.h">CIDisparitySmoothingProcessor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDisparityToDepth.h">CIDisparityToDepth.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDisparityWeightsV3.h">CIDisparityWeightsV3.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDisplacementDistortion.h">CIDisplacementDistortion.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDissolveTransition.h">CIDissolveTransition.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDither.h">CIDither.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDivideBlendMode.h">CIDivideBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDocumentEnhancer.h">CIDocumentEnhancer.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDotScreen.h">CIDotScreen.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDroste.h">CIDroste.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIDualRedEyeRepairSession.h">CIDualRedEyeRepairSession.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIEdgePreserveUpsampleFilter.h">CIEdgePreserveUpsampleFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIEdgePreserveUpsampleRGFilter.h">CIEdgePreserveUpsampleRGFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIEdgeWork.h">CIEdgeWork.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIEdges.h">CIEdges.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIEightfoldReflectedTile.h">CIEightfoldReflectedTile.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIEnhancementCalculation.h">CIEnhancementCalculation.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIEnhancementCalculator.h">CIEnhancementCalculator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIEnhancementHistogram.h">CIEnhancementHistogram.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIExclusionBlendMode.h">CIExclusionBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIExposureAdjust.h">CIExposureAdjust.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFaceBalance.h">CIFaceBalance.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFaceCoreDetector.h">CIFaceCoreDetector.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFaceFeature.h">CIFaceFeature.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFaceMaskApply.h">CIFaceMaskApply.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFaceMaskCalculator.h">CIFaceMaskCalculator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFaceMaskKernel.h">CIFaceMaskKernel.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFalseColor.h">CIFalseColor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFastBilateralSolver.h">CIFastBilateralSolver.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFeature.h">CIFeature.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFileSaverProcessor.h">CIFileSaverProcessor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFilter.h">CIFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFilterClassAttributes.h">CIFilterClassAttributes.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFilterClassCategories.h">CIFilterClassCategories.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFilterClassDefaults.h">CIFilterClassDefaults.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFilterClassInfo.h">CIFilterClassInfo.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFilterShape.h">CIFilterShape.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFlashTransition.h">CIFlashTransition.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFocalPlane.h">CIFocalPlane.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFocalPlaneNative.h">CIFocalPlaneNative.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFocalPlanePreprocessorInternal.h">CIFocalPlanePreprocessorInternal.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFocalPlaneProcessor.h">CIFocalPlaneProcessor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFourfoldReflectedTile.h">CIFourfoldReflectedTile.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFourfoldRotatedTile.h">CIFourfoldRotatedTile.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIFourfoldTranslatedTile.h">CIFourfoldTranslatedTile.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIGVNode.h">CIGVNode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIGammaAdjust.h">CIGammaAdjust.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIGaussianBlur.h">CIGaussianBlur.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIGaussianBlurXY.h">CIGaussianBlurXY.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIGaussianGradient.h">CIGaussianGradient.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIGenericMetalProcessor.h">CIGenericMetalProcessor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIGenericMetalProcessorSingleChannel.h">CIGenericMetalProcessorSingleChannel.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIGlassDistortion.h">CIGlassDistortion.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIGlassLozenge.h">CIGlassLozenge.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIGlideReflectedTile.h">CIGlideReflectedTile.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIGloom.h">CIGloom.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIGuidedFilter.h">CIGuidedFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIHardLightBlendMode.h">CIHardLightBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIHardMixBlendMode.h">CIHardMixBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIHatchedScreen.h">CIHatchedScreen.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIHeightFieldFromMask.h">CIHeightFieldFromMask.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIHexagonalPixellate.h">CIHexagonalPixellate.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIHighlightRecovery.h">CIHighlightRecovery.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIHighlightRecoveryProcessor.h">CIHighlightRecoveryProcessor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIHighlightShadowAdjust.h">CIHighlightShadowAdjust.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIHistogramDisplayFilter.h">CIHistogramDisplayFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIHoleDistortion.h">CIHoleDistortion.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIHueAdjust.h">CIHueAdjust.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIHueBlendMode.h">CIHueBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIHueSaturationValueGradient.h">CIHueSaturationValueGradient.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIImage.h">CIImage.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIImageAccumulator.h">CIImageAccumulator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIImageProcessorInOut.h">CIImageProcessorInOut.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIImageProcessorInput.h">CIImageProcessorInput.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIImageProcessorKernel.h">CIImageProcessorKernel.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIImageProcessorOutput.h">CIImageProcessorOutput.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIImageRowReader.h">CIImageRowReader.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIImageWriter.h">CIImageWriter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIIntegralImage.h">CIIntegralImage.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIIntegralImageProcessorCPU.h">CIIntegralImageProcessorCPU.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIIntegralImageProcessorGPU.h">CIIntegralImageProcessorGPU.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIKMeans.h">CIKMeans.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIKaleidoscope.h">CIKaleidoscope.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIKernel.h">CIKernel.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIKernelLibrary.h">CIKernelLibrary.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILabDeltaE.h">CILabDeltaE.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILanczosScaleTransform.h">CILanczosScaleTransform.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILensModelApply.h">CILensModelApply.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILensModelApplyV3.h">CILensModelApplyV3.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILensModelCalculator.h">CILensModelCalculator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILensModelCalculatorCPU.h">CILensModelCalculatorCPU.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILensModelKernelMetalProcessor.h">CILensModelKernelMetalProcessor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILenticularHaloGenerator.h">CILenticularHaloGenerator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILightTunnel.h">CILightTunnel.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILightenBlendMode.h">CILightenBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILineOverlay.h">CILineOverlay.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILineScreen.h">CILineScreen.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILinearBlur.h">CILinearBlur.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILinearBurnBlendMode.h">CILinearBurnBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILinearDodgeBlendMode.h">CILinearDodgeBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILinearGradient.h">CILinearGradient.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILinearLightBlendMode.h">CILinearLightBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILinearToSRGBToneCurve.h">CILinearToSRGBToneCurve.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILocalContrast.h">CILocalContrast.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILocalLightFilter.h">CILocalLightFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILocalLightMapPrepare.h">CILocalLightMapPrepare.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILumaMap.h">CILumaMap.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CILuminosityBlendMode.h">CILuminosityBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMaskToAlpha.h">CIMaskToAlpha.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMaskedVariableBlur.h">CIMaskedVariableBlur.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMattingRGBDProcessor.h">CIMattingRGBDProcessor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMattingSolver.h">CIMattingSolver.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMattingSolverInternal.h">CIMattingSolverInternal.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMaximumComponent.h">CIMaximumComponent.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMaximumCompositing.h">CIMaximumCompositing.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMedianFilter.h">CIMedianFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMeshGenerator.h">CIMeshGenerator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMetalConverter.h">CIMetalConverter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMetalProcessor.h">CIMetalProcessor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMetalWrapper.h">CIMetalWrapper.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMinimumComponent.h">CIMinimumComponent.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMinimumCompositing.h">CIMinimumCompositing.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMirror.h">CIMirror.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMix.h">CIMix.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIModTransition.h">CIModTransition.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMorphology.h">CIMorphology.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMorphologyGradient.h">CIMorphologyGradient.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMorphologyLaplacian.h">CIMorphologyLaplacian.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMorphologyMaximum.h">CIMorphologyMaximum.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMorphologyMinimum.h">CIMorphologyMinimum.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMotionBlur.h">CIMotionBlur.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMultiplyBlendMode.h">CIMultiplyBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIMultiplyCompositing.h">CIMultiplyCompositing.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CINinePartStretched.h">CINinePartStretched.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CINinePartTiled.h">CINinePartTiled.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CINoiseReduction.h">CINoiseReduction.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIOpTile.h">CIOpTile.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIOpacity.h">CIOpacity.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIOverlayBlendMode.h">CIOverlayBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPDF417CodeDescriptor.h">CIPDF417CodeDescriptor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPDFNonSeparableBlendMode.h">CIPDFNonSeparableBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPageCurlTransition.h">CIPageCurlTransition.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPageCurlWithShadowTransition.h">CIPageCurlWithShadowTransition.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPalettize.h">CIPalettize.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPaperWash.h">CIPaperWash.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIParallelogramTile.h">CIParallelogramTile.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPercentileRed.h">CIPercentileRed.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPerspectiveCorrection.h">CIPerspectiveCorrection.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPerspectiveTile.h">CIPerspectiveTile.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPerspectiveTransform.h">CIPerspectiveTransform.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPerspectiveTransformWithExtent.h">CIPerspectiveTransformWithExtent.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffect.h">CIPhotoEffect.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffect3D.h">CIPhotoEffect3D.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffect3DCommercial.h">CIPhotoEffect3DCommercial.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffect3DDramatic.h">CIPhotoEffect3DDramatic.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffect3DDramaticCool.h">CIPhotoEffect3DDramaticCool.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffect3DDramaticWarm.h">CIPhotoEffect3DDramaticWarm.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffect3DNoir.h">CIPhotoEffect3DNoir.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffect3DSilverplate.h">CIPhotoEffect3DSilverplate.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffect3DVivid.h">CIPhotoEffect3DVivid.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffect3DVividCool.h">CIPhotoEffect3DVividCool.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffect3DVividWarm.h">CIPhotoEffect3DVividWarm.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffectChrome.h">CIPhotoEffectChrome.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffectFade.h">CIPhotoEffectFade.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffectInstant.h">CIPhotoEffectInstant.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffectMono.h">CIPhotoEffectMono.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffectNoir.h">CIPhotoEffectNoir.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffectProcess.h">CIPhotoEffectProcess.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffectStageMono.h">CIPhotoEffectStageMono.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffectTonal.h">CIPhotoEffectTonal.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoEffectTransfer.h">CIPhotoEffectTransfer.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPhotoGrain.h">CIPhotoGrain.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPinLightBlendMode.h">CIPinLightBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPinchDistortion.h">CIPinchDistortion.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPixellate.h">CIPixellate.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPlusDarkerCompositing.h">CIPlusDarkerCompositing.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPlusLighterCompositing.h">CIPlusLighterCompositing.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPointillize.h">CIPointillize.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPortraitAntialias.h">CIPortraitAntialias.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPortraitBlur.h">CIPortraitBlur.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPortraitBlurCombiner.h">CIPortraitBlurCombiner.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPortraitBlurDirectionalBlur.h">CIPortraitBlurDirectionalBlur.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPortraitBlurNoise.h">CIPortraitBlurNoise.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPortraitBlurPreProcess.h">CIPortraitBlurPreProcess.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPortraitBlurV2.h">CIPortraitBlurV2.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPredictionModel.h">CIPredictionModel.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPremultiply.h">CIPremultiply.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIProSharpenEdges.h">CIProSharpenEdges.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIPseudoMedian.h">CIPseudoMedian.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIQRCodeDescriptor.h">CIQRCodeDescriptor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIQRCodeFeature.h">CIQRCodeFeature.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRAWFilterImpl.h">CIRAWFilterImpl.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRAWGamutMapping.h">CIRAWGamutMapping.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRAWTemperatureAdjust.h">CIRAWTemperatureAdjust.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRadialGradient.h">CIRadialGradient.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRandomGenerator.h">CIRandomGenerator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRectangleDetector.h">CIRectangleDetector.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRectangleFeature.h">CIRectangleFeature.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRectangleGenerator.h">CIRectangleGenerator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRedEyeCorrection.h">CIRedEyeCorrection.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRedEyeCorrections.h">CIRedEyeCorrections.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRedEyeRaw.h">CIRedEyeRaw.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRedEyeRepair.h">CIRedEyeRepair.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRedEyeRepair2.h">CIRedEyeRepair2.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIReductionFilter.h">CIReductionFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRenderDestination.h">CIRenderDestination.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRenderInfo.h">CIRenderInfo.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRenderTask.h">CIRenderTask.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRingBlur.h">CIRingBlur.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRippleTransition.h">CIRippleTransition.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIRowAverage.h">CIRowAverage.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISDOFHighlightRecovery.h">CISDOFHighlightRecovery.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISRGBToneCurveToLinear.h">CISRGBToneCurveToLinear.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISaliencyMapFilter.h">CISaliencyMapFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISaliencyMapKernel.h">CISaliencyMapKernel.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISampleNearest.h">CISampleNearest.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISampler.h">CISampler.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISaturationBlendMode.h">CISaturationBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIScreenBlendMode.h">CIScreenBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISeedFill.h">CISeedFill.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISeedFillProcessor.h">CISeedFillProcessor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISegmentationFusion.h">CISegmentationFusion.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISepiaTone.h">CISepiaTone.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIShadedMaterial.h">CIShadedMaterial.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISharpenLuminance.h">CISharpenLuminance.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISimpleTile.h">CISimpleTile.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISixfoldReflectedTile.h">CISixfoldReflectedTile.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISixfoldRotatedTile.h">CISixfoldRotatedTile.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISkyAndGrassAdjust.h">CISkyAndGrassAdjust.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISmartBlackAndWhite.h">CISmartBlackAndWhite.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISmartColorFilter.h">CISmartColorFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISmartToneFilter.h">CISmartToneFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISmoothLinearGradient.h">CISmoothLinearGradient.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISoftCubicUpsample.h">CISoftCubicUpsample.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISoftLightBlendMode.h">CISoftLightBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISourceAtopCompositing.h">CISourceAtopCompositing.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISourceInCompositing.h">CISourceInCompositing.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISourceOutCompositing.h">CISourceOutCompositing.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISourceOverCompositing.h">CISourceOverCompositing.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISparseRenderer.h">CISparseRenderer.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISparseRendererPreFiltering.h">CISparseRendererPreFiltering.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISpotColor.h">CISpotColor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISpotLight.h">CISpotLight.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIStarShineGenerator.h">CIStarShineGenerator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIStraightenFilter.h">CIStraightenFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIStretch.h">CIStretch.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIStretchCrop.h">CIStretchCrop.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIStripesGenerator.h">CIStripesGenerator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISubtractBlendMode.h">CISubtractBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISunbeamsGenerator.h">CISunbeamsGenerator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CISwipeTransition.h">CISwipeTransition.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CITemperatureAndTint.h">CITemperatureAndTint.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CITextDetector.h">CITextDetector.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CITextFeature.h">CITextFeature.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CITextImageGenerator.h">CITextImageGenerator.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIThermal.h">CIThermal.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CITile2Filter.h">CITile2Filter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CITileFilter.h">CITileFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIToneCurve.h">CIToneCurve.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CITorusLensDistortion.h">CITorusLensDistortion.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CITriangleKaleidoscope.h">CITriangleKaleidoscope.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CITriangleTile.h">CITriangleTile.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CITwelvefoldReflectedTile.h">CITwelvefoldReflectedTile.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CITwirlDistortion.h">CITwirlDistortion.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIUnpremultiply.h">CIUnpremultiply.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIUnsharpMask.h">CIUnsharpMask.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIVNDetector.h">CIVNDetector.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIVNFaceDetector.h">CIVNFaceDetector.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIVNFeature.h">CIVNFeature.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIVNRectDetector.h">CIVNRectDetector.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIVNRectFeature.h">CIVNRectFeature.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIVariableBoxBlur.h">CIVariableBoxBlur.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIVector.h">CIVector.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIVibrance.h">CIVibrance.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIVignette.h">CIVignette.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIVignetteEffect.h">CIVignetteEffect.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIVividLightBlendMode.h">CIVividLightBlendMode.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIVortexDistortion.h">CIVortexDistortion.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIWarpKernel.h">CIWarpKernel.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIWhitePointAdjust.h">CIWhitePointAdjust.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIWrapMirror.h">CIWrapMirror.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIXRay.h">CIXRay.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CIZoomBlur.h">CIZoomBlur.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CUIInnerBevelEmbossFilter.h">CUIInnerBevelEmbossFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CUIInnerGlowOrShadowFilter.h">CUIInnerGlowOrShadowFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CUIOuterBevelEmbossFilter.h">CUIOuterBevelEmbossFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CUIOuterGlowOrShadowFilter.h">CUIOuterGlowOrShadowFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CUIScaleClampFilter.h">CUIScaleClampFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CUIShapeEffectBlur1.h">CUIShapeEffectBlur1.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/CheapRandomness.h">CheapRandomness.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/ConvexFillProcessor.h">ConvexFillProcessor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/DOTRenderer.h">DOTRenderer.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/FBSProcessor.h">FBSProcessor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/FBSProcessorCPU.h">FBSProcessorCPU.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/FBSProcessorGPU.h">FBSProcessorGPU.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/FocalPlane.h">FocalPlane.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/HistoClip_RGBA8_CPU.h">HistoClip_RGBA8_CPU.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/MattingBoxTensorFilter.h">MattingBoxTensorFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/MattingRGBDFilter.h">MattingRGBDFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/MattingRGBFilter.h">MattingRGBFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/MattingSolver.h">MattingSolver.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/PDFRenderer.h">PDFRenderer.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/PNGRenderer.h">PNGRenderer.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/PercentileClipProcessor_RGBA8_CPU.h">PercentileClipProcessor_RGBA8_CPU.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/RadialFalloffFilter.h">RadialFalloffFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/RedEyeRecolor.h">RedEyeRecolor.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/RedEyeSpecular.h">RedEyeSpecular.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/RedPupilLocalizer.h">RedPupilLocalizer.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/_CICompositeFilter.h">_CICompositeFilter.h</a>
+<a href="/tree/Frameworks/CoreImage.framework/_CIScreenFilter.h">_CIScreenFilter.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

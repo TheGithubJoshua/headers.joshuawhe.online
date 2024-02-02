@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>DeviceManagement.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/PrivateFrameworks/DeviceManagement.framework/
+189 classes
+
+<a href="..">..</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFActivityTransactionRequest.h">DMFActivityTransactionRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFApp.h">DMFApp.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFAppManagementInformation.h">DMFAppManagementInformation.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFAppRequest.h">DMFAppRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFApplication.h">DMFApplication.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFApplicationInstallProgress.h">DMFApplicationInstallProgress.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFApplicationPolicyMonitor.h">DMFApplicationPolicyMonitor.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFAssignUserRequest.h">DMFAssignUserRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFBatchRequestOperation.h">DMFBatchRequestOperation.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFBeginTransactionRequest.h">DMFBeginTransactionRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFBeginTransactionResultObject.h">DMFBeginTransactionResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFBook.h">DMFBook.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFBookmark.h">DMFBookmark.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFCertificate.h">DMFCertificate.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFClearActivationLockBypassCodeRequest.h">DMFClearActivationLockBypassCodeRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFClearDevicePasscodeRequest.h">DMFClearDevicePasscodeRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFClearRestrictionsPasswordRequest.h">DMFClearRestrictionsPasswordRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFConfigurationOrganization.h">DMFConfigurationOrganization.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFConfigurationSource.h">DMFConfigurationSource.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFConfigurationSourceClient.h">DMFConfigurationSourceClient.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFConnection.h">DMFConnection.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFControlGroupIdentifier.h">DMFControlGroupIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFControlSessionIdentifier.h">DMFControlSessionIdentifier.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFCreateConfigurationOrganizationRequest.h">DMFCreateConfigurationOrganizationRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFDeactivateConfigurationOrganizationRequest.h">DMFDeactivateConfigurationOrganizationRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFDeleteUserRequest.h">DMFDeleteUserRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFDevice.h">DMFDevice.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFDevicePropertiesResultObject.h">DMFDevicePropertiesResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFDevicePropertyNotificationSubscriptionRequest.h">DMFDevicePropertyNotificationSubscriptionRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFDisableLostModeRequest.h">DMFDisableLostModeRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFEchoRequest.h">DMFEchoRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFEchoResultObject.h">DMFEchoResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFEffectivePolicy.h">DMFEffectivePolicy.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFEnableLostModeRequest.h">DMFEnableLostModeRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFEndTransactionRequest.h">DMFEndTransactionRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFEraseDeviceRequest.h">DMFEraseDeviceRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchActivationLockBypassCodeRequest.h">DMFFetchActivationLockBypassCodeRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchActivationLockBypassCodeResultObject.h">DMFFetchActivationLockBypassCodeResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchApplicationsRequest.h">DMFFetchApplicationsRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchApplicationsResultObject.h">DMFFetchApplicationsResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchAppsRequest.h">DMFFetchAppsRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchAppsResultObject.h">DMFFetchAppsResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchAvailableOSUpdatesRequest.h">DMFFetchAvailableOSUpdatesRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchAvailableOSUpdatesResultObject.h">DMFFetchAvailableOSUpdatesResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchCertificatesRequest.h">DMFFetchCertificatesRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchCertificatesResultObject.h">DMFFetchCertificatesResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchClassroomInstructorEndpointRequest.h">DMFFetchClassroomInstructorEndpointRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchClassroomInstructorEndpointResultObject.h">DMFFetchClassroomInstructorEndpointResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchConfigurationOrganizationsRequest.h">DMFFetchConfigurationOrganizationsRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchConfigurationOrganizationsResultObject.h">DMFFetchConfigurationOrganizationsResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchConfigurationSourceSyncTokenRequest.h">DMFFetchConfigurationSourceSyncTokenRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchConfigurationSourceSyncTokenResultObject.h">DMFFetchConfigurationSourceSyncTokenResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchControlGroupIdentifiersRequest.h">DMFFetchControlGroupIdentifiersRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchControlGroupIdentifiersResultObject.h">DMFFetchControlGroupIdentifiersResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchDMDStateRequest.h">DMFFetchDMDStateRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchDMDStateResultObject.h">DMFFetchDMDStateResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchDeclarationCapabilitiesRequest.h">DMFFetchDeclarationCapabilitiesRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchDeclarationCapabilitiesResultObject.h">DMFFetchDeclarationCapabilitiesResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchDeclarationsRequest.h">DMFFetchDeclarationsRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchDeclarationsResultObject.h">DMFFetchDeclarationsResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchDevicePropertiesRequest.h">DMFFetchDevicePropertiesRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchDevicePropertiesResultObject.h">DMFFetchDevicePropertiesResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchDeviceUnlockTokenRequest.h">DMFFetchDeviceUnlockTokenRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchDeviceUnlockTokenResultObject.h">DMFFetchDeviceUnlockTokenResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchGlobalRestrictionsRequest.h">DMFFetchGlobalRestrictionsRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchGlobalRestrictionsResultObject.h">DMFFetchGlobalRestrictionsResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchInstalledApplicationsRequest.h">DMFFetchInstalledApplicationsRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchInstalledApplicationsResultObject.h">DMFFetchInstalledApplicationsResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchInstalledCertificatesRequest.h">DMFFetchInstalledCertificatesRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchInstalledCertificatesResultObject.h">DMFFetchInstalledCertificatesResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchInstalledProfilesRequest.h">DMFFetchInstalledProfilesRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchInstalledProfilesResultObject.h">DMFFetchInstalledProfilesResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchInstalledProvisioningProfilesRequest.h">DMFFetchInstalledProvisioningProfilesRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchInstalledProvisioningProfilesResultObject.h">DMFFetchInstalledProvisioningProfilesResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchLastLoginDateRequest.h">DMFFetchLastLoginDateRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchLastLoginDateResultObject.h">DMFFetchLastLoginDateResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchLocationRequest.h">DMFFetchLocationRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchLocationResultObject.h">DMFFetchLocationResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchManagedBooksRequest.h">DMFFetchManagedBooksRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchManagedBooksResultObject.h">DMFFetchManagedBooksResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchOSUpdateStatusRequest.h">DMFFetchOSUpdateStatusRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchOSUpdateStatusResultObject.h">DMFFetchOSUpdateStatusResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchProfilesRequest.h">DMFFetchProfilesRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchProfilesResultObject.h">DMFFetchProfilesResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchProvisioningProfilesRequest.h">DMFFetchProvisioningProfilesRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchProvisioningProfilesResultObject.h">DMFFetchProvisioningProfilesResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchRestrictionsRequest.h">DMFFetchRestrictionsRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchRestrictionsResultObject.h">DMFFetchRestrictionsResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchSafariBookmarksRequest.h">DMFFetchSafariBookmarksRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchSafariBookmarksResultObject.h">DMFFetchSafariBookmarksResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchScreenshotRequest.h">DMFFetchScreenshotRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchScreenshotResultObject.h">DMFFetchScreenshotResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchSecurityInformationRequest.h">DMFFetchSecurityInformationRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchSecurityInformationResultObject.h">DMFFetchSecurityInformationResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchStreamEventsRequest.h">DMFFetchStreamEventsRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchStreamEventsResultObject.h">DMFFetchStreamEventsResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchUsersRequest.h">DMFFetchUsersRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchUsersResultObject.h">DMFFetchUsersResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFInstallAppRequest.h">DMFInstallAppRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFInstallConfigurationRequest.h">DMFInstallConfigurationRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFInstallManagedBookRequest.h">DMFInstallManagedBookRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFInstallManagedBookResultObject.h">DMFInstallManagedBookResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFInstallProfileRequest.h">DMFInstallProfileRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFInstallProvisioningProfileRequest.h">DMFInstallProvisioningProfileRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFInstalledApplication.h">DMFInstalledApplication.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFInstalledApplicationInstallProgress.h">DMFInstalledApplicationInstallProgress.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFInstalledCertificate.h">DMFInstalledCertificate.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFInstalledPayload.h">DMFInstalledPayload.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFInstalledProfile.h">DMFInstalledProfile.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFInstalledProvisioningProfile.h">DMFInstalledProvisioningProfile.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFInviteUserToVPPRequest.h">DMFInviteUserToVPPRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFJoinControlGroupRequest.h">DMFJoinControlGroupRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFLeaveControlGroupRequest.h">DMFLeaveControlGroupRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFLockDeviceRequest.h">DMFLockDeviceRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFLogOutUserRequest.h">DMFLogOutUserRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFLogoutUserRequest.h">DMFLogoutUserRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFMDMv1InstallAppRequest.h">DMFMDMv1InstallAppRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFMDMv1InstallAppResultObject.h">DMFMDMv1InstallAppResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFMDMv1StartManagingAppRequest.h">DMFMDMv1StartManagingAppRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFMDMv1UpdateAppRequest.h">DMFMDMv1UpdateAppRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFManagementLockRequest.h">DMFManagementLockRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFManagementUnlockRequest.h">DMFManagementUnlockRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFOSStateHandler.h">DMFOSStateHandler.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFOSUpdate.h">DMFOSUpdate.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFOpenAppRequest.h">DMFOpenAppRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFOpenURLRequest.h">DMFOpenURLRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFPlayLostModeSoundRequest.h">DMFPlayLostModeSoundRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFPolicyMonitor.h">DMFPolicyMonitor.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFPolicyRegistration.h">DMFPolicyRegistration.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFPrioritizedPolicy.h">DMFPrioritizedPolicy.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFProcessDeclarationsRequest.h">DMFProcessDeclarationsRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFProcessStatusRequest.h">DMFProcessStatusRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFProfile.h">DMFProfile.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFProfilePayload.h">DMFProfilePayload.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFProvisioningProfile.h">DMFProvisioningProfile.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRefreshCellularPlansRequest.h">DMFRefreshCellularPlansRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRefreshStatusRequest.h">DMFRefreshStatusRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRefreshStatusResultObject.h">DMFRefreshStatusResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRegisterConfigurationSourceRequest.h">DMFRegisterConfigurationSourceRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRegisterUserAgentRequest.h">DMFRegisterUserAgentRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRemoveAppRequest.h">DMFRemoveAppRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRemoveConfigurationRequest.h">DMFRemoveConfigurationRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRemoveManagedBookRequest.h">DMFRemoveManagedBookRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRemoveOSUpdateRequest.h">DMFRemoveOSUpdateRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRemoveProfileRequest.h">DMFRemoveProfileRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRemoveProtectedProfileRequest.h">DMFRemoveProtectedProfileRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRemoveProvisioningProfileRequest.h">DMFRemoveProvisioningProfileRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFReportingRequirements.h">DMFReportingRequirements.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRequestAirPlayMirroringRequest.h">DMFRequestAirPlayMirroringRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRequestAirPlayMirroringResultObject.h">DMFRequestAirPlayMirroringResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFRestartDeviceRequest.h">DMFRestartDeviceRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFScheduleOSUpdateRequest.h">DMFScheduleOSUpdateRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFScheduleOSUpdateResultObject.h">DMFScheduleOSUpdateResultObject.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFScreenTimePolicyMonitor.h">DMFScreenTimePolicyMonitor.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSecurityInformation.h">DMFSecurityInformation.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSendEventRequest.h">DMFSendEventRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetAirPlayRouteRequest.h">DMFSetAirPlayRouteRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetAppAnalyticsEnabledRequest.h">DMFSetAppAnalyticsEnabledRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetAppConfigurationRequest.h">DMFSetAppConfigurationRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetAppVPNUUIDRequest.h">DMFSetAppVPNUUIDRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetBluetoothEnabledRequest.h">DMFSetBluetoothEnabledRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetDataRoamingEnabledRequest.h">DMFSetDataRoamingEnabledRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetDeclarationsRequest.h">DMFSetDeclarationsRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetDeviceNameRequest.h">DMFSetDeviceNameRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetDiagnosticSubmissionEnabledRequest.h">DMFSetDiagnosticSubmissionEnabledRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetInterfaceOrientationRequest.h">DMFSetInterfaceOrientationRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetMaximumResidentUsersRequest.h">DMFSetMaximumResidentUsersRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetPasscodeLockGracePeriodRequest.h">DMFSetPasscodeLockGracePeriodRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetPersonalHotspotEnabledRequest.h">DMFSetPersonalHotspotEnabledRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetVoiceRoamingEnabledRequest.h">DMFSetVoiceRoamingEnabledRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetVolumeRequest.h">DMFSetVolumeRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetWallpaperRequest.h">DMFSetWallpaperRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFShutDownDeviceRequest.h">DMFShutDownDeviceRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFStartAppLockRequest.h">DMFStartAppLockRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFStopAirPlayMirroringRequest.h">DMFStopAirPlayMirroringRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFStopAppLockRequest.h">DMFStopAppLockRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFStopManagingAppRequest.h">DMFStopManagingAppRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFStopManagingBooksRequest.h">DMFStopManagingBooksRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFTaskRequest.h">DMFTaskRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFTriggerDiagnosticsRequest.h">DMFTriggerDiagnosticsRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFUnregisterUserAgentRequest.h">DMFUnregisterUserAgentRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFUpdateAppRequest.h">DMFUpdateAppRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFUpdateDeclarationsRequest.h">DMFUpdateDeclarationsRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFUpdateEnqueuedCommandsRequest.h">DMFUpdateEnqueuedCommandsRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFUpdatePickableAirPlayRoutesRequest.h">DMFUpdatePickableAirPlayRoutesRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFUser.h">DMFUser.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFValidateApplicationsRequest.h">DMFValidateApplicationsRequest.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFWebsitePolicyMonitor.h">DMFWebsitePolicyMonitor.h</a>
+<a href="/tree/PrivateFrameworks/DeviceManagement.framework/DMFiCloudPolicyMonitor.h">DMFiCloudPolicyMonitor.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

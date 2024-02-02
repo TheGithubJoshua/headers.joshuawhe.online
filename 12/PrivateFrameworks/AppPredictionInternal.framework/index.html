@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>AppPredictionInternal.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/PrivateFrameworks/AppPredictionInternal.framework/
+207 classes
+
+<a href="..">..</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/APRAppIntentMonitor.h">APRAppIntentMonitor.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/APRAppIntentMonitorGuardedData.h">APRAppIntentMonitorGuardedData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/APRAppPredictions.h">APRAppPredictions.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/APRAppPreferenceServer.h">APRAppPreferenceServer.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXABHelper.h">ATXABHelper.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXAWDUtils.h">ATXAWDUtils.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionCacheBuilder.h">ATXActionCacheBuilder.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionCacheReader.h">ATXActionCacheReader.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionFeedback.h">ATXActionFeedback.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionFeedbackWeights.h">ATXActionFeedbackWeights.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionLOIBoost.h">ATXActionLOIBoost.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionNotificationServer.h">ATXActionNotificationServer.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionPredictionBlacklist.h">ATXActionPredictionBlacklist.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionPredictionContainer.h">ATXActionPredictionContainer.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionPredictionServer.h">ATXActionPredictionServer.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionPredictions.h">ATXActionPredictions.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionPredictionsHelpers.h">ATXActionPredictionsHelpers.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionResolution.h">ATXActionResolution.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionResponseCache.h">ATXActionResponseCache.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionResult.h">ATXActionResult.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionSessionLog.h">ATXActionSessionLog.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionStatistics.h">ATXActionStatistics.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionTimeEstimateAWDTracker.h">ATXActionTimeEstimateAWDTracker.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXActionValuation.h">ATXActionValuation.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXApp2VecClustering.h">ATXApp2VecClustering.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXApp2VecMapping.h">ATXApp2VecMapping.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXAppConnectionBundleIdFilter.h">ATXAppConnectionBundleIdFilter.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXAppLaunchMicroLocation.h">ATXAppLaunchMicroLocation.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXAppLaunchMicroLocationGuardedData.h">ATXAppLaunchMicroLocationGuardedData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXAppPredictionBlacklist.h">ATXAppPredictionBlacklist.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXAppPredictionFeedbackItem.h">ATXAppPredictionFeedbackItem.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXAppPredictorFeedback.h">ATXAppPredictorFeedback.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXAppPreferenceBundleIdFilter.h">ATXAppPreferenceBundleIdFilter.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXBBNotificationManager.h">ATXBBNotificationManager.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXBackgroundSaver.h">ATXBackgroundSaver.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXBackgroundSaverGuardedData.h">ATXBackgroundSaverGuardedData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXBoostObject.h">ATXBoostObject.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXBundleIdFilter.h">ATXBundleIdFilter.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXCoalescingGuardedData.h">ATXCoalescingGuardedData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXCoalescingOperation.h">ATXCoalescingOperation.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXCorrelationMatrixGuardedData.h">ATXCorrelationMatrixGuardedData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXDeviceStateMonitor.h">ATXDeviceStateMonitor.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXDigitalHealthBlacklist.h">ATXDigitalHealthBlacklist.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXDigitalHealthBlacklistGuardedData.h">ATXDigitalHealthBlacklistGuardedData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXDirectionsSupportingApps.h">ATXDirectionsSupportingApps.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXDisplayCache.h">ATXDisplayCache.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXDisplayCacheLockscreenFilter.h">ATXDisplayCacheLockscreenFilter.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXDisplayCacheSpotlightFilter.h">ATXDisplayCacheSpotlightFilter.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXDuetCallbackGuardedData.h">ATXDuetCallbackGuardedData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXDuetGuardedRootOfAppData.h">ATXDuetGuardedRootOfAppData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXDuetKnowledgeStoreManager.h">ATXDuetKnowledgeStoreManager.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXEvent.h">ATXEvent.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXFileUtil.h">ATXFileUtil.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXGenericFileBasedCache.h">ATXGenericFileBasedCache.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXGenreData.h">ATXGenreData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXGroupHistogram.h">ATXGroupHistogram.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXGuardedActionBlacklist.h">ATXGuardedActionBlacklist.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXGuardedActionPredictionContainerData.h">ATXGuardedActionPredictionContainerData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXGuardedAppBlacklist.h">ATXGuardedAppBlacklist.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXGuardedHistData.h">ATXGuardedHistData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXHeuristicActionProducer.h">ATXHeuristicActionProducer.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXHistogramBundleIdTable.h">ATXHistogramBundleIdTable.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXHistogramData.h">ATXHistogramData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXHistogramTable.h">ATXHistogramTable.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXIntentBundleIdFilter.h">ATXIntentBundleIdFilter.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXInternalActionPredictionUpdateNotification.h">ATXInternalActionPredictionUpdateNotification.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXInternalActionPredictionUpdatedNotification.h">ATXInternalActionPredictionUpdatedNotification.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXInternalAppRegistrationNotification.h">ATXInternalAppRegistrationNotification.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXLaunchServicesHelper.h">ATXLaunchServicesHelper.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXLocationAppCandidate.h">ATXLocationAppCandidate.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXLocationAwareBundleIdFilter.h">ATXLocationAwareBundleIdFilter.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXLocationToLaunchCorrelation.h">ATXLocationToLaunchCorrelation.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXLockscreenBlacklist.h">ATXLockscreenBlacklist.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXLockscreenBlacklistData.h">ATXLockscreenBlacklistData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXLockscreenTracker.h">ATXLockscreenTracker.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXMLActionProducer.h">ATXMLActionProducer.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXMagicalMomentsNowPlayingUpdateMonitor.h">ATXMagicalMomentsNowPlayingUpdateMonitor.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXMagicalMomentsSignals.h">ATXMagicalMomentsSignals.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXMagicalMomentsUpdateMonitor.h">ATXMagicalMomentsUpdateMonitor.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXMediaActionPrediction.h">ATXMediaActionPrediction.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXMediaApplications.h">ATXMediaApplications.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXMinimalSlotResolutionParameters.h">ATXMinimalSlotResolutionParameters.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationContext.h">ATXNotificationContext.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationContextManager.h">ATXNotificationContextManager.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationEvent.h">ATXNotificationEvent.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationRecorder.h">ATXNotificationRecorder.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsActionPredictionRecord.h">ATXNotificationsActionPredictionRecord.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsContent.h">ATXNotificationsContent.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsContentAnalyzer.h">ATXNotificationsContentAnalyzer.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsDatabase.h">ATXNotificationsDatabase.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsDedupeTracker.h">ATXNotificationsDedupeTracker.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsLogger.h">ATXNotificationsLogger.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsLoggingServer.h">ATXNotificationsLoggingServer.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsMatchScore.h">ATXNotificationsMatchScore.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsPBContentFeatures.h">ATXNotificationsPBContentFeatures.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsPBContext.h">ATXNotificationsPBContext.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsPBEvent.h">ATXNotificationsPBEvent.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsPBGrade.h">ATXNotificationsPBGrade.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsPBGradedRecord.h">ATXNotificationsPBGradedRecord.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsPBLogWrapper.h">ATXNotificationsPBLogWrapper.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsPBRecord.h">ATXNotificationsPBRecord.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsPBResponse.h">ATXNotificationsPBResponse.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsPortraitAnalyzer.h">ATXNotificationsPortraitAnalyzer.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsPriors.h">ATXNotificationsPriors.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsRecord.h">ATXNotificationsRecord.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsRecorderPermanentStore.h">ATXNotificationsRecorderPermanentStore.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsSuggestion.h">ATXNotificationsSuggestion.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsSuggestionLR.h">ATXNotificationsSuggestionLR.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsSuggestionLRInput.h">ATXNotificationsSuggestionLRInput.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsSuggestionLROutput.h">ATXNotificationsSuggestionLROutput.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXNotificationsSuggestionScoreCache.h">ATXNotificationsSuggestionScoreCache.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXPassAllBundleIdFilter.h">ATXPassAllBundleIdFilter.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXPhoneWatchBundleIdCache.h">ATXPhoneWatchBundleIdCache.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXPhoneWatchBundleIdMapper.h">ATXPhoneWatchBundleIdMapper.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXPrivacyReset.h">ATXPrivacyReset.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXProtectedNowPlayingObjects.h">ATXProtectedNowPlayingObjects.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXRootOfAppData.h">ATXRootOfAppData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXRootOfAppDataWithDictionary.h">ATXRootOfAppDataWithDictionary.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXRootOfAppDataWithHashes.h">ATXRootOfAppDataWithHashes.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXScoreDict.h">ATXScoreDict.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXScoreLogSerialization.h">ATXScoreLogSerialization.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXScreenRepresentation.h">ATXScreenRepresentation.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXServer.h">ATXServer.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXSlotResolution.h">ATXSlotResolution.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXSlotResolutionParameters.h">ATXSlotResolutionParameters.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXSlotResolutionParametersStatistics.h">ATXSlotResolutionParametersStatistics.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXSlotResolutionSlotSetStatistics.h">ATXSlotResolutionSlotSetStatistics.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXSlotResolutionStatistics.h">ATXSlotResolutionStatistics.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXSlotSet.h">ATXSlotSet.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXSyncDelegate.h">ATXSyncDelegate.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXSyncService.h">ATXSyncService.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXTimeUtil.h">ATXTimeUtil.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXUpcomingMediaContainer.h">ATXUpcomingMediaContainer.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/ATXWifiStateMonitor.h">ATXWifiStateMonitor.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/AWDProactiveActionData.h">AWDProactiveActionData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/AWDProactiveAppPredictionActionTimeEstimate.h">AWDProactiveAppPredictionActionTimeEstimate.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/AWDProactiveAppPredictionActionTimeEstimateContainer.h">AWDProactiveAppPredictionActionTimeEstimateContainer.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/AWDProactiveAppPredictionAppActionSequence.h">AWDProactiveAppPredictionAppActionSequence.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/AWDProactiveAppPredictionAppLaunchSequence.h">AWDProactiveAppPredictionAppLaunchSequence.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/AWDProactiveAppPredictionIntentPredictionSession.h">AWDProactiveAppPredictionIntentPredictionSession.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/AWDProactiveAppPredictionSubscores.h">AWDProactiveAppPredictionSubscores.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_APRFeedback.h">_APRFeedback.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_APRIntentEvent.h">_APRIntentEvent.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_APRParzenHistogram.h">_APRParzenHistogram.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_APRParzenModel.h">_APRParzenModel.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXActionMetaData.h">_ATXActionMetaData.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXActionPredictionsLogger.h">_ATXActionPredictionsLogger.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXActionUtils.h">_ATXActionUtils.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAggregateLogger.h">_ATXAggregateLogger.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppDailyDose.h">_ATXAppDailyDose.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppDailyDoseCurrentStore.h">_ATXAppDailyDoseCurrentStore.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppHistoricalAverageDose.h">_ATXAppHistoricalAverageDose.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppIconState.h">_ATXAppIconState.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppInfo.h">_ATXAppInfo.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppInfoManager.h">_ATXAppInfoManager.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppInstallMonitor.h">_ATXAppInstallMonitor.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppLaunch.h">_ATXAppLaunch.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppLaunchCategoricalHistogram.h">_ATXAppLaunchCategoricalHistogram.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppLaunchCategoricalHistogramWithPersistentBackup.h">_ATXAppLaunchCategoricalHistogramWithPersistentBackup.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppLaunchGuardedCDContext.h">_ATXAppLaunchGuardedCDContext.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppLaunchGuardedHistory.h">_ATXAppLaunchGuardedHistory.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppLaunchHistogram.h">_ATXAppLaunchHistogram.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppLaunchHistogramManager.h">_ATXAppLaunchHistogramManager.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppLaunchHistogramWithPersistentBackup.h">_ATXAppLaunchHistogramWithPersistentBackup.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppLaunchLocation.h">_ATXAppLaunchLocation.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppLaunchMonitor.h">_ATXAppLaunchMonitor.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppLaunchSequence.h">_ATXAppLaunchSequence.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppLaunchSequenceAWDTracker.h">_ATXAppLaunchSequenceAWDTracker.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppLaunchSequenceManager.h">_ATXAppLaunchSequenceManager.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppPredictor.h">_ATXAppPredictor.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppPredictorJSONScoreLogger.h">_ATXAppPredictorJSONScoreLogger.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXAppPredictorPredictionChunks.h">_ATXAppPredictorPredictionChunks.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXBundleIdSet.h">_ATXBundleIdSet.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXCachedMotion.h">_ATXCachedMotion.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXCategoricalHistogram.h">_ATXCategoricalHistogram.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXDESRecord.h">_ATXDESRecord.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXDataStore.h">_ATXDataStore.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXDataStoreMigrations.h">_ATXDataStoreMigrations.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXDuetHelper.h">_ATXDuetHelper.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXFeedback.h">_ATXFeedback.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXFeedbackConstants.h">_ATXFeedbackConstants.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXGlobals.h">_ATXGlobals.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXIconLocation.h">_ATXIconLocation.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXInspectionClient.h">_ATXInspectionClient.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXInspectionServer.h">_ATXInspectionServer.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXInspectionServerActionPredictionScoreLogger.h">_ATXInspectionServerActionPredictionScoreLogger.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXInspectionServerPredictionScoreLogger.h">_ATXInspectionServerPredictionScoreLogger.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXInternalAppSessionNotification.h">_ATXInternalAppSessionNotification.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXInternalInstallNotification.h">_ATXInternalInstallNotification.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXInternalNotification.h">_ATXInternalNotification.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXInternalUninstallNotification.h">_ATXInternalUninstallNotification.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXLocation.h">_ATXLocation.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXLocationManagerWrapper.h">_ATXLocationManagerWrapper.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXMotion.h">_ATXMotion.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXMotionManagerWrapper.h">_ATXMotionManagerWrapper.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXMovingAverage.h">_ATXMovingAverage.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXNeuralNetwork.h">_ATXNeuralNetwork.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXNeuralNetworkBuilder.h">_ATXNeuralNetworkBuilder.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXObjectLogger.h">_ATXObjectLogger.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXPredictionModelDetails.h">_ATXPredictionModelDetails.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXRecentInstallCache.h">_ATXRecentInstallCache.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXRecipeEvaluation.h">_ATXRecipeEvaluation.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXSASLogger.h">_ATXSASLogger.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXScoreInterpreter.h">_ATXScoreInterpreter.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXScoreInterpreterCtx.h">_ATXScoreInterpreterCtx.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXScoreTypes.h">_ATXScoreTypes.h</a>
+<a href="/tree/PrivateFrameworks/AppPredictionInternal.framework/_ATXTimeHistogram.h">_ATXTimeHistogram.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

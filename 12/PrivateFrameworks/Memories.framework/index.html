@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Memories.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/PrivateFrameworks/Memories.framework/
+329 classes
+
+<a href="..">..</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/AVEditSerializedOutput.h">AVEditSerializedOutput.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/AssetModel.h">AssetModel.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/AudioClip.h">AudioClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/AudioSessionDelegate.h">AudioSessionDelegate.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/BEAlertAction.h">BEAlertAction.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/BEAlertController.h">BEAlertController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/BurstClip.h">BurstClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/BurstClipStyle.h">BurstClipStyle.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/BurstClipStyleNone.h">BurstClipStyleNone.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/BurstClipStylePhoto.h">BurstClipStylePhoto.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/BurstClipStylePhotoDissolvePop.h">BurstClipStylePhotoDissolvePop.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/BurstStyleThreeUp.h">BurstStyleThreeUp.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/ClipBackground.h">ClipBackground.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/ClipChangeLog.h">ClipChangeLog.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/ClipTrack.h">ClipTrack.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/Composition.h">Composition.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/CompositionDuckingTimes.h">CompositionDuckingTimes.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/CompositionItem.h">CompositionItem.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/CompositionTrackGroup.h">CompositionTrackGroup.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/CompoundClip.h">CompoundClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/CompoundClipHelper.h">CompoundClipHelper.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/CustomCompositorUtils.h">CustomCompositorUtils.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/CutawayClip.h">CutawayClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/DebugPrefsViewController.h">DebugPrefsViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/DefaultMapLocation.h">DefaultMapLocation.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/DetectedFace.h">DetectedFace.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/DurationsInfoPanel.h">DurationsInfoPanel.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/EditListCompositionState.h">EditListCompositionState.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/EffectDataSource.h">EffectDataSource.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/ExportController.h">ExportController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/ExtraClip.h">ExtraClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/ExtraCompositionItem.h">ExtraCompositionItem.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FIFOCache.h">FIFOCache.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FMClip.h">FMClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FMFetchOptions.h">FMFetchOptions.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FMKeyFrame.h">FMKeyFrame.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FMMixParameters.h">FMMixParameters.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FMSong.h">FMSong.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FMSongAsset.h">FMSongAsset.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FMSongLibrary.h">FMSongLibrary.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FMSongRendition.h">FMSongRendition.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FMTimedMetadataItem.h">FMTimedMetadataItem.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FMTrack.h">FMTrack.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FaceRecognizer.h">FaceRecognizer.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FavoriteManager.h">FavoriteManager.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexAudioClip.h">FlexAudioClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexAudioCompositionItem.h">FlexAudioCompositionItem.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexCloudFetchOptions.h">FlexCloudFetchOptions.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexCloudManager.h">FlexCloudManager.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexCloudSongAsset.h">FlexCloudSongAsset.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexMarker.h">FlexMarker.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexMobileAssetManager.h">FlexMobileAssetManager.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexMobileAssetSongAsset.h">FlexMobileAssetSongAsset.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexReachability.h">FlexReachability.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexSegment.h">FlexSegment.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexSegmentAssemblyInfo.h">FlexSegmentAssemblyInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexSegmentAudioFileInfo.h">FlexSegmentAudioFileInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexSong.h">FlexSong.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexSongAssetProvider_V1.h">FlexSongAssetProvider_V1.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexSongAssetProvider_V2.h">FlexSongAssetProvider_V2.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexSongMetaDataReader_V2.h">FlexSongMetaDataReader_V2.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexSongMetadataReaderUtils.h">FlexSongMetadataReaderUtils.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexSongProxy.h">FlexSongProxy.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexTransition.h">FlexTransition.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FlexUtilities.h">FlexUtilities.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FrameGenerator.h">FrameGenerator.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FrameGeneratorCacheInfo.h">FrameGeneratorCacheInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FrameGeneratorQueueObject.h">FrameGeneratorQueueObject.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/FreezeRange.h">FreezeRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/GeocodeRequest.h">GeocodeRequest.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/InfoPanelViewCell.h">InfoPanelViewCell.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/IrisClip.h">IrisClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/IrisClipStyle.h">IrisClipStyle.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/IrisClipStyleNone.h">IrisClipStyleNone.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/IrisClipStyleTransition.h">IrisClipStyleTransition.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/IrisClipStyleVideo.h">IrisClipStyleVideo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/IrisMovie.h">IrisMovie.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/IrisMovieClip.h">IrisMovieClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/IrisMovieCompositionItem.h">IrisMovieCompositionItem.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/IrisSampleInfo.h">IrisSampleInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/KPersistentMovieInfo.h">KPersistentMovieInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/KenBurnsClip.h">KenBurnsClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/KenBurnsCompositionItem.h">KenBurnsCompositionItem.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/KenBurnsInfo.h">KenBurnsInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/KenBurnsMovie.h">KenBurnsMovie.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/KonaClip.h">KonaClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MBAssetLoader.h">MBAssetLoader.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MBAssetLoaderOperation.h">MBAssetLoaderOperation.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MBClipsLoader.h">MBClipsLoader.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MBDownloadClipsLoader.h">MBDownloadClipsLoader.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MBLibraryClipsLoader.h">MBLibraryClipsLoader.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MBProjectClipsLoader.h">MBProjectClipsLoader.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MapLocation.h">MapLocation.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MapUtils.h">MapUtils.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MathHelpers.h">MathHelpers.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MemoriesDelegate.h">MemoriesDelegate.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MemoriesHomeScreen.h">MemoriesHomeScreen.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MemoriesViewController.h">MemoriesViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MetadataRange.h">MetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroActivityContainerViewController.h">MiroActivityContainerViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroActivityItemProvider.h">MiroActivityItemProvider.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroActivityViewController.h">MiroActivityViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAirplayActivity.h">MiroAirplayActivity.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAnalysisAudioHelpers.h">MiroAnalysisAudioHelpers.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAnalysisHelpers.h">MiroAnalysisHelpers.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAnalysisImageHelpers.h">MiroAnalysisImageHelpers.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAnalysisInfo.h">MiroAnalysisInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAnalysisTitleColorFinder.h">MiroAnalysisTitleColorFinder.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAppDelegate.h">MiroAppDelegate.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAssetClusteringVideoSegment.h">MiroAssetClusteringVideoSegment.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAssetFreezeInfo.h">MiroAssetFreezeInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAssetRequest.h">MiroAssetRequest.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAssetSuggestionsCollectionViewCell.h">MiroAssetSuggestionsCollectionViewCell.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAssetSuggestionsCollectionViewController.h">MiroAssetSuggestionsCollectionViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAssetSuggestionsNavigationController.h">MiroAssetSuggestionsNavigationController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAutoEditAudioLayoutController.h">MiroAutoEditAudioLayoutController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAutoEditController.h">MiroAutoEditController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAutoEditDownloadProgressController.h">MiroAutoEditDownloadProgressController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAutoEditKenBurnsController.h">MiroAutoEditKenBurnsController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAutoEditLogger.h">MiroAutoEditLogger.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAutoEditMultiUpController.h">MiroAutoEditMultiUpController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAutoEditOperation.h">MiroAutoEditOperation.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAutoEditProjectPolish.h">MiroAutoEditProjectPolish.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAutoEditTransitionController.h">MiroAutoEditTransitionController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAutoEditUtilities.h">MiroAutoEditUtilities.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAutoEdit_TrimController.h">MiroAutoEdit_TrimController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAutoEditor.h">MiroAutoEditor.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroAutoLayoutClip.h">MiroAutoLayoutClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroBeatMetadata.h">MiroBeatMetadata.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroBlueprint.h">MiroBlueprint.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroBlueprintUtilities.h">MiroBlueprintUtilities.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroBurstHelpers.h">MiroBurstHelpers.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroCircularProgressBar.h">MiroCircularProgressBar.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroCircularProgressLayer.h">MiroCircularProgressLayer.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroCloudDownloader.h">MiroCloudDownloader.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroColorConfiguration.h">MiroColorConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroColorSelectionController.h">MiroColorSelectionController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroCompositionDuckingTimes.h">MiroCompositionDuckingTimes.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroContentEditorNavigationController.h">MiroContentEditorNavigationController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroContentEditorViewController.h">MiroContentEditorViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroContentFiltering.h">MiroContentFiltering.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroContentScoring.h">MiroContentScoring.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroCropZoomUtilities.h">MiroCropZoomUtilities.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroDebugPickerViewController.h">MiroDebugPickerViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroDebuggingView.h">MiroDebuggingView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroDetectedFace.h">MiroDetectedFace.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroDownloadSongOperation.h">MiroDownloadSongOperation.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroDurationCalculations.h">MiroDurationCalculations.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroDurationPickerCell.h">MiroDurationPickerCell.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroEditorClipCell.h">MiroEditorClipCell.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroEditorClipCollectionViewController.h">MiroEditorClipCollectionViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroEditorClipDebugView.h">MiroEditorClipDebugView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroEditorColorSwatchCell.h">MiroEditorColorSwatchCell.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroEditorController.h">MiroEditorController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroEditorFlowLayout.h">MiroEditorFlowLayout.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroExportController.h">MiroExportController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroFeedbackDetailsViewController.h">MiroFeedbackDetailsViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroFeedbackTableCell.h">MiroFeedbackTableCell.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroFeedbackTableViewController.h">MiroFeedbackTableViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroFeedbackViewController.h">MiroFeedbackViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroFreezeInfo.h">MiroFreezeInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroIOSPlayerView.h">MiroIOSPlayerView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroIOSPlayerViewController.h">MiroIOSPlayerViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroInteractiveCollectionView.h">MiroInteractiveCollectionView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroKeyAssetSuggestionsCollectionsViewController.h">MiroKeyAssetSuggestionsCollectionsViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemory.h">MiroMemory.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryDebugCollectionViewCell.h">MiroMemoryDebugCollectionViewCell.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryDebugCollectionViewController.h">MiroMemoryDebugCollectionViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryEditorBasePlayerViewController.h">MiroMemoryEditorBasePlayerViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryEditorBottomToolbar.h">MiroMemoryEditorBottomToolbar.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryEditorDebugContainerViewController.h">MiroMemoryEditorDebugContainerViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryEditorDurationViewController.h">MiroMemoryEditorDurationViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryEditorMenuTableViewCell.h">MiroMemoryEditorMenuTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryEditorMenuViewController.h">MiroMemoryEditorMenuViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryEditorNavigationAnimator.h">MiroMemoryEditorNavigationAnimator.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryEditorNavigationController.h">MiroMemoryEditorNavigationController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryEditorPosterController.h">MiroMemoryEditorPosterController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryEditorRootViewController.h">MiroMemoryEditorRootViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryEditorTitleViewController.h">MiroMemoryEditorTitleViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryPosterGenerator.h">MiroMemoryPosterGenerator.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryPosterManager.h">MiroMemoryPosterManager.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryPosterStore.h">MiroMemoryPosterStore.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryTitleStyleCollectionViewCell.h">MiroMemoryTitleStyleCollectionViewCell.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryTitleStyleCollectionViewController.h">MiroMemoryTitleStyleCollectionViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMemoryTitleTableViewCell.h">MiroMemoryTitleTableViewCell.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMetadata.h">MiroMetadata.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMetadataLoudnessRange.h">MiroMetadataLoudnessRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMetadataManager.h">MiroMetadataManager.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMetadataRange.h">MiroMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMoodManager.h">MiroMoodManager.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMoodTitleController.h">MiroMoodTitleController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMovie.h">MiroMovie.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMovieDisplayContainerViewController.h">MiroMovieDisplayContainerViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMovieView.h">MiroMovieView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMusicMenuCell.h">MiroMusicMenuCell.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroMusicMenuViewController.h">MiroMusicMenuViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroOpenInIMovieActivity.h">MiroOpenInIMovieActivity.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPPT.h">MiroPPT.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPairedPosterViewController.h">MiroPairedPosterViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPassthroughView.h">MiroPassthroughView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPersistOperation.h">MiroPersistOperation.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPhotoFreezeInfo.h">MiroPhotoFreezeInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPickInfo.h">MiroPickInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPickList.h">MiroPickList.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPickListOperation.h">MiroPickListOperation.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPlayerViewController.h">MiroPlayerViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPlayheadView.h">MiroPlayheadView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPosterContainerView.h">MiroPosterContainerView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPosterEffectPool.h">MiroPosterEffectPool.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPosterGenerationInfo.h">MiroPosterGenerationInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPosterGenerationStats.h">MiroPosterGenerationStats.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPosterRequest.h">MiroPosterRequest.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPosterRequestOptions.h">MiroPosterRequestOptions.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroPosterViewController.h">MiroPosterViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroProgressViewController.h">MiroProgressViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroProject.h">MiroProject.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroRandomNumberGenerator.h">MiroRandomNumberGenerator.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroResourceUsageMonitor.h">MiroResourceUsageMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroSaveVideoActivity.h">MiroSaveVideoActivity.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroScrollViewSpeedometer.h">MiroScrollViewSpeedometer.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroScrubberImageSource.h">MiroScrubberImageSource.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroScrubberSeekRequest.h">MiroScrubberSeekRequest.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroShareOrientationSelectionView.h">MiroShareOrientationSelectionView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroSliderViewController.h">MiroSliderViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroSmartMusicMenuCell.h">MiroSmartMusicMenuCell.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroSmartMusicMenuHeaderView.h">MiroSmartMusicMenuHeaderView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroSmartMusicMenuViewController.h">MiroSmartMusicMenuViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroSmartMusicRequestManager.h">MiroSmartMusicRequestManager.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroSmartMusicUtilities.h">MiroSmartMusicUtilities.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroTTRLoadingViewController.h">MiroTTRLoadingViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroTapToRadarActivity.h">MiroTapToRadarActivity.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroThumbnailImageView.h">MiroThumbnailImageView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroTimelineClipCollectionViewController.h">MiroTimelineClipCollectionViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroTitleColorConfiguration.h">MiroTitleColorConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroTitleSubtitleView.h">MiroTitleSubtitleView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroTouchingGestureRecognizer.h">MiroTouchingGestureRecognizer.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroTrimFilmstripView.h">MiroTrimFilmstripView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroTrimmerDebugView.h">MiroTrimmerDebugView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroTrimmerViewController.h">MiroTrimmerViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroTwoLabelButton.h">MiroTwoLabelButton.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPAnalysisHelpers.h">MiroVPAnalysisHelpers.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPAnalysisInfo.h">MiroVPAnalysisInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPCameraMotionMetadataRange.h">MiroVPCameraMotionMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPClassificationMetadataRange.h">MiroVPClassificationMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPCompositionMetadataRange.h">MiroVPCompositionMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPFaceMetadataRange.h">MiroVPFaceMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPFaceSharpnessMetadataRange.h">MiroVPFaceSharpnessMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPFineActionMetadataRange.h">MiroVPFineActionMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPInterestingMetadataRange.h">MiroVPInterestingMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPIrisRecommendedMetadataRange.h">MiroVPIrisRecommendedMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPIrisSharpnesskMetadataRange.h">MiroVPIrisSharpnesskMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPJunkMetadataRange.h">MiroVPJunkMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPMetadataRange.h">MiroVPMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPOrientationMetadataRange.h">MiroVPOrientationMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPPetMetadataRange.h">MiroVPPetMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPQualityMetadataRange.h">MiroVPQualityMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPSaliencyMetadataRange.h">MiroVPSaliencyMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPSceneMetadataRange.h">MiroVPSceneMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPSharpnessMetadataRange.h">MiroVPSharpnessMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPShotTypeMetadataRange.h">MiroVPShotTypeMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVPVoiceMetadataRange.h">MiroVPVoiceMetadataRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVideoFreezeInfo.h">MiroVideoFreezeInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVideoRangeFreezeInfo.h">MiroVideoRangeFreezeInfo.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVideoScrubberCell.h">MiroVideoScrubberCell.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVideoScrubberCollectionViewController.h">MiroVideoScrubberCollectionViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVideoScrubberContainerViewController.h">MiroVideoScrubberContainerViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVideoScrubberController.h">MiroVideoScrubberController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MiroVideoScrubberView.h">MiroVideoScrubberView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MoodInfoPanel.h">MoodInfoPanel.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MotionGeneratorClip.h">MotionGeneratorClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MotionGeneratorCompositionItem.h">MotionGeneratorCompositionItem.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/Movie.h">Movie.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MovieClip.h">MovieClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MovieCompositionItem.h">MovieCompositionItem.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MovieController.h">MovieController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MultiUpClip.h">MultiUpClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/MultiValuePrefsController.h">MultiValuePrefsController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/NSArrayIndexer.h">NSArrayIndexer.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/NSOrderedSetIndexer.h">NSOrderedSetIndexer.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/NewMediaClip.h">NewMediaClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/NoneTheme.h">NoneTheme.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/PHAssetRepresentation.h">PHAssetRepresentation.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/PHAssetRepresentationDownloadOperation.h">PHAssetRepresentationDownloadOperation.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/PHAssetRepresentationPersistenceManager.h">PHAssetRepresentationPersistenceManager.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/PHAssetWriter.h">PHAssetWriter.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/PHCloudActivityView.h">PHCloudActivityView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/PHImageAssetWriter.h">PHImageAssetWriter.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/PHVideoAssetWriter.h">PHVideoAssetWriter.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/PanoramaClip.h">PanoramaClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/PlaybackCapabilities.h">PlaybackCapabilities.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/Project.h">Project.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/ProjectAssetManager.h">ProjectAssetManager.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/ProjectAssetManagerRepair.h">ProjectAssetManagerRepair.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/ProjectChangeLog.h">ProjectChangeLog.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/ProjectImportExport.h">ProjectImportExport.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/ProjectImportExportUtils.h">ProjectImportExportUtils.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/ProjectListModel.h">ProjectListModel.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/ProjectPlaceholder.h">ProjectPlaceholder.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/QueuedGeocoder.h">QueuedGeocoder.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/RandomNumberGenerator.h">RandomNumberGenerator.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/RangeDataManager.h">RangeDataManager.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/RangeObject.h">RangeObject.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/ReaderWriterExportController.h">ReaderWriterExportController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/RoundProgressLayer.h">RoundProgressLayer.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/RoundProgressView.h">RoundProgressView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/RoundProgressViewController.h">RoundProgressViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/SliderCell.h">SliderCell.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/SolidColorGeneratorClip.h">SolidColorGeneratorClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/SpeedRange.h">SpeedRange.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/SpeedRanges.h">SpeedRanges.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/Stopwatch.h">Stopwatch.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/TVPlayerViewController.h">TVPlayerViewController.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/Theme.h">Theme.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/TitleAudioCompositionItem.h">TitleAudioCompositionItem.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/TitleDataSource.h">TitleDataSource.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/TitleDefinition.h">TitleDefinition.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/TrailerTheme.h">TrailerTheme.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/TransitionAudioCompositionItem.h">TransitionAudioCompositionItem.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/TransitionClip.h">TransitionClip.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/TransitionInput.h">TransitionInput.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/VECGCDCoalescer.h">VECGCDCoalescer.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/VECSchedulingManager.h">VECSchedulingManager.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/VECSchedulingRequest.h">VECSchedulingRequest.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/VEiOSCommonDelegate.h">VEiOSCommonDelegate.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/VEiOSSharedObject.h">VEiOSSharedObject.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/VideoMovie.h">VideoMovie.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/_MiroTrimmerContainerView.h">_MiroTrimmerContainerView.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/iLifeDebug.h">iLifeDebug.h</a>
+<a href="/tree/PrivateFrameworks/Memories.framework/iOSPMR.h">iOSPMR.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>

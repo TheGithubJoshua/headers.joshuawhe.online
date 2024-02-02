@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Message.framework</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+    body { margin: 1em; }
+    pre { font: 11pt/1.25 ui-monospace, "SF Mono", Menlo, monospace; }
+    a { color: #af52de; }
+    pre { white-space: pre-wrap; }
+    header, footer { color: #8e8e93; }
+    header { white-space: pre; }
+    footer { max-width: 700px; }
+    hr { border: 0; border-top: 1px solid #c6c6c8; }
+    .download { text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+        body { background: black; color: white; }
+        a { color: #bf5af2; }
+        hr { border-top-color: #333335; }
+    }
+    </style>
+</head>
+<body>
+<pre><header>
+ ___          _   _             ___
+| _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+|   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+|_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+
+
+</header><hr>
+
+/PrivateFrameworks/Message.framework/
+220 classes
+
+<a href="..">..</a>
+<a href="/tree/PrivateFrameworks/Message.framework/DADeliveryAccount.h">DADeliveryAccount.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/DAMailAccount.h">DAMailAccount.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/DeliveryAccount.h">DeliveryAccount.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/LocalAccount.h">LocalAccount.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAccount.h">MFAccount.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAccountFactory_iOS.h">MFAccountFactory_iOS.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAccountLoader.h">MFAccountLoader.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAccountStore.h">MFAccountStore.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAccountValidator.h">MFAccountValidator.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFActivityCondition.h">MFActivityCondition.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFActivityMonitor.h">MFActivityMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAppStateMonitor.h">MFAppStateMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAttachment.h">MFAttachment.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAttachmentBundle.h">MFAttachmentBundle.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAttachmentCapabilities.h">MFAttachmentCapabilities.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAttachmentComposeManager.h">MFAttachmentComposeManager.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAttachmentCompositionContext.h">MFAttachmentCompositionContext.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAttachmentDataProvider.h">MFAttachmentDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAttachmentLibraryDataProvider.h">MFAttachmentLibraryDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAttachmentLibraryManager.h">MFAttachmentLibraryManager.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAttachmentManager.h">MFAttachmentManager.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAttachmentPlaceholder.h">MFAttachmentPlaceholder.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAttachmentRaw.h">MFAttachmentRaw.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAttachmentSecurityScope.h">MFAttachmentSecurityScope.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAttachmentUtilities.h">MFAttachmentUtilities.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFAuthScheme.h">MFAuthScheme.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFBasicMessageDataSection.h">MFBasicMessageDataSection.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFBufferedQueue.h">MFBufferedQueue.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFCRAM_MD5AuthScheme.h">MFCRAM_MD5AuthScheme.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFCRAM_MD5Authenticator.h">MFCRAM_MD5Authenticator.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFCachingMailboxPredictor.h">MFCachingMailboxPredictor.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFCertificateTrustInfo.h">MFCertificateTrustInfo.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFComposeAttachmentDataProvider.h">MFComposeAttachmentDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFConnection.h">MFConnection.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFConnectionSettings.h">MFConnectionSettings.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFContentErrorDocument.h">MFContentErrorDocument.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDADeferredMessageMoveOperation.h">MFDADeferredMessageMoveOperation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDADeferredStoreDraftOperation.h">MFDADeferredStoreDraftOperation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDADelivery.h">MFDADelivery.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDADeliveryConsumer.h">MFDADeliveryConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDADraftMessage.h">MFDADraftMessage.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDAFolderChangeConsumer.h">MFDAFolderChangeConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDAFolderChangeResult.h">MFDAFolderChangeResult.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDAMailAccountConsumer.h">MFDAMailAccountConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDAMailAccountSyncConsumer.h">MFDAMailAccountSyncConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDAMailbox.h">MFDAMailbox.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDAMessage.h">MFDAMessage.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDAMessageContentConsumer.h">MFDAMessageContentConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDAMessagePayloadFetchResponseImpl.h">MFDAMessagePayloadFetchResponseImpl.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDAMessageStore.h">MFDAMessageStore.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDAMessageStoreSaveDraftRequest.h">MFDAMessageStoreSaveDraftRequest.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDAMoveResponseConsumer.h">MFDAMoveResponseConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDAOfflineCache.h">MFDAOfflineCache.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDARequestQueue.h">MFDARequestQueue.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDAStoreDraftConsumer.h">MFDAStoreDraftConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDbJournal.h">MFDbJournal.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDecryptedAttachmentDataProvider.h">MFDecryptedAttachmentDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDeliveryResult.h">MFDeliveryResult.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFDigestMD5AuthScheme.h">MFDigestMD5AuthScheme.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFError.h">MFError.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFFakeLibraryMessage.h">MFFakeLibraryMessage.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFFakeMailAccount.h">MFFakeMailAccount.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFFakeMailMessage.h">MFFakeMailMessage.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFFakeMailboxUid.h">MFFakeMailboxUid.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFFetchLimits.h">MFFetchLimits.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFFileArchive.h">MFFileArchive.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFFileArchiveDirectory.h">MFFileArchiveDirectory.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFFileArchiveEntry.h">MFFileArchiveEntry.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFFileCompressionQueue.h">MFFileCompressionQueue.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFFileCompressionQueueActivityManager.h">MFFileCompressionQueueActivityManager.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFHeuristicsMailboxPredictor.h">MFHeuristicsMailboxPredictor.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFInvocationQueue.h">MFInvocationQueue.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFLibraryMessage.h">MFLibraryMessage.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFLibrarySearchableIndex.h">MFLibrarySearchableIndex.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFLibrarySearchableIndexItem.h">MFLibrarySearchableIndexItem.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFLibrarySearchableIndexQuery.h">MFLibrarySearchableIndexQuery.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFLibrarySearchableIndexQueryContext.h">MFLibrarySearchableIndexQueryContext.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFLibrarySearchableIndexRecipientTester.h">MFLibrarySearchableIndexRecipientTester.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFLibrarySearchableIndexSubjectTester.h">MFLibrarySearchableIndexSubjectTester.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFLibrarySearchableIndexUpdates.h">MFLibrarySearchableIndexUpdates.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFLibrarySearchableIndexVerificationData.h">MFLibrarySearchableIndexVerificationData.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFLibrarySearchableIndexVerifier.h">MFLibrarySearchableIndexVerifier.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFLibraryStore.h">MFLibraryStore.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFLocalizedMessageHeaders.h">MFLocalizedMessageHeaders.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFLockStateMonitor.h">MFLockStateMonitor.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailDataMessageStore.h">MFMailDataMessageStore.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailDelivery.h">MFMailDelivery.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailDropAttachmentDataProvider.h">MFMailDropAttachmentDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailDropAttachmentPreviewDataProvider.h">MFMailDropAttachmentPreviewDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailDropMailDelivery.h">MFMailDropMailDelivery.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailDropMailParser.h">MFMailDropMailParser.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailDropMetadata.h">MFMailDropMetadata.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailMessage.h">MFMailMessage.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailMessageLibrary.h">MFMailMessageLibrary.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailMessageLibraryMailboxURLMigrationStep.h">MFMailMessageLibraryMailboxURLMigrationStep.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailMessageLibraryMigrator.h">MFMailMessageLibraryMigrator.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailMessageRelationshipAnalyzer.h">MFMailMessageRelationshipAnalyzer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailMessageStore.h">MFMailMessageStore.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailMessageStoreSearchResult.h">MFMailMessageStoreSearchResult.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailMimePart.h">MFMailMimePart.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailMimeTextAttachment.h">MFMailMimeTextAttachment.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailboxMessageIterationFilter.h">MFMailboxMessageIterationFilter.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMailboxUid.h">MFMailboxUid.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMessageCollectionInfo.h">MFMessageCollectionInfo.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMessageCriterion.h">MFMessageCriterion.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMessageCriterionConverter.h">MFMessageCriterionConverter.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMessageDetails.h">MFMessageDetails.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMessageInfo.h">MFMessageInfo.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMessageInfoOrderedSet.h">MFMessageInfoOrderedSet.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMessageKeychainManager.h">MFMessageKeychainManager.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMessageLibrary.h">MFMessageLibrary.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMessageReferenceContext.h">MFMessageReferenceContext.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMessageSigner.h">MFMessageSigner.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMessageTransferResult.h">MFMessageTransferResult.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMessageURLConnectionDelegate.h">MFMessageURLConnectionDelegate.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMessageWriter.h">MFMessageWriter.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMimeEnrichedReader.h">MFMimeEnrichedReader.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMobileLibraryAdapter.h">MFMobileLibraryAdapter.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFMonitoredInvocation.h">MFMonitoredInvocation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFNTLMAuthScheme.h">MFNTLMAuthScheme.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFNetworkController.h">MFNetworkController.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFOfflineCache.h">MFOfflineCache.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFOfflineCacheOperation.h">MFOfflineCacheOperation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFOfflineCacheReplayContext.h">MFOfflineCacheReplayContext.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFOfflineCacheReplayContextTransformation.h">MFOfflineCacheReplayContextTransformation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFOfflineTransferFailureSnapshot.h">MFOfflineTransferFailureSnapshot.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFOutgoingLibraryMessageContent.h">MFOutgoingLibraryMessageContent.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFOutgoingMessage.h">MFOutgoingMessage.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFOutgoingMessageContent.h">MFOutgoingMessageContent.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFOutgoingMessageDelivery.h">MFOutgoingMessageDelivery.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFOutgoingMultipartRelatedContent.h">MFOutgoingMultipartRelatedContent.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFOutgoingRichtextMessageContent.h">MFOutgoingRichtextMessageContent.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFPlainAuthScheme.h">MFPlainAuthScheme.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFPlainTextDocument.h">MFPlainTextDocument.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFPlainTextFragment.h">MFPlainTextFragment.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFPowerController.h">MFPowerController.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFProgressiveMimeParser.h">MFProgressiveMimeParser.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFProtectedSQLiteConnection.h">MFProtectedSQLiteConnection.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFProtectedSQLiteConnectionConfiguration.h">MFProtectedSQLiteConnectionConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFRFC822AttachmentDataProvider.h">MFRFC822AttachmentDataProvider.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFRequestQueue.h">MFRequestQueue.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFSASLAuthenticator.h">MFSASLAuthenticator.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFSMTPConnection.h">MFSMTPConnection.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFSMTPDelivery.h">MFSMTPDelivery.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFSMTPResponse.h">MFSMTPResponse.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFSQLExpression.h">MFSQLExpression.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFSQLiteConnection.h">MFSQLiteConnection.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFSQLiteConnectionConfiguration.h">MFSQLiteConnectionConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFSQLiteConnectionPool.h">MFSQLiteConnectionPool.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFSearchableIndexBudgetConfiguration.h">MFSearchableIndexBudgetConfiguration.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFSearchableIndexScheduler.h">MFSearchableIndexScheduler.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFSecureMIMECompositionManager.h">MFSecureMIMECompositionManager.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFSignatures.h">MFSignatures.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFSparseMutable64IndexSet.h">MFSparseMutable64IndexSet.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFSqliteMessageIDStore.h">MFSqliteMessageIDStore.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFStream.h">MFStream.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFTaskAssertion.h">MFTaskAssertion.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFThreadFuzzyMatcher.h">MFThreadFuzzyMatcher.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFUnreadCountProbe.h">MFUnreadCountProbe.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFWeakObjectCache.h">MFWeakObjectCache.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFWebAttachmentSource.h">MFWebAttachmentSource.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MFWebMessageDocument.h">MFWebMessageDocument.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/MailAccount.h">MailAccount.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/SMTPAccount.h">SMTPAccount.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFActivityMonitorMultiTarget.h">_MFActivityMonitorMultiTarget.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFBlockIterationHandler.h">_MFBlockIterationHandler.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFContentProtectionObserverWrapper.h">_MFContentProtectionObserverWrapper.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDADeferredDeleteMailboxOperation.h">_MFDADeferredDeleteMailboxOperation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDADeferredDeleteMessageOperation.h">_MFDADeferredDeleteMessageOperation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDADeferredModifyMailboxOperation.h">_MFDADeferredModifyMailboxOperation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDADeferredNewMailboxOperation.h">_MFDADeferredNewMailboxOperation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDADeferredSelectMailboxOperation.h">_MFDADeferredSelectMailboxOperation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDADeferredSetFlagsOperation.h">_MFDADeferredSetFlagsOperation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDALibraryConsumerFactory.h">_MFDALibraryConsumerFactory.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDAMSBasicConsumer.h">_MFDAMSBasicConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDAMSSearchResponseConsumer.h">_MFDAMSSearchResponseConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDAMSUpdateConsumer.h">_MFDAMSUpdateConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDAMessageBodyFetchConsumer.h">_MFDAMessageBodyFetchConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDAMessageFetchAttachmentConsumer.h">_MFDAMessageFetchAttachmentConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDAMessageHeaderFetchConsumer.h">_MFDAMessageHeaderFetchConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDAMessageStoreDeleteRequest.h">_MFDAMessageStoreDeleteRequest.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDAMessageStoreFetchHeadersRequest.h">_MFDAMessageStoreFetchHeadersRequest.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDAMessageStoreFetchRequest.h">_MFDAMessageStoreFetchRequest.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDAMessageStoreGetUpdatesRequest.h">_MFDAMessageStoreGetUpdatesRequest.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDAMessageStoreSearchResultBodyConsumer.h">_MFDAMessageStoreSearchResultBodyConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDAMessageStoreSetFlagsRequest.h">_MFDAMessageStoreSetFlagsRequest.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDAResolveRecipientsConsumer.h">_MFDAResolveRecipientsConsumer.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDASearchCriterionConverterDelegate.h">_MFDASearchCriterionConverterDelegate.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDataCollector.h">_MFDataCollector.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFDigestMD5Authenticator.h">_MFDigestMD5Authenticator.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFFormatFlowedWriter.h">_MFFormatFlowedWriter.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFInvocationQOSOverride.h">_MFInvocationQOSOverride.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFLibrarySQLiteConnectionWrapper.h">_MFLibrarySQLiteConnectionWrapper.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFLibrarySearchableIndexClientState.h">_MFLibrarySearchableIndexClientState.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFLibrarySearchableIndexPendingRemovals.h">_MFLibrarySearchableIndexPendingRemovals.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFLibrarySearchableIndexResultKey.h">_MFLibrarySearchableIndexResultKey.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFLoginAuthenticator.h">_MFLoginAuthenticator.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFMailMessageLibraryStatistics.h">_MFMailMessageLibraryStatistics.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFMailboxPredictorDiagnostics.h">_MFMailboxPredictorDiagnostics.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFMailboxUidChildrenEnumerator.h">_MFMailboxUidChildrenEnumerator.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFMailboxUidEnumerator.h">_MFMailboxUidEnumerator.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFMeasuredObject.h">_MFMeasuredObject.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFMessageCollector.h">_MFMessageCollector.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFMessageFlags.h">_MFMessageFlags.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFNTLMAuthenticator.h">_MFNTLMAuthenticator.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFNetworkObserver.h">_MFNetworkObserver.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFOutgoingMessageBody.h">_MFOutgoingMessageBody.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFPlainAuthenticator.h">_MFPlainAuthenticator.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFReplaceTemporaryIDForTransferFailureReplayContextTransformation.h">_MFReplaceTemporaryIDForTransferFailureReplayContextTransformation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFRootlessMailboxUid.h">_MFRootlessMailboxUid.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFSQLiteConnectionWrapper.h">_MFSQLiteConnectionWrapper.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFSatisfiedActivityCondition.h">_MFSatisfiedActivityCondition.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFSecCMSDecoder.h">_MFSecCMSDecoder.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFSecCMSEncoder.h">_MFSecCMSEncoder.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFSecDataMessageStore.h">_MFSecDataMessageStore.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFSelectMailboxReplayContextTransformation.h">_MFSelectMailboxReplayContextTransformation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFSocket.h">_MFSocket.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFTransferFailureReplayContextTransformation.h">_MFTransferFailureReplayContextTransformation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFTranslateTemporaryIDReplayContextTransformation.h">_MFTranslateTemporaryIDReplayContextTransformation.h</a>
+<a href="/tree/PrivateFrameworks/Message.framework/_MFWeakObjectCacheRef.h">_MFWeakObjectCacheRef.h</a>
+
+
+<hr><footer>
+Source code: <a href="https://github.com/hbang/RuntimeBrowser">https://github.com/hbang/RuntimeBrowser</a>
+
+Authors:
+  Ezra Epstein (eepstein@prajna.com)
+  Nicolas Seriot (nicolas@seriot.ch)
+  HASHBANG Productions
+
+Copyright &copy; 2002 by Prajna IT Consulting
+Copyright &copy; 2015 by <a href="http://www.seriot.ch">Nicolas Seriot</a>
+Copyright &copy; 2021 by <a href="https://hashbang.productions">HASHBANG Productions</a>
+
+THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY. THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY FOR ITS OPERATIONS IS 100% YOURS.
+
+RuntimeBrowser is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+RuntimeBrowser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with RuntimeBrowser (in a file called "COPYING.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</footer></pre>
+</body>
+</html>
